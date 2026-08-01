@@ -9,7 +9,9 @@ It inherits runtime DNA from **POCKET** (local multi-agent host: Edge desk, sess
 | Product name | ResearchersHub |
 | Org | ItsNotAILABS |
 | Package import | `python -m pocket …` (compatibility) |
-| Data home | `~/.researchershub/` (+ optional host `~/.pocket/` when sharing a machine) |
+| Data home | `~/.researchershub/` (+ optional host data when co-located) |
 | Archive | [`archive/pocket-lineage/`](archive/pocket-lineage/) |
+| Public layout | [`REPO_LAYOUT.md`](REPO_LAYOUT.md) |
 
-Do not treat archived POCKET marketing/research papers as current RH docs.
+Do not treat archived host marketing/research papers as current ResearchersHub docs.  
+Do not put private AI-tool home folders (`.grok`, etc.) in the public tree.

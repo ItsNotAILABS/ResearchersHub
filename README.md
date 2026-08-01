@@ -22,17 +22,12 @@
   <img alt="Atlas" src="https://img.shields.io/badge/Atlas-shared%20research%20graph-10b981?style=flat-square"/>
   <img alt="No gatekeeping" src="https://img.shields.io/badge/gatekeeping-none-22c55e?style=flat-square"/>
   <img alt="Sovereignty" src="https://img.shields.io/badge/data-on%20your%20infra-f59e0b?style=flat-square"/>
-  <img alt="Lineage" src="https://img.shields.io/badge/lineage-POCKET-6366f1?style=flat-square"/>
   <img alt="Python" src="https://img.shields.io/badge/python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white"/>
 </p>
 
 <p align="center">
-  <img alt="Claude" src="https://img.shields.io/badge/Claude-MCP%20%2B%20CLAUDE.md-d97706?style=flat-square"/>
-  <img alt="Grok" src="https://img.shields.io/badge/Grok-skill%20%2B%20tools-06b6d4?style=flat-square"/>
-  <img alt="Codex" src="https://img.shields.io/badge/Codex-AGENTS.md%20%2B%20REST-22c55e?style=flat-square"/>
-  <img alt="Cursor" src="https://img.shields.io/badge/Cursor-.cursorrules%20%2B%20MCP-0ea5e9?style=flat-square"/>
-  <img alt="Copilot" src="https://img.shields.io/badge/Copilot-instructions-6366f1?style=flat-square"/>
-  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-GEMINI.md-4285F4?style=flat-square"/>
+  <img alt="Agents" src="https://img.shields.io/badge/coding%20agents-MCP%20%2B%20REST-0ea5e9?style=flat-square"/>
+  <img alt="Open models" src="https://img.shields.io/badge/models-multi--provider-8b5cf6?style=flat-square"/>
 </p>
 
 ---
@@ -302,20 +297,21 @@ You get:
 
 ---
 
-## Docs (clean set)
+## Docs
 
 | Doc | Purpose |
 |-----|---------|
 | [PRODUCT.md](PRODUCT.md) | Product definition |
 | [SHIP.md](SHIP.md) | Ship checklist |
-| [AGENTS.md](AGENTS.md) | All coding agents |
-| [docs/CODING_AGENTS.md](docs/CODING_AGENTS.md) | Claude / Grok / Codex / Cursor |
+| [docs/REPO_LAYOUT.md](docs/REPO_LAYOUT.md) | Why the public tree looks like this |
 | [docs/API_QUICKSTART.md](docs/API_QUICKSTART.md) | API quickstart |
 | [docs/AI_API.md](docs/AI_API.md) | Sellable AI API |
 | [docs/SECURITY.md](docs/SECURITY.md) | Security |
 | [docs/PRODUCTION.md](docs/PRODUCTION.md) | Production |
+| [AGENTS.md](AGENTS.md) | Coding-agent contract (optional) |
+| [docs/developers/](docs/developers/) | Optional IDE/agent setup notes |
 | [docs/LINEAGE.md](docs/LINEAGE.md) | Short heritage note |
-| [docs/archive/pocket-lineage/](docs/archive/pocket-lineage/) | Historical POCKET papers only |
+| [docs/archive/](docs/archive/) | Historical host papers only |
 
 ---
 
@@ -337,9 +333,10 @@ You get:
 | **Lab** | ItsNotAI Labs |
 | **Company** | Medina Tech Labs |
 | **Version** | **1.2.1** |
-| **Lineage** | Host DNA from POCKET — product is ResearchersHub ([docs/LINEAGE.md](docs/LINEAGE.md)) |
+| **Lineage** | See [docs/LINEAGE.md](docs/LINEAGE.md) |
 
-Python import path remains `pocket` for host compatibility; the product name is **ResearchersHub**.
+Python import path remains `pocket` for host compatibility; the **product name is ResearchersHub**.  
+Private AI-tool folders (e.g. local editor config) are **gitignored** and never part of the public product surface.
 
 ---
 

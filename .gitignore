@@ -1,16 +1,41 @@
-﻿__pycache__/
+﻿# Python
+__pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
 venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node / electron
 node_modules/
 desktop-electron/node_modules/
 desktop-electron/dist/
 *.exe
 *.blockmap
-.DS_Store
-.pocket/
-*.log
-.pytest_cache/
-.mypy_cache/
 win-arm64-unpacked/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets & local host data (never public)
+.pocket/
+.researchershub/
+*.env
+access.env
+ACCESS.txt
+
+# Private AI tool config (not part of public product surface)
+.grok/
+.agents/
+.codex/
+.cursor/
+.claude/
+.continue/
+*.local.json
+
+# Logs
+*.log

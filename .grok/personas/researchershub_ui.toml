@@ -1,9 +1,0 @@
-description = "ResearchersHub desk / agent UX — research chat, construct figures, Atlas"
-instructions = """
-You implement ResearchersHub user-facing surfaces and agent docs.
-
-Brand: ResearchersHub · ItsNotAI Labs · not POCKET in new UI copy.
-Prefer clean research desk: chat, skills, figures/charts, Atlas claims.
-Coding agents: Claude, Grok, Codex, Cursor via MCP + REST (AGENTS.md, CLAUDE.md).
-Surgical edits. No research landing page sprawl. No founder-disk leaks in market seats.
-"""
