@@ -80,55 +80,31 @@ python -m pocket serve --host 0.0.0.0 --port 8787
 
 ---
 
-## Coding agents (Claude, Grok, and everyone else)
+## Coding agents (optional)
 
-ResearchersHub is a **tool host**, not only a human UI.
+ResearchersHub is a **tool host** as well as a research desk. Any agent that can call HTTP or MCP can use it.
 
-| Agent | Connect |
-|-------|---------|
-| **Claude / Claude Code** | MCP + [`CLAUDE.md`](CLAUDE.md) |
-| **Grok** | Skill [`skills/researchershub/SKILL.md`](skills/researchershub/SKILL.md) → `~/.grok/skills/` · MCP/REST |
-| **Codex** | [`AGENTS.md`](AGENTS.md) + `POST /v1/agents/invoke` |
-| **Cursor** | [`.cursorrules`](.cursorrules) + [`.mcp.json`](.mcp.json) |
-| **GitHub Copilot** | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) |
-| **Gemini / other** | [`GEMINI.md`](GEMINI.md) + REST |
-
-### MCP (one command)
-
-```powershell
-$env:PYTHONPATH = "$PWD\src"
-python -m pocket mcp
-```
-
-### REST invoke (any agent)
+| Connect | How |
+|---------|-----|
+| **MCP** | `python -m pocket mcp` · example: [`docs/developers/mcp.example.json`](docs/developers/mcp.example.json) |
+| **REST** | `POST /v1/agents/invoke` |
+| **Contract** | [`AGENTS.md`](AGENTS.md) · [`docs/CODING_AGENTS.md`](docs/CODING_AGENTS.md) |
+| **IDE notes** | [`docs/developers/`](docs/developers/) (optional — not required for the product) |
 
 ```bash
 curl -s http://127.0.0.1:8787/v1/agents/invoke \
   -H "content-type: application/json" \
-  -H "X-Agent-Name: claude" \
+  -H "X-Agent-Name: researcher" \
   -d "{\"name\":\"rh_construct\",\"arguments\":{\"prompt\":\"titration curve with full Python\"}}"
 ```
 
-**Tools:** `rh_identity` · `rh_skills_list` · `rh_skill_get` · `rh_models` · `rh_construct` · `rh_chat` · `rh_atlas_snapshot` · `rh_atlas_export` · `rh_atlas_claim` · `rh_doctrine` · `rh_coding_help`
-
-### CLI
+**Tools:** `rh_identity` · `rh_skills_list` · `rh_models` · `rh_construct` · `rh_chat` · `rh_atlas_*` · …
 
 ```text
 python -m pocket serve
 python -m pocket mcp
 python -m pocket tools
-python -m pocket invoke rh_identity
-python -m pocket invoke rh_construct --args "{\"prompt\":\"Michaelis-Menten\"}"
-python -m pocket identity
 ```
-
-### Install local skill mirrors
-
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts\Install-Coding-Agents.ps1
-```
-
-Deep guide: **[`docs/CODING_AGENTS.md`](docs/CODING_AGENTS.md)** · Shared contract: **[`AGENTS.md`](AGENTS.md)**
 
 ---
 
