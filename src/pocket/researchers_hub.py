@@ -114,7 +114,30 @@ def identity() -> Dict[str, Any]:
             "Native Atlas: many agents, one shared reproducible research graph",
             "Runs on your infra — your data stays yours",
             "Chats return whole figures/charts + real Python constructive workflows",
+            "Coding agents: Claude, Grok, Codex, Cursor, Copilot, Gemini via MCP + REST tools",
         ],
+        "coding_agents": {
+            "mcp": "python -m pocket mcp",
+            "manifest": "/v1/agents/manifest",
+            "invoke": "/v1/agents/invoke",
+            "clients": [
+                "claude",
+                "claude-code",
+                "grok",
+                "codex",
+                "cursor",
+                "copilot",
+                "gemini",
+                "any-http-agent",
+            ],
+            "docs": [
+                "AGENTS.md",
+                "CLAUDE.md",
+                ".cursorrules",
+                "docs/CODING_AGENTS.md",
+                "skills/researchershub/SKILL.md",
+            ],
+        },
         "paths": {
             "desk": "/desk",
             "identity": "/v1/researchers",
@@ -124,6 +147,8 @@ def identity() -> Dict[str, Any]:
             "construct": "/v1/researchers/construct",
             "board": "/v1/researchers/board",
             "chat": "/v1/ai/chat",
+            "agents_manifest": "/v1/agents/manifest",
+            "agents_invoke": "/v1/agents/invoke",
         },
     }
 

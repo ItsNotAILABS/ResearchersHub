@@ -56,6 +56,14 @@ PRESETS: Dict[str, Dict[str, Any]] = {
         "alt_keys": ["CLAUDE_API_KEY"],
         "style": "anthropic",
     },
+    "grok": {
+        "provider": "grok",
+        "label": "xAI Grok",
+        "base_url": "https://api.x.ai/v1",
+        "model": "grok-3",
+        "env_key": "XAI_API_KEY",
+        "alt_keys": ["GROK_API_KEY", "XAI_KEY"],
+    },
     "gpt": {
         "provider": "gpt",
         "label": "OpenAI GPT",
@@ -63,6 +71,14 @@ PRESETS: Dict[str, Dict[str, Any]] = {
         "model": "gpt-4.1",
         "env_key": "OPENAI_API_KEY",
         "alt_keys": [],
+    },
+    "codex": {
+        "provider": "codex",
+        "label": "OpenAI Codex / coding models",
+        "base_url": "https://api.openai.com/v1",
+        "model": "gpt-4.1",
+        "env_key": "OPENAI_API_KEY",
+        "alt_keys": ["CODEX_API_KEY"],
     },
     "openai": {
         "provider": "openai",
@@ -103,6 +119,9 @@ def _flag() -> str:
         "chatgpt": "gpt",
         "openai-gpt": "gpt",
         "anthropic": "claude",
+        "claude-code": "claude",
+        "xai": "grok",
+        "grok-code": "grok",
         "zhipu": "glm",
         "bigmodel": "glm",
         "moonshot": "kimi",
@@ -111,6 +130,8 @@ def _flag() -> str:
         "fine_tune": "finetune",
         "ollama": "local",
         "vllm": "local",
+        "cursor": "gpt",
+        "copilot": "gpt",
     }
     return aliases.get(raw, raw)
 
@@ -179,7 +200,7 @@ def resolve_model(flag: str = "") -> Dict[str, Any]:
         "style": style,
         "allow_empty_key": bool(preset.get("allow_empty_key")),
         "product": PRODUCT,
-        "switch": "Set RH_MODEL=glm|kimi|deepseek|claude|gpt|finetune|local",
+        "switch": "Set RH_MODEL=glm|kimi|deepseek|claude|grok|gpt|codex|finetune|local",
         "sovereign": True,
         "throttling": "none-by-platform",
         "gatekeeping": False,
@@ -390,7 +411,7 @@ def doctrine() -> Dict[str, Any]:
         "product": PRODUCT,
         "any_model": True,
         "providers": list(PRESETS.keys()),
-        "one_flag": "RH_MODEL=glm|kimi|deepseek|claude|gpt|finetune|local",
+        "one_flag": "RH_MODEL=glm|kimi|deepseek|claude|grok|gpt|codex|finetune|local",
         "overrides": ["RH_MODEL_PROVIDER", "RH_MODEL_ID", "RH_BASE_URL", "RH_API_KEY"],
         "throttling": "none-by-platform",
         "gatekeeping": False,

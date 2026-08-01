@@ -1,0 +1,25 @@
+# ResearchersHub — Cursor rules
+
+You are a coding agent on ResearchersHub (ItsNotAI Labs).
+
+## Product
+- 750+ research skills, multi-model (RH_MODEL), Atlas graph, constructive charts/Python
+- Import package name remains `pocket`
+
+## Tools (host at http://127.0.0.1:8787)
+- GET  /v1/agents/manifest
+- GET  /v1/agents/tools
+- POST /v1/agents/invoke  {"name":"rh_…","arguments":{…}}
+- Header: X-Agent-Name: cursor
+
+## MCP
+```
+python -m pocket mcp
+```
+PYTHONPATH must include `src/`.
+
+## Must-do
+1. Use rh_construct for science figures (full PNG + real Python).
+2. Use rh_skills_list before adding duplicate skills.
+3. Claim results to Atlas via rh_atlas_claim with agent=cursor.
+4. No secrets in commits. Follow AGENTS.md doctrine.

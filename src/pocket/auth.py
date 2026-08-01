@@ -78,6 +78,14 @@ PUBLIC_PATHS = frozenset({
     "/v1/researchers/atlas",
     "/v1/researchers/atlas/export",
     "/v1/researchers/doctrine",
+    "/v1/agents",
+    "/v1/agents/",
+    "/v1/agents/manifest",
+    "/v1/agents/tools",
+    "/v1/agents/help",
+    "/v1/agents/coding",
+    "/mcp/manifest",
+    "/mcp/tools",
     "/v1/science/skills",
     "/v1/science/board",
     "/v1/science/models",
@@ -116,6 +124,11 @@ PUBLIC_PREFIXES = (
     "/download/files/",
     "/download/desktop/",
     "/auro/",
+    # Coding agents (Claude, Grok, Codex, Cursor, …) — local tool surface
+    "/v1/agents/",
+    "/mcp/",
+    "/v1/researchers/",
+    "/v1/science/",
 )
 
 # Rate limit failed logins: max N failures per IP per window

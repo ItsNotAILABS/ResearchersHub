@@ -667,6 +667,32 @@ class Handler(BaseHTTPRequestHandler):
             return self._html(developers_html())
         if path in ("/studio", "/studio/"):
             return self._html(STUDIO_HTML)
+        if path in ("/v1/agents", "/v1/agents/", "/v1/agents/manifest", "/mcp/manifest"):
+            from pocket.agent_bridge import tool_manifest
+
+            return self._json(200, tool_manifest())
+        if path in ("/v1/agents/tools", "/mcp/tools"):
+            from pocket.agent_bridge import TOOLS, anthropic_tools, openai_tools
+
+            return self._json(
+                200,
+                {
+                    "ok": True,
+                    "product": "ResearchersHub",
+                    "tools": TOOLS,
+                    "openai": openai_tools(),
+                    "anthropic": anthropic_tools(),
+                    "mcp": [t["name"] for t in TOOLS],
+                },
+            )
+        if path in ("/v1/agents/help", "/v1/agents/coding"):
+            from pocket.agent_bridge import coding_help
+            from urllib.parse import parse_qs
+
+            qs = parse_qs(urlparse(self.path).query)
+            agent = (qs.get("agent") or ["generic"])[0]
+            return self._json(200, coding_help(agent))
+
         if path in ("/v1/researchers", "/v1/researchers/"):
             from pocket.researchers_hub import identity
 
@@ -1907,6 +1933,26 @@ class Handler(BaseHTTPRequestHandler):
             ok_rl, reason = hit("api", rk, kind="api_heavy" if heavy else "api")
             if not ok_rl:
                 return self._json(429, {"ok": False, "error": reason})
+
+        if path in ("/v1/agents/invoke", "/mcp/invoke", "/v1/agents/call"):
+            from pocket.agent_bridge import invoke_local
+
+            name = body.get("name") or body.get("tool") or body.get("method") or ""
+            arguments = body.get("arguments") or body.get("input") or body.get("args") or {}
+            if not name:
+                return self._json(400, {"ok": False, "error": "name required"})
+            if not isinstance(arguments, dict):
+                arguments = {}
+            # Stamp coding agent identity into Atlas claims when present
+            if name == "rh_atlas_claim" and not arguments.get("agent"):
+                arguments["agent"] = (
+                    body.get("agent")
+                    or self.headers.get("X-Agent-Name")
+                    or self.headers.get("X-Coding-Agent")
+                    or "http-agent"
+                )
+            result = invoke_local(name, arguments)
+            return self._json(200 if result.get("ok", True) else 400, result)
 
         if path in ("/v1/researchers/construct", "/v1/science/construct"):
             from pocket.science_construct import multi_figure_board, run_construct

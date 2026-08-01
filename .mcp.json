@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "researchershub": {
+      "command": "python",
+      "args": ["-m", "pocket", "mcp"],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      }
+    }
+  }
+}

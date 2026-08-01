@@ -65,6 +65,56 @@ python -m pocket serve --host 0.0.0.0 --port 8787
 | **Skills** | http://127.0.0.1:8787/v1/researchers/skills |
 | **Models** | http://127.0.0.1:8787/v1/researchers/models |
 | **Atlas** | http://127.0.0.1:8787/v1/researchers/atlas |
+| **Agent tools** | http://127.0.0.1:8787/v1/agents/manifest |
+
+---
+
+## Coding agents — Claude, Grok, Codex, Cursor, Copilot, Gemini
+
+ResearchersHub is a **first-class tool host** for coding agents, not only a human desk.
+
+<p align="center">
+  <img alt="Claude" src="https://img.shields.io/badge/Claude-MCP%20%2B%20CLAUDE.md-d97706?style=flat-square"/>
+  <img alt="Grok" src="https://img.shields.io/badge/Grok-skill%20%2B%20tools-06b6d4?style=flat-square"/>
+  <img alt="Codex" src="https://img.shields.io/badge/Codex-AGENTS.md%20%2B%20REST-22c55e?style=flat-square"/>
+  <img alt="Cursor" src="https://img.shields.io/badge/Cursor-.cursorrules%20%2B%20MCP-0ea5e9?style=flat-square"/>
+  <img alt="Copilot" src="https://img.shields.io/badge/Copilot-instructions-6366f1?style=flat-square"/>
+  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-GEMINI.md-4285F4?style=flat-square"/>
+</p>
+
+| Agent | How to connect |
+|-------|----------------|
+| **Claude / Claude Code** | MCP `python -m pocket mcp` + root [`CLAUDE.md`](CLAUDE.md) |
+| **Grok** | Skill [`skills/researchershub/SKILL.md`](skills/researchershub/SKILL.md) → `~/.grok/skills/` · or MCP |
+| **Codex** | [`AGENTS.md`](AGENTS.md) + `POST /v1/agents/invoke` |
+| **Cursor** | [`.cursorrules`](.cursorrules) + MCP (same command) |
+| **GitHub Copilot** | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) |
+| **Gemini / others** | [`GEMINI.md`](GEMINI.md) + REST tools |
+
+### MCP (one command)
+
+```powershell
+$env:PYTHONPATH = "$PWD\src"
+python -m pocket mcp
+```
+
+Or use repo [`.mcp.json`](.mcp.json). Deep guide: [`docs/CODING_AGENTS.md`](docs/CODING_AGENTS.md)
+
+### REST invoke (any agent)
+
+```bash
+curl -s http://127.0.0.1:8787/v1/agents/invoke \
+  -H "content-type: application/json" \
+  -H "X-Agent-Name: claude" \
+  -d "{\"name\":\"rh_construct\",\"arguments\":{\"prompt\":\"titration curve\"}}"
+```
+
+**Tools:** `rh_identity` · `rh_skills_list` · `rh_construct` · `rh_chat` · `rh_atlas_claim` · `rh_models` · …
+
+```powershell
+# Install Grok + Claude skill mirrors on this machine
+powershell -ExecutionPolicy Bypass -File scripts\Install-Coding-Agents.ps1
+```
 
 ---
 
@@ -199,6 +249,10 @@ POST /v1/researchers/construct
 | POST | `/v1/researchers/atlas/node` | Agent claim |
 | POST | `/v1/researchers/construct` | Figures + Python |
 | POST | `/v1/researchers/chat` | Model-routed chat |
+| GET | `/v1/agents/manifest` | **Coding-agent tool manifest** |
+| GET | `/v1/agents/tools` | OpenAI + Anthropic tool schemas |
+| POST | `/v1/agents/invoke` | **Invoke tool by name** |
+| GET | `/v1/agents/help?agent=claude` | Per-agent setup |
 | POST | `/v1/ai/chat` | Host chat (router optional) |
 | GET | `/health` | Liveness |
 
