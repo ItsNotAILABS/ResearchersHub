@@ -2,7 +2,7 @@
 
 ## One-liner
 
-POCKET forked for **scientists and researchers** — **750+** research skills, any model via one flag, Atlas research graph, chats that return **whole charts/images**, and **real Python constructive workflows**.
+POCKET forked for **scientists and researchers** — **970+** research skills, any model via one flag, MCP for Claude/Grok/Codex/Cursor, Atlas research graph, chats that return **whole charts/images**, and **real Python constructive workflows**.
 
 ## Who it is for
 

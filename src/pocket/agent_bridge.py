@@ -19,7 +19,7 @@ import urllib.request
 from typing import Any, Dict, List, Optional
 
 PRODUCT = "ResearchersHub"
-VERSION = "1.2.0"
+VERSION = "1.2.1"
 
 # Canonical tool list — every coding agent sees the same surface
 TOOLS: List[Dict[str, Any]] = [

@@ -15,10 +15,10 @@ from typing import Any, Dict, List
 PRODUCT_NAME = "ResearchersHub"
 PRODUCT_FULL = "ResearchersHub — Sovereign research desk for scientists"
 TAGLINE = (
-    "Any model. 750+ research skills. Full figures in chat. "
-    "Atlas research graph. Your infra — your data."
+    "Any model. 970+ research skills. MCP for coding agents. "
+    "Full figures in chat. Atlas graph. Your infra — your data."
 )
-VERSION = "1.2.0"
+VERSION = "1.2.1"
 LINEAGE = "Forked from POCKET host co-pilot; science-first under ItsNotAI Labs."
 LAB = "ItsNotAI Labs"
 COMPANY = "Medina Tech Labs"

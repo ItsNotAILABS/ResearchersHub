@@ -95,7 +95,7 @@ def handle_message(msg: Dict[str, Any]) -> None:
                 "capabilities": {"tools": {}},
                 "serverInfo": {
                     "name": "researchershub",
-                    "version": "1.2.0",
+                    "version": "1.2.1",
                 },
             },
         )
