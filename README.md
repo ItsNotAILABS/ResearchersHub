@@ -45,11 +45,195 @@
 | **No gatekeeping** | No platform throttle deciding what science is okay |
 | **Your infra** | Runs where you run it. **Your data stays yours.** |
 
-Built from the **POCKET** multi-agent host lineage (Edge desk, agents, phone, sellable API) — specialized for real research.
-
 <p align="center">
   <img src="docs/brand/researchershub-mark.svg" alt="ResearchersHub mark" width="88"/>
 </p>
+
+---
+
+## How it works
+
+ResearchersHub is a **local research host** you run on your machine (or lab server). You (or a coding agent) send a request → the host picks skills / models / construct pipelines → you get **text + full charts + real Python**, and results can land in a shared **Atlas** graph for reproducibility.
+
+```mermaid
+flowchart LR
+  subgraph You
+    A[Scientist or coding agent]
+  end
+  subgraph Host["ResearchersHub host :8787"]
+    B[Desk / API / MCP tools]
+    C[970+ research skills]
+    D[Model router RH_MODEL]
+    E[Construct engine]
+    F[Atlas research graph]
+  end
+  subgraph Disk["Your disk"]
+    G["~/.researchershub/construct"]
+    H["~/.researchershub/atlas"]
+  end
+  A --> B
+  B --> C
+  B --> D
+  B --> E
+  E --> G
+  E --> F
+  B --> F
+  F --> H
+  E -->|PNG + Python| A
+  D -->|optional LLM reply| A
+```
+
+### Request path (construct example)
+
+```mermaid
+sequenceDiagram
+  participant U as You / agent
+  participant H as Host API
+  participant C as Construct
+  participant A as Atlas
+  U->>H: POST /v1/researchers/construct<br/>{prompt: titration curve}
+  H->>C: run_construct(prompt)
+  C->>C: compute series + matplotlib PNG
+  C->>C: write .py workflow on disk
+  C->>A: experiment → script → figure nodes
+  C-->>H: markdown + base64 images + script
+  H-->>U: full chart + runnable Python
+```
+
+### Day-to-day loop
+
+| Step | What happens |
+|------|----------------|
+| 1. Start host | `python -m pocket serve` on your infra |
+| 2. Open desk or call API | Browser desk, curl, or MCP from a coding agent |
+| 3. Ask for science work | Skill search, chat, or construct (“plot IC50…”) |
+| 4. Get real artifacts | Full PNG figures + complete Python scripts |
+| 5. Keep provenance | Atlas links experiment ↔ script ↔ figure for later agents |
+
+---
+
+## Use cases
+
+| Who | Use case | What ResearchersHub does |
+|-----|----------|---------------------------|
+| **Organic / analytical chemist** | Titration, Beer–Lambert calibration, kinetics | Full curves + runnable analysis scripts |
+| **Biochemist / pharmacologist** | Michaelis–Menten, dose–response / IC50 | Publication-style plots + parameter notes |
+| **ML scientist** | Baselines, eval harnesses, regression checks | Skills + construct for residual/fit figures |
+| **Comp bio** | RNA-seq / GWAS / scRNA playbooks | 100+ domain skills as editable checklists |
+| **Medchem / cheminformatics** | QSAR, docking prep, ADMET filters | Skill catalog + generative/filter playbooks |
+| **Clinical stats** | Survival, forest plots, estimands | Skills + figure workflows |
+| **Lab lead** | SOPs, ELN entries, multi-person seats | Seat isolation + shared Atlas claims |
+| **Coding agent user** | Claude / Cursor / Codex on a paper repo | MCP/REST tools: `rh_construct`, `rh_skills_list`, `rh_atlas_claim` |
+| **Sovereign lab** | No vendor throttle on “allowed” science | Your keys, your disk, your models (`RH_MODEL`) |
+
+### Example prompts
+
+```text
+Plot a strong-acid / strong-base titration curve and give the full Python workflow.
+Fit a Michaelis–Menten curve (Km, Vmax) and save a publication figure.
+Dose–response IC50 with Hill slope — chart + script.
+UV-Vis Beer–Lambert calibration from concentration series.
+Linear regression with residuals for my assay standard curve.
+List cheminformatics skills for QSAR and docking prep.
+Add an Atlas claim: "Lead series shows IC50 ~ 12 nM in primary screen."
+```
+
+---
+
+## Example figures (same engine as the app)
+
+These PNGs are produced by the live **construct** pipeline (`science_construct`) — the same path as desk/API/MCP.
+
+<p align="center">
+  <img src="docs/assets/titration_curve.png" alt="Titration curve" width="420"/>
+  <img src="docs/assets/michaelis_menten.png" alt="Michaelis–Menten" width="420"/>
+</p>
+<p align="center">
+  <sub>Acid–base titration · Enzyme kinetics (Michaelis–Menten)</sub>
+</p>
+
+<p align="center">
+  <img src="docs/assets/dose_response.png" alt="Dose–response" width="420"/>
+  <img src="docs/assets/beer_lambert.png" alt="Beer–Lambert" width="420"/>
+</p>
+<p align="center">
+  <sub>Dose–response (4PL / IC50) · Beer–Lambert calibration</sub>
+</p>
+
+<p align="center">
+  <img src="docs/assets/linear_regression.png" alt="Linear regression" width="420"/>
+  <img src="docs/assets/arrhenius.png" alt="Arrhenius plot" width="420"/>
+</p>
+<p align="center">
+  <sub>Linear regression (OLS) · Arrhenius plot</sub>
+</p>
+
+Generate your own:
+
+```http
+POST /v1/researchers/construct
+Content-Type: application/json
+
+{"prompt":"Plot a dose–response IC50 curve and give the full Python workflow"}
+```
+
+You get: **complete PNG** (embedded + saved) · **full `.py` script** · optional **Atlas** links under `~/.researchershub/`.
+
+---
+
+## Architecture diagram
+
+```mermaid
+flowchart TB
+  subgraph Clients
+    Desk[Edge desk / browser]
+    API[HTTP API]
+    MCP[MCP tool bridge]
+  end
+  subgraph ResearchersHub
+    Router[Model router<br/>RH_MODEL]
+    Skills[Research skills<br/>970+]
+    Construct[Construct engine<br/>matplotlib + scripts]
+    Atlas[Atlas graph<br/>nodes + edges]
+    Wiki[Optional code context inject]
+  end
+  subgraph YourInfra
+    Keys[Your API keys]
+    Disk[(Your disk)]
+    Models[Claude / Grok / GPT / DeepSeek / local…]
+  end
+  Desk --> Skills
+  Desk --> Construct
+  API --> Router
+  API --> Construct
+  API --> Atlas
+  MCP --> Skills
+  MCP --> Construct
+  MCP --> Atlas
+  Router --> Models
+  Models --> Keys
+  Construct --> Disk
+  Atlas --> Disk
+  Skills --> Construct
+```
+
+```mermaid
+flowchart LR
+  subgraph Atlas["Atlas research graph"]
+    H[Hypothesis]
+    E[Experiment]
+    S[Script]
+    F[Figure]
+    C[Claim]
+    H -->|supports| C
+    E -->|produced_by| S
+    E -->|produced_by| F
+    E -->|uses_skill| K[Skill]
+    C -->|derives| E
+  end
+```
+
+Many agents (human or coded) write the **same** graph — reproducible handoff without a vendor workspace.
 
 ---
 
@@ -181,22 +365,6 @@ POST /v1/agents/invoke   {"name":"rh_atlas_claim","arguments":{"agent":"grok","t
 ```
 
 Constructive workflows auto-link **experiment → script → figures**.
-
----
-
-## Full figures + real Python
-
-```http
-POST /v1/researchers/construct
-{"prompt":"Plot a dose–response IC50 curve and give the full Python workflow"}
-```
-
-You get:
-
-1. **Complete PNG images** (`data:image/png;base64,...`)
-2. **Runnable multi-step Python** (simulate → CSV → figure)
-3. Files under `~/.researchershub/construct/`
-4. Atlas nodes for reproducibility
 
 ---
 
