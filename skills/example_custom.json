@@ -1,0 +1,19 @@
+{
+  "skills": [
+    {
+      "id": "custom_lab_assay_template",
+      "domain": "custom",
+      "desc": "Example editable skill — replace with your lab assay protocol",
+      "tags": "custom editable",
+      "kind": "playbook",
+      "worker": "SCRUTATOR"
+    },
+    {
+      "id": "custom_qsar_house_rules",
+      "domain": "cheminformatics",
+      "desc": "Lab-specific QSAR acceptance criteria (edit this file)",
+      "tags": "qsar editable",
+      "kind": "playbook"
+    }
+  ]
+}

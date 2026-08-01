@@ -671,6 +671,34 @@ class Handler(BaseHTTPRequestHandler):
             from pocket.researchers_hub import identity
 
             return self._json(200, identity())
+        if path in ("/v1/researchers/doctrine", "/v1/science/doctrine"):
+            from pocket.researchers_hub import doctrine
+
+            return self._json(200, {"ok": True, "product": "ResearchersHub", "doctrine": doctrine()})
+        if path in ("/v1/researchers/models", "/v1/science/models"):
+            from pocket.model_router import doctrine as model_doctrine, list_providers, resolve_model
+
+            return self._json(
+                200,
+                {
+                    "ok": True,
+                    "product": "ResearchersHub",
+                    "active": resolve_model(),
+                    "providers": list_providers(),
+                    "doctrine": model_doctrine(),
+                    "one_flag": "RH_MODEL=glm|kimi|deepseek|claude|gpt|finetune|local",
+                },
+            )
+        if path in ("/v1/researchers/atlas", "/v1/science/atlas"):
+            from pocket.atlas_graph import export_graph, seed_if_empty, snapshot
+
+            seed_if_empty()
+            return self._json(200, {"ok": True, **snapshot(), "export_hint": "GET /v1/researchers/atlas/export"})
+        if path in ("/v1/researchers/atlas/export", "/v1/science/atlas/export"):
+            from pocket.atlas_graph import export_graph, seed_if_empty
+
+            seed_if_empty()
+            return self._json(200, export_graph())
         if path in ("/v1/researchers/skills", "/v1/science/skills"):
             from pocket.science_skills import all_science_skills, science_catalog_summary
             from pocket.skill_suite import skill_count
@@ -683,6 +711,8 @@ class Handler(BaseHTTPRequestHandler):
                     "science": science_catalog_summary(),
                     "skills": all_science_skills(),
                     "total_platform_skills": skill_count(),
+                    "editable": True,
+                    "extensible": True,
                 },
             )
         if path in ("/v1/researchers/board", "/v1/science/board"):
@@ -1888,6 +1918,53 @@ class Handler(BaseHTTPRequestHandler):
                 return self._json(200, {"ok": True, **board})
             result = run_construct(prompt, skill_id=skill_id)
             return self._json(200, {"ok": True, **result})
+        if path in ("/v1/researchers/atlas/node", "/v1/science/atlas/node"):
+            from pocket.atlas_graph import agent_claim
+
+            return self._json(
+                200,
+                agent_claim(
+                    body.get("agent") or "api",
+                    body.get("title") or "untitled",
+                    body.get("body") or body.get("text") or "",
+                    kind=body.get("kind") or "claim",
+                    links=body.get("links") or [],
+                ),
+            )
+        if path in ("/v1/researchers/chat", "/v1/science/chat"):
+            from pocket.model_router import chat as rh_chat
+            from pocket.science_construct import enrich_chat_text
+
+            msgs = body.get("messages") or []
+            if not msgs and (body.get("prompt") or body.get("text")):
+                msgs = [{"role": "user", "content": body.get("prompt") or body.get("text")}]
+            flag = body.get("model") or body.get("flag") or ""
+            routed = rh_chat(msgs, flag=flag)
+            text = routed.get("content") or routed.get("error") or ""
+            last_user = ""
+            for m in reversed(msgs):
+                if (m.get("role") or "").lower() == "user":
+                    last_user = m.get("content") or ""
+                    break
+            enriched = enrich_chat_text(text, user_prompt=last_user, force=True)
+            return self._json(
+                200,
+                {
+                    "ok": bool(routed.get("ok")),
+                    "model": (routed.get("config") or {}).get("model"),
+                    "provider": (routed.get("config") or {}).get("provider"),
+                    "content": enriched.get("text") or text,
+                    "images": enriched.get("images") or [],
+                    "construct": enriched.get("construct"),
+                    "router": routed.get("config"),
+                    "error": routed.get("error") or "",
+                    "doctrine": {
+                        "throttling": "none-by-platform",
+                        "gatekeeping": False,
+                        "data_stays": "yours",
+                    },
+                },
+            )
 
         if path == "/v1/ai/chat":
             from pocket.sell_api import chat_complete

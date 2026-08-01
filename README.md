@@ -1,105 +1,158 @@
 # ResearchersHub
 
-**Sovereign research desk for scientists** — forked from [POCKET](https://github.com/FreddyCreates/pocket), tailored for real lab and literature work.
+**Sovereign research desk** by [ItsNotAI Labs](https://github.com/ItsNotAILABS) — forked from POCKET, built for scientists.
 
-> Chemistry · biology · physics · materials · stats · ELN · literature  
-> **100+ preloaded science skills** · chats return **whole images & charts** · **real Python constructive workflows**
+> Any model. 250+ research skills. Full figures in chat. Atlas research graph. **Your infra — your data.**
 
-[![Product](https://img.shields.io/badge/product-ResearchersHub-0b6e4f)](.)
-[![Skills](https://img.shields.io/badge/science%20skills-100%2B-1d4ed8)](.)
-[![Lineage](https://img.shields.io/badge/lineage-POCKET-7c3aed)](.)
+[![Org](https://img.shields.io/badge/org-ItsNotAILABS-0b6e4f)](https://github.com/ItsNotAILABS/ResearchersHub)
+[![Skills](https://img.shields.io/badge/research%20skills-250%2B-1d4ed8)](.)
+[![Models](https://img.shields.io/badge/models-GLM%20%7C%20Kimi%20%7C%20DeepSeek%20%7C%20Claude%20%7C%20GPT%20%7C%20fine--tune-7c3aed)](.)
 
 ---
 
-## Why ResearchersHub
+## Doctrine
 
-POCKET is a general multi-agent host co-pilot. **ResearchersHub** keeps that DNA (Edge desk, agents, phone, sellable API) and re-aims it at **scientists and researchers**:
+| Pillar | Meaning |
+|--------|---------|
+| **Any model** | GLM, Kimi, DeepSeek, Claude, GPT, your fine-tune. Switching is **one flag**. |
+| **250+ skills** | ML · comp bio · cheminformatics · chemistry · stats · lab. Readable, editable, extensible. |
+| **No gatekeeping** | No platform throttling. No vendor deciding what science is okay. |
+| **Native Atlas** | Many agents, **one shared reproducible research graph**. |
+| **Your infra** | Runs where you run it. **Your data stays yours.** |
 
-| Capability | What you get |
-|------------|----------------|
-| **Science skills** | 100+ preloaded skills — advanced chemistry, wet lab, kinetics, spectroscopy, stats, arXiv/PubMed planning, lab SOPs |
-| **Full figures in chat** | Matplotlib charts returned as **complete PNG images** embedded in the reply (not placeholders) |
-| **Constructive Python** | Real multi-step scripts: simulate → CSV → figure; saved under `~/.researchershub/construct/` |
-| **Host power** | Local desk, agents, Infinite Wiki, swarm lineage from POCKET |
+---
+
+## One flag — switch models
+
+```powershell
+# pick a provider
+$env:RH_MODEL = "deepseek"   # glm | kimi | deepseek | claude | gpt | finetune | local
+
+# keys (your keys, your account)
+$env:DEEPSEEK_API_KEY = "..."
+# or: GLM_API_KEY / KIMI_API_KEY / ANTHROPIC_API_KEY / OPENAI_API_KEY / RH_API_KEY
+
+# optional overrides (fine-tunes, vLLM, Ollama, Azure OpenAI-compatible, …)
+$env:RH_BASE_URL = "https://your-endpoint/v1"
+$env:RH_MODEL_ID = "your-model-or-ft-id"
+$env:RH_API_KEY  = "..."
+
+# force /v1/ai/chat through the router
+$env:RH_CHAT_VIA_ROUTER = "1"
+```
+
+```http
+GET  /v1/researchers/models
+POST /v1/researchers/chat   {"messages":[...], "model":"kimi"}
+```
+
+---
+
+## 250+ research skills
+
+Domains: **ML**, **computational biology**, **cheminformatics**, chemistry, biology, physics, data, literature, lab, construct, research ops.
+
+```http
+GET /v1/researchers/skills
+```
+
+### Editable / extensible
+
+Drop JSON (or YAML if PyYAML installed) into:
+
+- `skills/` (repo)
+- `~/.researchershub/skills/`
+- `$RH_SKILLS_DIR`
+
+```json
+{
+  "skills": [
+    {
+      "id": "custom_lab_assay_template",
+      "domain": "custom",
+      "desc": "Your lab assay — edit freely",
+      "tags": "custom editable",
+      "kind": "playbook"
+    }
+  ]
+}
+```
+
+---
+
+## Atlas — shared research graph
+
+Many agents write **one** graph on your disk (`~/.researchershub/atlas/` or `$RH_ATLAS_DIR`).
+
+Nodes: claim · paper · dataset · experiment · figure · skill · agent · script · hypothesis · molecule · gene · model_run …  
+Edges: supports · cites · derives · uses_skill · produced_by · replicates …
+
+```http
+GET  /v1/researchers/atlas
+GET  /v1/researchers/atlas/export
+POST /v1/researchers/atlas/node
+     {"agent":"chemist","title":"IC50 claim","kind":"claim","body":"..."}
+```
+
+Constructive workflows auto-link **experiment → script → figures** into Atlas.
+
+---
+
+## Chat returns whole figures + real Python
+
+```http
+POST /v1/researchers/construct
+{"prompt":"Plot a titration curve and give the Python workflow"}
+```
+
+Replies include:
+
+1. Full PNG images (`data:image/png;base64,...`)
+2. Complete runnable Python scripts  
+3. Paths under `~/.researchershub/construct/`
 
 ---
 
 ## Quick start
 
 ```powershell
+git clone https://github.com/ItsNotAILABS/ResearchersHub.git
 cd ResearchersHub
+pip install -r requirements-researchers.txt
 $env:PYTHONPATH = "$PWD\src"
 python -m pocket serve --host 0.0.0.0 --port 8787
 ```
 
-Open: [http://127.0.0.1:8787/desk](http://127.0.0.1:8787/desk)
-
-### Science API (no heavy auth for catalog/health)
-
-```http
-GET  /health
-GET  /v1/researchers
-GET  /v1/researchers/skills
-GET  /v1/researchers/board          # multi-figure PNG board
-POST /v1/researchers/construct      # {"prompt":"titration curve"}
-POST /v1/ai/chat                    # science-enriched completions
-```
-
-### Chat with full chart + script
-
-```bash
-curl -s http://127.0.0.1:8787/v1/ai/chat ^
-  -H "Content-Type: application/json" ^
-  -d "{\"messages\":[{\"role\":\"user\",\"content\":\"Plot a titration curve and give me the Python workflow\"}],\"agent\":\"researcher\"}"
-```
-
-Reply includes:
-
-1. **Full markdown images** (`![](data:image/png;base64,...)`)
-2. **Complete Python script** in a fenced block
-3. Script path on disk under `~/.researchershub/construct/`
+Desk: http://127.0.0.1:8787/desk  
+Identity: http://127.0.0.1:8787/v1/researchers  
 
 ---
 
-## Skill domains (100+)
+## API map
 
-- **Chemistry** — stoichiometry, equilibrium, kinetics, thermo, acid–base, titration charts, redox, spectroscopy (UV-Vis, IR, NMR, MS, XRD), organic mechanisms, green metrics, DFT outline, SMILES…
-- **Biology** — PCR, gels, Western, ELISA curves, enzyme kinetics, dose–response / IC50, RNA-seq pipeline skeleton, CRISPR checklist…
-- **Physics / materials** — kinematics plots, Arrhenius, stress–strain, diffusion, band gap notes…
-- **Data** — t-tests, ANOVA, regression, PCA, ROC, Kaplan–Meier, heatmaps, publication figure settings…
-- **Literature / lab** — arXiv, PubMed, PRISMA, BibTeX, ELN entries, SOPs, reagent calc, PubChem/ChEMBL/PDB/NIST openers…
-- **Construct** — matplotlib charts, multi-panel figures, repro bundles, simulation loops…
-
-List live: `GET /v1/researchers/skills`
-
----
-
-## Product identity
-
-```text
-Name:     ResearchersHub
-Version:  1.0.0
-Lineage:  POCKET multi-agent host
-Lab:      ItsNotAI Labs
-Company:  Medina Tech Labs
-```
-
-Python package import path remains `pocket` for compatibility with the host stack; product branding is **ResearchersHub**.
+| Path | Purpose |
+|------|---------|
+| `GET /v1/researchers` | Product identity + doctrine |
+| `GET /v1/researchers/doctrine` | Pillars only |
+| `GET /v1/researchers/models` | Active model + providers |
+| `GET /v1/researchers/skills` | Full skill catalog |
+| `GET /v1/researchers/atlas` | Graph snapshot |
+| `GET /v1/researchers/atlas/export` | Full graph JSON |
+| `POST /v1/researchers/atlas/node` | Agent claim into graph |
+| `POST /v1/researchers/construct` | Figures + Python workflow |
+| `POST /v1/researchers/chat` | Model-routed research chat |
+| `POST /v1/ai/chat` | Host chat (router when `RH_CHAT_VIA_ROUTER=1`) |
 
 ---
+
+## Org
+
+- **GitHub:** https://github.com/ItsNotAILABS/ResearchersHub  
+- **Lab:** ItsNotAI Labs  
+- **Lineage:** POCKET multi-agent host  
+
+Python import path remains `pocket` for host compatibility; product name is **ResearchersHub**.
 
 ## License
 
-See `LICENSE` and `LICENSE-RESEARCHER.md` (researcher license lineage from POCKET).
-
----
-
-## Relation to POCKET
-
-ResearchersHub is a **whole-product copy** of the POCKET host, specialized for research:
-
-- New modules: `science_skills.py`, `science_construct.py`, `researchers_hub.py`
-- Chat path (`/v1/ai/chat`) enriches science prompts with **full figures + scripts**
-- Skill suite merges science pack **before** general host skills
-
-Upstream POCKET: https://github.com/FreddyCreates/pocket
+See `LICENSE` and `LICENSE-RESEARCHER.md`.

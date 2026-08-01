@@ -1,6 +1,7 @@
-"""ResearchersHub — 100+ preloaded science & chemistry skills for real researchers.
+"""ResearchersHub — 250+ preloaded research skills (science + ML + comp bio + cheminf).
 
 Catalog entries are first-class: models can route to these by id/tag.
+Readable, editable, extensible — drop JSON/YAML into skills/ or ~/.researchershub/skills/.
 Execution for constructive skills goes through science_construct (charts, scripts, figures).
 """
 
@@ -28,6 +29,8 @@ def _s(
         "tags": t,
         "domain": domain,
         "product": "ResearchersHub",
+        "editable": True,
+        "extensible": True,
     }
 
 
@@ -221,20 +224,42 @@ def _build() -> List[Dict[str, Any]]:
     return S
 
 
+def _all_merged() -> List[Dict[str, Any]]:
+    seen = set()
+    out: List[Dict[str, Any]] = []
+    packs: List[List[Dict[str, Any]]] = [_build()]
+    try:
+        from pocket.research_skills_ext import all_extended_skills
+
+        packs.append(all_extended_skills())
+    except Exception:
+        pass
+    for pack in packs:
+        for s in pack:
+            sid = s["id"]
+            if sid in seen:
+                continue
+            seen.add(sid)
+            out.append(s)
+    return out
+
+
+# Lazy-friendly: rebuild each call so external skill drops are hot-loaded
+def all_science_skills() -> List[Dict[str, Any]]:
+    return _all_merged()
+
+
+# Back-compat name used at import time by older callers
 SCIENCE_SKILLS: List[Dict[str, Any]] = _build()
 
 
-def all_science_skills() -> List[Dict[str, Any]]:
-    return list(SCIENCE_SKILLS)
-
-
 def science_skill_count() -> int:
-    return len(SCIENCE_SKILLS)
+    return len(all_science_skills())
 
 
 def get_science_skill(skill_id: str) -> Optional[Dict[str, Any]]:
     sid = (skill_id or "").lower().replace("-", "_").strip()
-    for s in SCIENCE_SKILLS:
+    for s in all_science_skills():
         if s["id"] == sid:
             return s
     return None
@@ -244,17 +269,33 @@ def skills_by_domain(domain: str = "") -> List[Dict[str, Any]]:
     d = (domain or "").lower().strip()
     if not d:
         return all_science_skills()
-    return [s for s in SCIENCE_SKILLS if (s.get("domain") or "").lower() == d or d in (s.get("tags") or [])]
+    return [
+        s
+        for s in all_science_skills()
+        if (s.get("domain") or "").lower() == d or d in (s.get("tags") or [])
+    ]
 
 
 def science_catalog_summary() -> Dict[str, Any]:
+    skills = all_science_skills()
     by: Dict[str, int] = {}
-    for s in SCIENCE_SKILLS:
+    for s in skills:
         dom = s.get("domain") or "other"
         by[dom] = by.get(dom, 0) + 1
     return {
         "product": "ResearchersHub",
-        "total": len(SCIENCE_SKILLS),
+        "total": len(skills),
         "by_domain": by,
-        "tagline": "100+ science skills — chemistry, biology, physics, stats, lab, literature, construct",
+        "readable": True,
+        "editable": True,
+        "extensible": True,
+        "external_dirs": [
+            "skills/",
+            "~/.researchershub/skills/",
+            "$RH_SKILLS_DIR",
+        ],
+        "tagline": (
+            "250+ research skills — ML, comp bio, cheminformatics, chemistry, "
+            "biology, physics, stats, lab, literature, construct"
+        ),
     }

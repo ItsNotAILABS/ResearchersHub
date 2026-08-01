@@ -131,6 +131,42 @@ def chat_complete(
     if api_key_id:
         record_usage(api_key_id, agent=agent, pock=pock)
 
+    # Optional: route through multi-model flag (RH_MODEL) when set
+    model_meta: Dict[str, Any] = {}
+    try:
+        import os as _os
+
+        from pocket.model_router import chat as rh_chat, resolve_model
+
+        flag = (_os.environ.get("RH_MODEL") or "").strip()
+        via = (_os.environ.get("RH_CHAT_VIA_ROUTER") or "").lower() in {"1", "true", "yes"}
+        model_meta = resolve_model(flag or "auto")
+        if flag and via:
+            msgs = [
+                {
+                    "role": "system",
+                    "content": (
+                        "You are ResearchersHub, a sovereign research assistant. "
+                        "No vendor gatekeeping. Prefer rigorous science, full methods, "
+                        "and reproducible steps. Skills: ML, comp bio, cheminformatics."
+                    ),
+                }
+            ]
+            for m in messages or []:
+                role = (m.get("role") or "user").lower()
+                content = (m.get("content") or "").strip()
+                if content:
+                    msgs.append({"role": role, "content": content})
+            routed = rh_chat(msgs, flag=flag)
+            model_meta = routed.get("config") or model_meta
+            if routed.get("ok") and routed.get("content"):
+                text = str(routed["content"])
+                res = {**res, "ok": True, "status": "routed"}
+            elif routed.get("error"):
+                model_meta = {**model_meta, "router_error": routed.get("error")}
+    except Exception as e:
+        model_meta = {"error": str(e)[:160]}
+
     # ResearchersHub: attach full charts/images + real Python constructive workflows
     construct_meta: Dict[str, Any] = {}
     images: List[Dict[str, Any]] = []
@@ -160,6 +196,11 @@ def chat_complete(
                 "ic50",
                 "enzyme",
                 "research",
+                "qsar",
+                "smiles",
+                "gwas",
+                "rna-seq",
+                "ml ",
             )
         )
         enriched = enrich_chat_text(text, user_prompt=last_user or task, force=force_science)
@@ -169,13 +210,29 @@ def chat_complete(
     except Exception as e:
         construct_meta = {"error": str(e)[:160]}
 
+    # Atlas: record chat claim into shared research graph
+    atlas_meta: Dict[str, Any] = {}
+    try:
+        from pocket.atlas_graph import agent_claim
+
+        claim = agent_claim(
+            agent or "chat",
+            title=(last_user or task)[:120] or "chat turn",
+            body=(text or "")[:2000],
+            kind="result",
+        )
+        atlas_meta = {"ok": True, "node_id": (claim.get("node") or {}).get("id")}
+    except Exception as e:
+        atlas_meta = {"ok": False, "error": str(e)[:120]}
+
     # OpenAI-compatible envelope (subset) + ResearchersHub / pocket fields
+    active_model = (model_meta or {}).get("model") or f"researchershub-{agent}"
     return {
         "ok": res.get("ok", True),
         "id": res.get("job_id") or f"chat-{int(time.time())}",
         "object": "chat.completion",
         "created": int(time.time()),
-        "model": f"researchershub-{agent}",
+        "model": active_model,
         "choices": [
             {
                 "index": 0,
@@ -197,6 +254,8 @@ def chat_complete(
             "status": res.get("status"),
             "infinite_wiki": wiki_meta,
             "construct": construct_meta,
+            "model": model_meta,
+            "atlas": atlas_meta,
             "error": res.get("error") or "",
             "steps": res.get("steps"),
         },
@@ -204,6 +263,13 @@ def chat_complete(
             "construct": construct_meta,
             "image_count": len(images),
             "full_figures": True,
+            "model": model_meta,
+            "atlas": atlas_meta,
+            "doctrine": {
+                "throttling": "none-by-platform",
+                "gatekeeping": False,
+                "data_stays": "yours",
+            },
         },
     }
 

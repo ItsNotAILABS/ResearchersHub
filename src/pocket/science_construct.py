@@ -571,6 +571,20 @@ def run_construct(prompt: str, skill_id: str = "") -> Dict[str, Any]:
     result["image_paths"] = saved_imgs
     result["product"] = PRODUCT
     result["markdown"] = format_construct_markdown(result)
+    # Native Atlas: link experiment + script + figures into shared research graph
+    try:
+        from pocket.atlas_graph import record_construct
+
+        result["atlas"] = record_construct(
+            title=result.get("title") or "constructive workflow",
+            script_path=result.get("script_path") or "",
+            image_paths=result.get("image_paths") or [],
+            summary=result.get("summary") or "",
+            agent="construct",
+            skill_id=skill_id or result.get("kind") or "",
+        )
+    except Exception as e:
+        result["atlas"] = {"ok": False, "error": str(e)[:160]}
     return result
 
 
