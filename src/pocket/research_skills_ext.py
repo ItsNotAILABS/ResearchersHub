@@ -358,6 +358,9 @@ def load_external_skills() -> List[Dict[str, Any]]:
         for p in sorted(d.rglob("*")):
             if p.suffix.lower() not in (".json", ".yaml", ".yml"):
                 continue
+            # Skip aggregate indexes (not skill packs)
+            if p.name.upper() in {"CATALOG.JSON", "INDEX.JSON"}:
+                continue
             out.extend(_load_file(p))
     return out
 
