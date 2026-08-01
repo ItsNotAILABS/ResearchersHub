@@ -15,10 +15,10 @@ from typing import Any, Dict, List
 PRODUCT_NAME = "ResearchersHub"
 PRODUCT_FULL = "ResearchersHub — Sovereign research desk for scientists"
 TAGLINE = (
-    "Any model. 250+ research skills. Full figures in chat. "
+    "Any model. 750+ research skills. Full figures in chat. "
     "Atlas research graph. Your infra — your data."
 )
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 LINEAGE = "Forked from POCKET host co-pilot; science-first under ItsNotAI Labs."
 LAB = "ItsNotAI Labs"
 COMPANY = "Medina Tech Labs"
@@ -31,18 +31,29 @@ def doctrine() -> Dict[str, Any]:
         "any_model": True,
         "models": ["glm", "kimi", "deepseek", "claude", "gpt", "finetune", "local"],
         "one_flag": "RH_MODEL=glm|kimi|deepseek|claude|gpt|finetune|local",
-        "skills_250_plus": True,
+        "skills_750_plus": True,
+        "skills_250_plus": True,  # back-compat
         "skills_domains": [
             "ml",
             "compbio",
             "cheminformatics",
+            "clinical",
+            "materials",
+            "neuroscience",
+            "earth",
+            "astro",
+            "engineering",
             "chemistry",
             "biology",
             "physics",
             "data",
+            "data_platform",
             "literature",
             "lab",
             "construct",
+            "comms",
+            "atlas",
+            "theory",
             "research_ops",
         ],
         "skills_editable": True,
@@ -97,7 +108,8 @@ def identity() -> Dict[str, Any]:
         "atlas": atlas,
         "features": [
             "Any model: GLM, Kimi, DeepSeek, Claude, GPT, fine-tune — one flag (RH_MODEL)",
-            "250+ research skills across ML, comp bio, cheminformatics — readable/editable/extensible",
+            "750+ research skills — ML, comp bio, cheminformatics, clinical, materials, more",
+            "Skills readable, editable, extensible (JSON packs + Python catalogs)",
             "No platform throttling, no gatekeeping, no vendor deciding what science is okay",
             "Native Atlas: many agents, one shared reproducible research graph",
             "Runs on your infra — your data stays yours",

@@ -2,7 +2,7 @@
 
 ## One-liner
 
-POCKET forked for **scientists and researchers** — 100+ science skills, chats that return **whole charts/images**, and **real Python constructive workflows**.
+POCKET forked for **scientists and researchers** — **750+** research skills, any model via one flag, Atlas research graph, chats that return **whole charts/images**, and **real Python constructive workflows**.
 
 ## Who it is for
 

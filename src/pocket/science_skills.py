@@ -234,6 +234,12 @@ def _all_merged() -> List[Dict[str, Any]]:
         packs.append(all_extended_skills())
     except Exception:
         pass
+    try:
+        from pocket.research_skills_mega import all_mega_skills
+
+        packs.append(all_mega_skills())
+    except Exception:
+        pass
     for pack in packs:
         for s in pack:
             sid = s["id"]
@@ -295,7 +301,8 @@ def science_catalog_summary() -> Dict[str, Any]:
             "$RH_SKILLS_DIR",
         ],
         "tagline": (
-            "250+ research skills — ML, comp bio, cheminformatics, chemistry, "
-            "biology, physics, stats, lab, literature, construct"
+            "750+ research skills — ML, comp bio, cheminformatics, clinical, "
+            "materials, neuroscience, earth, chemistry, Atlas agents, and more"
         ),
+        "target": "750+",
     }

@@ -1,115 +1,50 @@
-# ResearchersHub
+<p align="center">
+  <img src="docs/brand/researchershub-wordmark.svg" alt="ResearchersHub" width="520"/>
+</p>
 
-**Sovereign research desk** by [ItsNotAI Labs](https://github.com/ItsNotAILABS) — forked from POCKET, built for scientists.
+<p align="center">
+  <strong>Sovereign research desk for scientists</strong><br/>
+  Any model · 750+ research skills · Atlas graph · Your infra — your data
+</p>
 
-> Any model. 250+ research skills. Full figures in chat. Atlas research graph. **Your infra — your data.**
+<p align="center">
+  <a href="https://github.com/ItsNotAILABS/ResearchersHub"><img alt="GitHub org" src="https://img.shields.io/badge/org-ItsNotAILABS-0b6e4f?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/ItsNotAILABS/ResearchersHub/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/ItsNotAILABS/ResearchersHub?style=for-the-badge&logo=github&color=1d4ed8"/></a>
+  <a href="https://github.com/ItsNotAILABS/ResearchersHub/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-see%20repo-64748b?style=for-the-badge"/></a>
+</p>
 
-[![Org](https://img.shields.io/badge/org-ItsNotAILABS-0b6e4f)](https://github.com/ItsNotAILABS/ResearchersHub)
-[![Skills](https://img.shields.io/badge/research%20skills-250%2B-1d4ed8)](.)
-[![Models](https://img.shields.io/badge/models-GLM%20%7C%20Kimi%20%7C%20DeepSeek%20%7C%20Claude%20%7C%20GPT%20%7C%20fine--tune-7c3aed)](.)
+<p align="center">
+  <img alt="Skills 750+" src="https://img.shields.io/badge/research%20skills-750%2B-0ea5e9?style=flat-square"/>
+  <img alt="Models" src="https://img.shields.io/badge/models-GLM%20%7C%20Kimi%20%7C%20DeepSeek%20%7C%20Claude%20%7C%20GPT%20%7C%20fine--tune-8b5cf6?style=flat-square"/>
+  <img alt="Atlas" src="https://img.shields.io/badge/Atlas-shared%20research%20graph-10b981?style=flat-square"/>
+  <img alt="No gatekeeping" src="https://img.shields.io/badge/gatekeeping-none-22c55e?style=flat-square"/>
+  <img alt="Sovereignty" src="https://img.shields.io/badge/data-stays%20on%20your%20infra-f59e0b?style=flat-square"/>
+  <img alt="Lineage" src="https://img.shields.io/badge/lineage-POCKET-6366f1?style=flat-square"/>
+  <img alt="Python" src="https://img.shields.io/badge/python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-0b6e4f?style=flat-square"/>
+</p>
 
 ---
 
-## Doctrine
+## Why ResearchersHub
 
-| Pillar | Meaning |
-|--------|---------|
-| **Any model** | GLM, Kimi, DeepSeek, Claude, GPT, your fine-tune. Switching is **one flag**. |
-| **250+ skills** | ML · comp bio · cheminformatics · chemistry · stats · lab. Readable, editable, extensible. |
-| **No gatekeeping** | No platform throttling. No vendor deciding what science is okay. |
-| **Native Atlas** | Many agents, **one shared reproducible research graph**. |
+Most AI research tools force you into **one vendor**, **throttled APIs**, and **opaque skills**.  
+ResearchersHub is the opposite:
+
+| | |
+|--|--|
+| **Any model** | GLM · Kimi · DeepSeek · Claude · GPT · your fine-tune — switch with **one flag** |
+| **750+ skills** | ML · comp bio · cheminformatics · clinical · materials · neuroscience · earth · more |
+| **Editable** | Skills are plain JSON/Python — readable, forkable, extensible |
+| **No gatekeeping** | No platform throttle deciding what science is “allowed” |
+| **Native Atlas** | Many agents, **one shared reproducible research graph** |
 | **Your infra** | Runs where you run it. **Your data stays yours.** |
 
----
+Built from the **POCKET** multi-agent host lineage — Edge desk, agents, phone, sellable API — re-aimed at real lab and literature work.
 
-## One flag — switch models
-
-```powershell
-# pick a provider
-$env:RH_MODEL = "deepseek"   # glm | kimi | deepseek | claude | gpt | finetune | local
-
-# keys (your keys, your account)
-$env:DEEPSEEK_API_KEY = "..."
-# or: GLM_API_KEY / KIMI_API_KEY / ANTHROPIC_API_KEY / OPENAI_API_KEY / RH_API_KEY
-
-# optional overrides (fine-tunes, vLLM, Ollama, Azure OpenAI-compatible, …)
-$env:RH_BASE_URL = "https://your-endpoint/v1"
-$env:RH_MODEL_ID = "your-model-or-ft-id"
-$env:RH_API_KEY  = "..."
-
-# force /v1/ai/chat through the router
-$env:RH_CHAT_VIA_ROUTER = "1"
-```
-
-```http
-GET  /v1/researchers/models
-POST /v1/researchers/chat   {"messages":[...], "model":"kimi"}
-```
-
----
-
-## 250+ research skills
-
-Domains: **ML**, **computational biology**, **cheminformatics**, chemistry, biology, physics, data, literature, lab, construct, research ops.
-
-```http
-GET /v1/researchers/skills
-```
-
-### Editable / extensible
-
-Drop JSON (or YAML if PyYAML installed) into:
-
-- `skills/` (repo)
-- `~/.researchershub/skills/`
-- `$RH_SKILLS_DIR`
-
-```json
-{
-  "skills": [
-    {
-      "id": "custom_lab_assay_template",
-      "domain": "custom",
-      "desc": "Your lab assay — edit freely",
-      "tags": "custom editable",
-      "kind": "playbook"
-    }
-  ]
-}
-```
-
----
-
-## Atlas — shared research graph
-
-Many agents write **one** graph on your disk (`~/.researchershub/atlas/` or `$RH_ATLAS_DIR`).
-
-Nodes: claim · paper · dataset · experiment · figure · skill · agent · script · hypothesis · molecule · gene · model_run …  
-Edges: supports · cites · derives · uses_skill · produced_by · replicates …
-
-```http
-GET  /v1/researchers/atlas
-GET  /v1/researchers/atlas/export
-POST /v1/researchers/atlas/node
-     {"agent":"chemist","title":"IC50 claim","kind":"claim","body":"..."}
-```
-
-Constructive workflows auto-link **experiment → script → figures** into Atlas.
-
----
-
-## Chat returns whole figures + real Python
-
-```http
-POST /v1/researchers/construct
-{"prompt":"Plot a titration curve and give the Python workflow"}
-```
-
-Replies include:
-
-1. Full PNG images (`data:image/png;base64,...`)
-2. Complete runnable Python scripts  
-3. Paths under `~/.researchershub/construct/`
+<p align="center">
+  <img src="docs/brand/researchershub-mark.svg" alt="ResearchersHub mark" width="96"/>
+</p>
 
 ---
 
@@ -123,36 +58,200 @@ $env:PYTHONPATH = "$PWD\src"
 python -m pocket serve --host 0.0.0.0 --port 8787
 ```
 
-Desk: http://127.0.0.1:8787/desk  
-Identity: http://127.0.0.1:8787/v1/researchers  
+| Surface | URL |
+|---------|-----|
+| **Desk** | http://127.0.0.1:8787/desk |
+| **Identity** | http://127.0.0.1:8787/v1/researchers |
+| **Skills** | http://127.0.0.1:8787/v1/researchers/skills |
+| **Models** | http://127.0.0.1:8787/v1/researchers/models |
+| **Atlas** | http://127.0.0.1:8787/v1/researchers/atlas |
+
+---
+
+## One flag — any model
+
+```powershell
+$env:RH_MODEL = "deepseek"   # glm | kimi | deepseek | claude | gpt | finetune | local
+$env:DEEPSEEK_API_KEY = "sk-..."
+
+# Your fine-tune / vLLM / Ollama / private gateway
+$env:RH_MODEL = "finetune"
+$env:RH_BASE_URL = "https://your-endpoint/v1"
+$env:RH_MODEL_ID = "your-model-id"
+$env:RH_API_KEY  = "..."
+
+# Force host chat through the router
+$env:RH_CHAT_VIA_ROUTER = "1"
+```
+
+```http
+GET  /v1/researchers/models
+POST /v1/researchers/chat
+Content-Type: application/json
+
+{"messages":[{"role":"user","content":"Design a QSAR workflow with full Python"}],"model":"kimi"}
+```
+
+---
+
+## 750+ research skills
+
+Skills span the real research stack — not a toy checklist.
+
+| Domain | Examples |
+|--------|----------|
+| **ML / deep learning** | Transformers, RLHF/DPO, RAG eval, HPO, drift, fairness, deploy |
+| **Computational biology** | scRNA, spatial, CRISPR, GWAS, multi-omics, FAIR genomics |
+| **Cheminformatics** | SMILES, QSAR, docking, ADMET, retrosynthesis, generative mol |
+| **Clinical & stats** | Estimands, survival, adaptive trials, CDISC, forest/KM plots |
+| **Materials & physics** | DFT, phonons, battery materials, FEA, metrology |
+| **Neuroscience** | EEG/fMRI, BIDS, connectivity, BCI |
+| **Earth & climate** | GIS, NDVI, extremes, carbon budgets |
+| **Lab · chemistry · construct** | Kinetics, titration charts, SOPs, full PNG figures + Python |
+| **Atlas agents** | Shared graph claims, handoffs, repro bundles |
+
+```http
+GET /v1/researchers/skills
+```
+
+### Editable · extensible
+
+Drop skills into:
+
+- `skills/` (this repo)
+- `~/.researchershub/skills/`
+- `$RH_SKILLS_DIR`
+
+```json
+{
+  "skills": [
+    {
+      "id": "custom_lab_assay_template",
+      "domain": "custom",
+      "desc": "Your assay — edit freely",
+      "tags": "custom editable",
+      "kind": "playbook"
+    }
+  ]
+}
+```
+
+---
+
+## Atlas — many agents, one graph
+
+All agents write a **shared reproducible research graph** on your disk  
+(`~/.researchershub/atlas/` or `$RH_ATLAS_DIR`).
+
+**Nodes:** claim · paper · dataset · experiment · figure · skill · script · hypothesis · molecule · gene · model_run …  
+**Edges:** supports · refutes · cites · derives · uses_skill · produced_by · replicates …
+
+```http
+GET  /v1/researchers/atlas
+GET  /v1/researchers/atlas/export
+POST /v1/researchers/atlas/node
+```
+
+Constructive workflows auto-link **experiment → script → figures**.
+
+---
+
+## Full figures + real Python in chat
+
+Ask for a titration curve, dose–response, enzyme kinetics, regression…  
+Replies include:
+
+1. **Complete PNG charts** (embedded `data:image/png;base64,...`)
+2. **Runnable Python** multi-step workflows  
+3. Files under `~/.researchershub/construct/`
+
+```http
+POST /v1/researchers/construct
+{"prompt":"Plot a Michaelis–Menten curve and give the full Python workflow"}
+```
+
+---
+
+## Doctrine
+
+```text
+✓ Any model — one flag
+✓ 750+ research skills — readable, editable, extensible
+✓ No throttling · no gatekeeping · no vendor deciding science
+✓ Native Atlas — many agents, one shared research graph
+✓ Runs on your infra — your data stays yours
+```
+
+`GET /v1/researchers/doctrine`
 
 ---
 
 ## API map
 
-| Path | Purpose |
-|------|---------|
-| `GET /v1/researchers` | Product identity + doctrine |
-| `GET /v1/researchers/doctrine` | Pillars only |
-| `GET /v1/researchers/models` | Active model + providers |
-| `GET /v1/researchers/skills` | Full skill catalog |
-| `GET /v1/researchers/atlas` | Graph snapshot |
-| `GET /v1/researchers/atlas/export` | Full graph JSON |
-| `POST /v1/researchers/atlas/node` | Agent claim into graph |
-| `POST /v1/researchers/construct` | Figures + Python workflow |
-| `POST /v1/researchers/chat` | Model-routed research chat |
-| `POST /v1/ai/chat` | Host chat (router when `RH_CHAT_VIA_ROUTER=1`) |
+| Method | Path | Purpose |
+|--------|------|---------|
+| GET | `/v1/researchers` | Product identity |
+| GET | `/v1/researchers/doctrine` | Pillars |
+| GET | `/v1/researchers/models` | Active model + providers |
+| GET | `/v1/researchers/skills` | Full skill catalog |
+| GET | `/v1/researchers/atlas` | Graph snapshot |
+| GET | `/v1/researchers/atlas/export` | Full graph JSON |
+| POST | `/v1/researchers/atlas/node` | Agent claim |
+| POST | `/v1/researchers/construct` | Figures + Python |
+| POST | `/v1/researchers/chat` | Model-routed chat |
+| POST | `/v1/ai/chat` | Host chat (router optional) |
+| GET | `/health` | Liveness |
 
 ---
 
-## Org
+## Architecture (simple)
 
-- **GitHub:** https://github.com/ItsNotAILABS/ResearchersHub  
-- **Lab:** ItsNotAI Labs  
-- **Lineage:** POCKET multi-agent host  
+```text
+┌─────────────────────────────────────────────────────────┐
+│                     ResearchersHub                      │
+│  Edge desk · agents · phone · sellable API (POCKET DNA) │
+├──────────────┬──────────────────┬───────────────────────┤
+│ model_router │  750+ skills     │  Atlas research graph │
+│ RH_MODEL=*   │  ML·bio·chem…    │  nodes + edges        │
+├──────────────┴──────────────────┴───────────────────────┤
+│ science_construct → full PNG figures + real Python      │
+│ your keys · your disk · your infra                      │
+└─────────────────────────────────────────────────────────┘
+```
 
-Python import path remains `pocket` for host compatibility; product name is **ResearchersHub**.
+---
+
+## Brand
+
+| Asset | Path |
+|-------|------|
+| Mark | [`docs/brand/researchershub-mark.svg`](docs/brand/researchershub-mark.svg) |
+| Wordmark | [`docs/brand/researchershub-wordmark.svg`](docs/brand/researchershub-wordmark.svg) |
+
+---
+
+## Project
+
+| | |
+|--|--|
+| **Org** | [ItsNotAILABS](https://github.com/ItsNotAILABS) |
+| **Repo** | [ItsNotAILABS/ResearchersHub](https://github.com/ItsNotAILABS/ResearchersHub) |
+| **Lab** | ItsNotAI Labs |
+| **Company** | Medina Tech Labs |
+| **Version** | 1.2.0 |
+| **Lineage** | POCKET multi-agent host |
+
+Python import path remains `pocket` for host compatibility; the product name is **ResearchersHub**.
+
+---
 
 ## License
 
-See `LICENSE` and `LICENSE-RESEARCHER.md`.
+See [`LICENSE`](LICENSE) and [`LICENSE-RESEARCHER.md`](LICENSE-RESEARCHER.md).
+
+---
+
+<p align="center">
+  <sub>Built for scientists who refuse vendor lock-in.</sub><br/>
+  <b>ResearchersHub</b> · ItsNotAI Labs
+</p>
