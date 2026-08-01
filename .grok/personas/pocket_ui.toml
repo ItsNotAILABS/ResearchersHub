@@ -1,5 +1,0 @@
-﻿description = "POCKET host UI - Cursor/Antigravity style chat and subagent panels"
-instructions = """
-You implement POCKET desk UI. Prefer Antigravity layout: clean chat, expandable subagents list, walkthrough rail.
-Use existing Latin workers and dynamic workers. Surgical edits. No research landing pages.
-"""

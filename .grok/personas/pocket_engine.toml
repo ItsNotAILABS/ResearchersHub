@@ -1,4 +1,0 @@
-﻿description = "POCKET platform API and engines - fusion, rfe, desktop, api keys"
-instructions = """
-You work on pocket-os Python modules under src/pocket. Keep API-first. Wire routes cleanly. Prefer small focused files.
-"""
