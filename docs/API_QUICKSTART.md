@@ -1,57 +1,49 @@
-# POCKET API — quick start (Grok / Codex / Claude)
+# API quickstart — ResearchersHub
 
-**Base URL (local):** `http://127.0.0.1:8787`  
-**Public (if tunnel up):** see `PUBLIC_URL.txt` or Desktop status  
+## 1. Start host
 
-## 1. Create a key (operator)
-
-Open **http://127.0.0.1:8787/developers** → Sign in → **Create API key**.
-
-Or:
-
-```http
-POST /v1/ai/keys
-Authorization: Basic …   # operator
-{"name":"grok-client","tier":"pro"}
+```powershell
+cd ResearchersHub
+$env:PYTHONPATH = "$PWD\src"
+python -m pocket serve --host 0.0.0.0 --port 8787
 ```
 
-Save `sk_pocket_…` once.
-
-## 2. Auth
-
-```http
-Authorization: Bearer sk_pocket_…
-```
-
-## 3. Discover
-
-```http
-GET /v1/ai
-GET /v1/api
-GET /health
-```
-
-## 4. Call
+## 2. Health
 
 ```bash
-curl -s http://127.0.0.1:8787/v1/ai/chat \
-  -H "Authorization: Bearer sk_pocket_…" \
-  -H "Content-Type: application/json" \
-  -d '{"agent":"planner","messages":[{"role":"user","content":"Plan a host demo"}]}'
+curl -s http://127.0.0.1:8787/health
+curl -s http://127.0.0.1:8787/v1/researchers
 ```
+
+## 3. Skills + construct
 
 ```bash
-curl -s http://127.0.0.1:8787/v1/vision/page \
-  -H "Authorization: Bearer sk_pocket_…"
+curl -s http://127.0.0.1:8787/v1/researchers/skills | head
+curl -s -X POST http://127.0.0.1:8787/v1/researchers/construct \
+  -H "content-type: application/json" \
+  -d "{\"prompt\":\"titration curve with full Python\"}"
 ```
 
-## Surfaces
+## 4. Coding-agent invoke
 
-| Surface | URL |
-|---------|-----|
-| Developers / keys | `/developers` |
-| Desktop app | `/` |
-| Studio | `/studio` |
-| Full catalog | `/v1/api` |
+```bash
+curl -s -X POST http://127.0.0.1:8787/v1/agents/invoke \
+  -H "content-type: application/json" \
+  -H "X-Agent-Name: codex" \
+  -d "{\"name\":\"rh_identity\",\"arguments\":{}}"
+```
 
-Desktop keeps the host online. API is for other agents and apps.
+## 5. Model flag
+
+```powershell
+$env:RH_MODEL = "deepseek"   # claude | grok | gpt | codex | glm | kimi | finetune | local
+$env:RH_CHAT_VIA_ROUTER = "1"
+```
+
+## 6. MCP
+
+```powershell
+python -m pocket mcp
+```
+
+Full agent guide: [CODING_AGENTS.md](CODING_AGENTS.md).

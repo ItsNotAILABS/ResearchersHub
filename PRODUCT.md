@@ -2,24 +2,31 @@
 
 ## One-liner
 
-POCKET forked for **scientists and researchers** — **970+** research skills, any model via one flag, MCP for Claude/Grok/Codex/Cursor, Atlas research graph, chats that return **whole charts/images**, and **real Python constructive workflows**.
+Sovereign research desk for scientists **and** coding agents — any model, 970+ skills, Atlas graph, full figures + real Python, your infra.
 
 ## Who it is for
 
 - Graduate students, PIs, industry scientists
 - Computational + wet-lab hybrid workflows
-- Anyone who wants lab-grade figures and scripts out of the chat, not prose alone
+- Claude, Grok, Codex, Cursor, and other coding agents that need real research tools
 
 ## What ships
 
-1. Full host surface (desk, agents, API) from POCKET lineage  
-2. Science skill catalog (`science_skills.py`) ≥ 100 entries  
-3. Constructive engine (`science_construct.py`) — titration, enzyme, dose–response, Beer–Lambert, regression, stress–strain, generic research script  
-4. Chat enrichment on `/v1/ai/chat`  
-5. REST: `/v1/researchers/*`
+1. Multi-model router (`RH_MODEL`) — Claude, Grok, GPT, DeepSeek, GLM, Kimi, fine-tune, local  
+2. 970+ research skills (ML, comp bio, cheminformatics, clinical, materials, …)  
+3. Constructive engine — full PNG charts + runnable Python  
+4. Atlas — shared reproducible research graph  
+5. MCP + REST agent bridge  
+6. Edge desk / host runtime (package import `pocket` for compatibility)  
 
 ## Non-goals
 
-- Not a LIMS replacement for regulated GMP systems  
-- Not a cloud-only SaaS (sovereign host first)  
-- Does not share founder disk with market seats (same isolation doctrine as POCKET)
+- Not a regulated LIMS / GMP system replacement  
+- Not a cloud SaaS that owns your data  
+- Not POCKET marketing — that lineage is archived under `docs/archive/pocket-lineage/`  
+
+## Org
+
+- **GitHub:** https://github.com/ItsNotAILABS/ResearchersHub  
+- **Lab:** ItsNotAI Labs  
+- **Version:** see `src/pocket/__init__.py` / README  

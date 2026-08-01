@@ -1,48 +1,27 @@
-# Multi-user seats (not “log into owner”)
+# Multi-user seats (ResearchersHub)
 
 ## Mental model
 
-| Role | Who | How they sign in |
-|------|-----|------------------|
-| **Owner** | You (operator) | `ACCESS.txt` / admin user — **your** machine host |
-| **Member** | Invited user | **Their** username + password they chose at register |
+| Role | Who | Sign-in |
+|------|-----|---------|
+| **Owner** | Operator of this host | ACCESS / owner username + password |
+| **Member** | Invited researcher | **Their** username + password from seat register |
 
 Register **never** puts someone on the owner account.  
-A seat invite key only proves “owner allowed a new seat.” The new person picks identity + password.
+A seat invite key only proves “owner allowed a new seat.”
 
-## Seat invite keys (cryptographic)
+## Seat invites
 
 - Format: `pk_seat_<random>`
-- Server stores **SHA-256(key)** only — not the raw key after mint
-- Minted by owner: `POST /v1/admin/invites` `{ "label": "alice", "max_uses": 1 }`
-- Response includes **invite_key once** — give that string to Alice
-- Alice opens **Create my seat**, pastes key, chooses username/password
-- Key uses increment; when exhausted, key is dead
+- Mint (admin): `POST /v1/admin/invites` `{ "label": "alice", "max_uses": 1 }`
+- Member: desk → **Create my seat** → invite key → choose username/password
 
-List (admin): `GET /v1/admin/invites` — prefixes only, never raw secrets.
+## Isolation
 
-## Owner stays logged in
+- Members get separate tokens and sandboxes.
+- Market seats must not receive founder personal disk paths.
+- Owner stays owner when minting invites.
 
-- Minting invites does **not** revoke owner sessions
-- Members get separate tokens
-- Owner password lives in ACCESS / users.json admin row (`is_owner: true`)
+## Local coding agents
 
-## Ship paths for members
-
-1. Owner mints seat key  
-2. Member opens **user** client (Electron first-run source picker, or browser cloud desk)  
-3. **Create my seat** with key  
-4. Later: sign in with **their** user/pass only  
-
-### Electron first open (user only)
-
-```text
-Source picker → cloud | local | custom → /desk → Create my seat
-```
-
-Owner shortcut (`POCKET_CLIENT_ROLE=operator`) **skips** the picker and opens local host.  
-Profiles are isolated (`POCKET-User` vs `POCKET-Owner`) so you can test both.
-
-Invite is not “here’s my password.”
-
-See also [SHIP_FOR_USERS.md](SHIP_FOR_USERS.md).
+Coding agents (Claude, Grok, Codex) use `/v1/agents/*` on localhost. Do not expose unauthenticated agent routes on a public tunnel without Access.

@@ -1,18 +1,6 @@
-# POCKET AI API — sellable headless agents
+# ResearchersHub AI API
 
-**Product:** multi-agent AI API that runs on the operator host (or your deployment).  
-**Meter:** POCK credits + API keys (`sk_pocket_…`).  
-**UI optional:** desk is for humans; API is for apps and automation.
-
-## Pricing (list)
-
-| Tier | USD / mo (hint) | Includes |
-|------|-----------------|----------|
-| Starter | $29 | researcher, planner, writer, data, scout, router |
-| Pro | $99 | + coder, grok_coder, reviewer, security, architect, ops, nexus, desktop |
-| Enterprise | $299 | + squad, volume keys, multi-seat |
-
-Per-call POCK is on each agent (`GET /v1/ai/agents`).
+Sellable / headless research API on your host.
 
 ## Auth
 
@@ -22,94 +10,37 @@ Authorization: Bearer sk_pocket_…
 X-API-Key: sk_pocket_…
 ```
 
-Desk password / session tokens also work for operators.
+Keys are minted on the operator host (desk or admin API). Metering uses host credits when enabled.
 
-## Create a key (operator)
+## Core routes
 
-```http
-POST /v1/ai/keys
-{"name":"customer-acme","tier":"pro","monthly_quota":10000}
+| Method | Path | Purpose |
+|--------|------|---------|
+| GET | `/health` | Liveness |
+| GET | `/v1/researchers` | Product identity |
+| GET | `/v1/researchers/skills` | 970+ research skills |
+| GET | `/v1/researchers/models` | Active model (`RH_MODEL`) |
+| POST | `/v1/researchers/construct` | Full charts + Python workflows |
+| POST | `/v1/researchers/chat` | Multi-model research chat |
+| GET | `/v1/agents/manifest` | Coding-agent tool catalog |
+| POST | `/v1/agents/invoke` | Invoke `rh_*` tools |
+| POST | `/v1/ai/chat` | OpenAI-shaped chat (wiki + construct enrich) |
+| POST | `/v1/ai/agents/{id}/run` | Headless agent run |
+
+## Coding agents
+
+Prefer tools over raw curl when using Claude / Grok / Cursor:
+
+```text
+python -m pocket mcp
+POST /v1/agents/invoke  {"name":"rh_construct","arguments":{"prompt":"…"}}
 ```
 
-Response includes the secret **once**.
+See [CODING_AGENTS.md](CODING_AGENTS.md).
 
-## Catalog (public)
+## Deploy notes
 
-```http
-GET /v1/ai
-GET /v1/ai/agents
-```
-
-## Run a headless agent
-
-```http
-POST /v1/ai/agents/researcher/run
-Authorization: Bearer sk_pocket_…
-Content-Type: application/json
-
-{"task":"research multi-agent desk platforms 2026","sync":true}
-```
-
-Async:
-
-```http
-POST /v1/ai/jobs
-{"agent":"coder","task":"Add version to /health"}
-
-GET /v1/ai/jobs/{job_id}
-```
-
-## Chat (OpenAI-shaped subset)
-
-```http
-POST /v1/ai/chat
-{
-  "agent": "planner",
-  "messages": [{"role":"user","content":"Plan API key metering"}]
-}
-```
-
-Use `"agent":"auto"` to route first.
-
-## Route only
-
-```http
-POST /v1/ai/route
-{"task":"I need a threat model for login"}
-```
-
-## Headless agents
-
-| id | Role |
-|----|------|
-| router | Pick best agent |
-| scout | Fast web scan |
-| researcher | Deep research |
-| planner | Plan only |
-| coder | Codex implement |
-| grok_coder | Grok implement |
-| reviewer | Code review |
-| security | Threat model |
-| writer | Docs/copy |
-| data | Tables/metrics |
-| architect | System design |
-| ops | Host shell diagnostics |
-| nexus_bridge | NEXUS workers |
-| desktop_bot | Host apps |
-| squad | scout → plan → (coder) |
-
-## Sell motion
-
-1. Deploy POCKET with named tunnel / your domain.  
-2. Issue API keys per customer.  
-3. Bill subscription seat + overage from POCK burns (`GET /v1/ai/usage`).  
-4. Map refill to NEXUS/POCKET subscription.
-
-## Local smoke
-
-```powershell
-# catalog
-Invoke-RestMethod http://127.0.0.1:8787/v1/ai
-
-# key + run (with desk auth or after create key)
-```
+1. Run host on your infra (`python -m pocket serve`).
+2. Optional: Cloudflare named tunnel for public URL.
+3. Put Access / auth in front of any public exposure.
+4. Keys stay on operator machine — no vendor gatekeeping of science.

@@ -687,8 +687,8 @@ class Handler(BaseHTTPRequestHandler):
             )
         if path in ("/v1/agents/help", "/v1/agents/coding"):
             from pocket.agent_bridge import coding_help
-            from urllib.parse import parse_qs
 
+            # use module-level parse_qs/urlparse — local import shadows whole do_GET
             qs = parse_qs(urlparse(self.path).query)
             agent = (qs.get("agent") or ["generic"])[0]
             return self._json(200, coding_help(agent))

@@ -12,6 +12,7 @@
 - [x] MCP stdio + REST agent tools
 - [x] AGENTS.md / CLAUDE.md / .cursorrules / Copilot / Gemini
 - [x] Public README with logo + badges
+- [x] Docs cleaned (POCKET papers archived under `docs/archive/pocket-lineage/`)
 - [x] Install-Coding-Agents.ps1
 
 ## Operator commands

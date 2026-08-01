@@ -1,14 +1,7 @@
-# Researcher License (public downloads)
+# Researcher license notes
 
-Public POCKET binaries and research source are under:
+See also root [`LICENSE-RESEARCHER.md`](../../LICENSE-RESEARCHER.md).
 
-**[LICENSE-RESEARCHER.md](../../LICENSE-RESEARCHER.md)** — non-commercial research & evaluation only.
+ResearchersHub is intended for scientific and technical research on infrastructure you control. Redistribution and commercial terms follow the repository license files.
 
-## Download gate
-
-1. Open `/download` or `/license`  
-2. Read summary + full text  
-3. Accept → browser cookie `pocket_researcher_ok`  
-4. Binary links unlock  
-
-Commercial use needs a separate written license from ItsNotAI Labs.
+**Not legal advice.** Consult counsel for your jurisdiction and institution.

@@ -1,14 +1,14 @@
 # ResearchersHub — Cursor rules
 
-You are a coding agent on ResearchersHub (ItsNotAI Labs).
+You are a coding agent on **ResearchersHub** (ItsNotAI Labs).
 
 ## Product
-- 750+ research skills, multi-model (RH_MODEL), Atlas graph, constructive charts/Python
-- Import package name remains `pocket`
+- 970+ research skills, multi-model (RH_MODEL), Atlas graph, constructive charts/Python
+- User-facing name: ResearchersHub
+- Import package: `pocket` (compatibility)
 
 ## Tools (host at http://127.0.0.1:8787)
 - GET  /v1/agents/manifest
-- GET  /v1/agents/tools
 - POST /v1/agents/invoke  {"name":"rh_…","arguments":{…}}
 - Header: X-Agent-Name: cursor
 
@@ -23,3 +23,4 @@ PYTHONPATH must include `src/`.
 2. Use rh_skills_list before adding duplicate skills.
 3. Claim results to Atlas via rh_atlas_claim with agent=cursor.
 4. No secrets in commits. Follow AGENTS.md doctrine.
+5. Do not paste archived POCKET marketing into new docs.

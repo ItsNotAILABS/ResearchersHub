@@ -302,6 +302,23 @@ You get:
 
 ---
 
+## Docs (clean set)
+
+| Doc | Purpose |
+|-----|---------|
+| [PRODUCT.md](PRODUCT.md) | Product definition |
+| [SHIP.md](SHIP.md) | Ship checklist |
+| [AGENTS.md](AGENTS.md) | All coding agents |
+| [docs/CODING_AGENTS.md](docs/CODING_AGENTS.md) | Claude / Grok / Codex / Cursor |
+| [docs/API_QUICKSTART.md](docs/API_QUICKSTART.md) | API quickstart |
+| [docs/AI_API.md](docs/AI_API.md) | Sellable AI API |
+| [docs/SECURITY.md](docs/SECURITY.md) | Security |
+| [docs/PRODUCTION.md](docs/PRODUCTION.md) | Production |
+| [docs/LINEAGE.md](docs/LINEAGE.md) | Short heritage note |
+| [docs/archive/pocket-lineage/](docs/archive/pocket-lineage/) | Historical POCKET papers only |
+
+---
+
 ## Brand
 
 | Asset | Path |
@@ -320,7 +337,7 @@ You get:
 | **Lab** | ItsNotAI Labs |
 | **Company** | Medina Tech Labs |
 | **Version** | **1.2.1** |
-| **Lineage** | POCKET multi-agent host |
+| **Lineage** | Host DNA from POCKET — product is ResearchersHub ([docs/LINEAGE.md](docs/LINEAGE.md)) |
 
 Python import path remains `pocket` for host compatibility; the product name is **ResearchersHub**.
 
