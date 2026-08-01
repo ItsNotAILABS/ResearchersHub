@@ -1,0 +1,547 @@
+{
+  "product": "ResearchersHub",
+  "domain": "research_ops",
+  "count": 30,
+  "skills": [
+    {
+      "id": "res_agent_handoff",
+      "domain": "research_ops",
+      "desc": "Multi-agent handoff protocol",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_arrive",
+      "domain": "research_ops",
+      "desc": "ARRIVE animal research checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_atlas_export",
+      "domain": "research_ops",
+      "desc": "Export Atlas graph JSON",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_bayes_ab",
+      "domain": "research_ops",
+      "desc": "Bayesian A/B analysis outline",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_biosafety",
+      "domain": "research_ops",
+      "desc": "Biosafety level checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_blind_design",
+      "domain": "research_ops",
+      "desc": "Blinding / randomization design",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_chemical_safety",
+      "domain": "research_ops",
+      "desc": "Chemical hygiene plan notes",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_citation_graph",
+      "domain": "research_ops",
+      "desc": "Citation graph exploration",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_claim_graph",
+      "domain": "research_ops",
+      "desc": "Link claim \u2192 evidence in Atlas",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_code_ocean",
+      "domain": "research_ops",
+      "desc": "Compute capsule packaging",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_conflict_interest",
+      "domain": "research_ops",
+      "desc": "COI disclosure checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_consort",
+      "domain": "research_ops",
+      "desc": "CONSORT trial checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_container_repro",
+      "domain": "research_ops",
+      "desc": "Docker/Singularity repro env",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_crd_protocol",
+      "domain": "research_ops",
+      "desc": "CRD / factorial experiment design",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_data_dictionary",
+      "domain": "research_ops",
+      "desc": "Data dictionary template",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_doe_response",
+      "domain": "research_ops",
+      "desc": "Design of experiments (DoE)",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_ethics_irb",
+      "domain": "research_ops",
+      "desc": "IRB/ethics protocol notes",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_evidence_grade",
+      "domain": "research_ops",
+      "desc": "Evidence grading (study design)",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_forest_plot",
+      "domain": "research_ops",
+      "desc": "Forest plot constructive chart",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_funnel_plot",
+      "domain": "research_ops",
+      "desc": "Publication bias funnel plot",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_irreproducible",
+      "domain": "research_ops",
+      "desc": "Irreproducibility risk checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_meta_analysis",
+      "domain": "research_ops",
+      "desc": "Meta-analysis workflow",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_open_data",
+      "domain": "research_ops",
+      "desc": "Open data release checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_power_calc",
+      "domain": "research_ops",
+      "desc": "Statistical power calculation",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_preregister",
+      "domain": "research_ops",
+      "desc": "Study pre-registration template",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_prisma_update",
+      "domain": "research_ops",
+      "desc": "PRISMA 2020 checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_sample_size",
+      "domain": "research_ops",
+      "desc": "Sample size justification",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_spirit",
+      "domain": "research_ops",
+      "desc": "SPIRIT protocol checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_strobe",
+      "domain": "research_ops",
+      "desc": "STROBE observational checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "res_tripod",
+      "domain": "research_ops",
+      "desc": "TRIPOD prediction model checklist",
+      "kind": "playbook",
+      "tags": [
+        "research_ops",
+        "science",
+        "research",
+        "reproducibility",
+        "methods",
+        "atlas"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

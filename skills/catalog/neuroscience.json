@@ -1,0 +1,327 @@
+{
+  "product": "ResearchersHub",
+  "domain": "neuroscience",
+  "count": 20,
+  "skills": [
+    {
+      "id": "neuro_bci",
+      "domain": "neuroscience",
+      "desc": "BCI feature + classify outline",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_behavior",
+      "domain": "neuroscience",
+      "desc": "Behavioral task analysis",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_bids",
+      "domain": "neuroscience",
+      "desc": "BIDS dataset validation",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_calcium",
+      "domain": "neuroscience",
+      "desc": "Calcium imaging analysis",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_connectivity",
+      "domain": "neuroscience",
+      "desc": "Functional connectivity",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_dti",
+      "domain": "neuroscience",
+      "desc": "DTI tractography notes",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_eeg_preprocess",
+      "domain": "neuroscience",
+      "desc": "EEG preprocess pipeline",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_erp",
+      "domain": "neuroscience",
+      "desc": "ERP analysis",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_eye_track",
+      "domain": "neuroscience",
+      "desc": "Eye-tracking analysis",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_fmri_pre",
+      "domain": "neuroscience",
+      "desc": "fMRI preprocessing",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_freesurfer",
+      "domain": "neuroscience",
+      "desc": "FreeSurfer recon notes",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_glm_fmri",
+      "domain": "neuroscience",
+      "desc": "fMRI GLM first-level",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_lesion",
+      "domain": "neuroscience",
+      "desc": "Lesion-symptom mapping",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_meg",
+      "domain": "neuroscience",
+      "desc": "MEG analysis outline",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_network_graph",
+      "domain": "neuroscience",
+      "desc": "Brain network graph metrics",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_prereg_cog",
+      "domain": "neuroscience",
+      "desc": "Cognitive study pre-reg",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_psychometrics",
+      "domain": "neuroscience",
+      "desc": "Psychometric scale analysis",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_repro_neuro",
+      "domain": "neuroscience",
+      "desc": "Neuroimaging repro checklist",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_sleep",
+      "domain": "neuroscience",
+      "desc": "Sleep stage scoring notes",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "neuro_spike",
+      "domain": "neuroscience",
+      "desc": "Spike sorting basics",
+      "kind": "playbook",
+      "tags": [
+        "neuroscience",
+        "science",
+        "research",
+        "cognition"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

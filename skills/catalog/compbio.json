@@ -1,0 +1,2393 @@
+{
+  "product": "ResearchersHub",
+  "domain": "compbio",
+  "count": 146,
+  "skills": [
+    {
+      "id": "cbi_aav_design",
+      "domain": "compbio",
+      "desc": "AAV vector design notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_abc_model",
+      "domain": "compbio",
+      "desc": "ABC enhancer-gene model",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_admixture",
+      "domain": "compbio",
+      "desc": "Admixture analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_alignment_bwa",
+      "domain": "compbio",
+      "desc": "Read alignment (BWA/STAR) notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_alphafold_use",
+      "domain": "compbio",
+      "desc": "AlphaFold result interpretation",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ambient_rna",
+      "domain": "compbio",
+      "desc": "Ambient RNA correction",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_amr_gene",
+      "domain": "compbio",
+      "desc": "AMR gene detection",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_antibody_design",
+      "domain": "compbio",
+      "desc": "Antibody CDR design notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_assay_cv",
+      "domain": "compbio",
+      "desc": "Assay coefficient of variation QC",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_atac",
+      "domain": "compbio",
+      "desc": "ATAC-seq peak workflow",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_barcode_qc",
+      "domain": "compbio",
+      "desc": "Cell barcode QC",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_base_edit",
+      "domain": "compbio",
+      "desc": "Base/prime editing design",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_batch_correct",
+      "domain": "compbio",
+      "desc": "Batch correction (ComBat-style)",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_bco",
+      "domain": "compbio",
+      "desc": "BioCompute Object packaging",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_biomarker_validate",
+      "domain": "compbio",
+      "desc": "Biomarker validation stages",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_cell_comm",
+      "domain": "compbio",
+      "desc": "Cell-cell communication (ligand-receptor)",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_cellbender",
+      "domain": "compbio",
+      "desc": "CellBender outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_celltype_annotate",
+      "domain": "compbio",
+      "desc": "Cell type annotation strategies",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_chipseq",
+      "domain": "compbio",
+      "desc": "ChIP-seq peak calling outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_cite_seq",
+      "domain": "compbio",
+      "desc": "CITE-seq protein+RNA",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_clinical_biomarker",
+      "domain": "compbio",
+      "desc": "Biomarker discovery pipeline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_clinical_nlp",
+      "domain": "compbio",
+      "desc": "Clinical NLP extraction",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_cnv_call",
+      "domain": "compbio",
+      "desc": "CNV detection workflow",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_codon_opt",
+      "domain": "compbio",
+      "desc": "Codon optimization",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_colocalization",
+      "domain": "compbio",
+      "desc": "eQTL-GWAS colocalization",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_comparative_genomics",
+      "domain": "compbio",
+      "desc": "Comparative genomics",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_connectivity_map",
+      "domain": "compbio",
+      "desc": "Connectivity map analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_containers_bioc",
+      "domain": "compbio",
+      "desc": "Biocontainers reproducibility",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_count_matrix",
+      "domain": "compbio",
+      "desc": "Build gene count matrix",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_crispr_screens",
+      "domain": "compbio",
+      "desc": "CRISPR screen analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_crispri_screen",
+      "domain": "compbio",
+      "desc": "CRISPRi/a screen analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_cyclone",
+      "domain": "compbio",
+      "desc": "Cell cycle scoring",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_de_genes",
+      "domain": "compbio",
+      "desc": "Differential expression workflow",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_diffbind",
+      "domain": "compbio",
+      "desc": "Differential binding",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_digital_twin",
+      "domain": "compbio",
+      "desc": "Digital twin patient model notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_docking_protein",
+      "domain": "compbio",
+      "desc": "Protein\u2013ligand docking outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_dorothea",
+      "domain": "compbio",
+      "desc": "DoRothEA TF activity",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_drug_repurpose",
+      "domain": "compbio",
+      "desc": "Drug repurposing pipeline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_drug_response_omics",
+      "domain": "compbio",
+      "desc": "Omics\u2013drug response modeling",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ehr_phenotype",
+      "domain": "compbio",
+      "desc": "EHR phenotyping",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_eqtl",
+      "domain": "compbio",
+      "desc": "eQTL analysis outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_eqtl_map",
+      "domain": "compbio",
+      "desc": "cis-eQTL mapping",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ercc",
+      "domain": "compbio",
+      "desc": "ERCC spike-in analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_fair_genomics",
+      "domain": "compbio",
+      "desc": "FAIR genomics packaging",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_fair_omics",
+      "domain": "compbio",
+      "desc": "FAIR omics data packaging",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_footprint",
+      "domain": "compbio",
+      "desc": "TF footprinting",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_fusion_gene",
+      "domain": "compbio",
+      "desc": "Gene fusion detection",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ga4gh",
+      "domain": "compbio",
+      "desc": "GA4GH standards checklist",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_genome_assembly",
+      "domain": "compbio",
+      "desc": "Genome assembly QC metrics",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_genome_scale_model",
+      "domain": "compbio",
+      "desc": "GEM model curation",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_grn_scenic",
+      "domain": "compbio",
+      "desc": "SCENIC GRN inference",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_gsea",
+      "domain": "compbio",
+      "desc": "Gene set enrichment analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_gsea_prerank",
+      "domain": "compbio",
+      "desc": "Preranked GSEA",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_gsva",
+      "domain": "compbio",
+      "desc": "GSVA pathway scores",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_gwas_fine_map",
+      "domain": "compbio",
+      "desc": "Fine-mapping outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_gwas_gcta",
+      "domain": "compbio",
+      "desc": "GCTA / heritability",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_gwas_outline",
+      "domain": "compbio",
+      "desc": "GWAS design + Manhattan plot plan",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_hic",
+      "domain": "compbio",
+      "desc": "Hi-C contact map notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_hic_tads",
+      "domain": "compbio",
+      "desc": "TAD calling Hi-C",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_hla_type",
+      "domain": "compbio",
+      "desc": "HLA typing from NGS",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_hmm_profile",
+      "domain": "compbio",
+      "desc": "HMM profile search outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ibd",
+      "domain": "compbio",
+      "desc": "IBD segment detection",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_imaging_omics",
+      "domain": "compbio",
+      "desc": "Radiomics + omics fusion",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_immunopeptidomics",
+      "domain": "compbio",
+      "desc": "Immunopeptidomics outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_imputation_genotype",
+      "domain": "compbio",
+      "desc": "Genotype imputation",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ldsc",
+      "domain": "compbio",
+      "desc": "LD score regression",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_lipidomics",
+      "domain": "compbio",
+      "desc": "Lipidomics analysis outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_lnp_rna",
+      "domain": "compbio",
+      "desc": "LNP mRNA formulation checklist",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_long_read",
+      "domain": "compbio",
+      "desc": "Long-read sequencing analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_loop_call",
+      "domain": "compbio",
+      "desc": "Chromatin loop calling",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_mQTL",
+      "domain": "compbio",
+      "desc": "mQTL methylation QTL",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_md_sim",
+      "domain": "compbio",
+      "desc": "Molecular dynamics setup checklist",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_mendelian_random",
+      "domain": "compbio",
+      "desc": "Mendelian randomization checklist",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_metabolic_fba",
+      "domain": "compbio",
+      "desc": "Flux balance analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_metabolomics_ms",
+      "domain": "compbio",
+      "desc": "MS metabolomics peak table workflow",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_metagenome",
+      "domain": "compbio",
+      "desc": "Metagenome assembly/binning outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_methylation",
+      "domain": "compbio",
+      "desc": "Bisulfite / methylation analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_microbiome_diversity",
+      "domain": "compbio",
+      "desc": "Alpha/beta diversity analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_mlst",
+      "domain": "compbio",
+      "desc": "MLST typing",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_module_score",
+      "domain": "compbio",
+      "desc": "Gene module scoring",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_motif_enrich",
+      "domain": "compbio",
+      "desc": "Motif enrichment (HOMER-style)",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_msa",
+      "domain": "compbio",
+      "desc": "Multiple sequence alignment",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_multi_qtl",
+      "domain": "compbio",
+      "desc": "Multi-omics QTL integration",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_multiome",
+      "domain": "compbio",
+      "desc": "Multiome RNA+ATAC joint analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_multiomics_integrate",
+      "domain": "compbio",
+      "desc": "Multi-omics integration patterns",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_neoantigen",
+      "domain": "compbio",
+      "desc": "Neoantigen prediction pipeline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_network_grn",
+      "domain": "compbio",
+      "desc": "Gene regulatory network inference",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_network_medicine",
+      "domain": "compbio",
+      "desc": "Network medicine modules",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_offtarget",
+      "domain": "compbio",
+      "desc": "CRISPR off-target assessment",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ont_basecall",
+      "domain": "compbio",
+      "desc": "ONT basecalling QC",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ortholog",
+      "domain": "compbio",
+      "desc": "Ortholog inference",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_pacbio_ccs",
+      "domain": "compbio",
+      "desc": "PacBio HiFi analysis outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_paga",
+      "domain": "compbio",
+      "desc": "PAGA graph abstraction",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_pangenome",
+      "domain": "compbio",
+      "desc": "Pangenome analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_pathology_ai",
+      "domain": "compbio",
+      "desc": "Digital pathology ML outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_pathway_ora",
+      "domain": "compbio",
+      "desc": "Over-representation pathway analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_patient_similarity",
+      "domain": "compbio",
+      "desc": "Patient similarity networks",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_peak_anno",
+      "domain": "compbio",
+      "desc": "Peak annotation",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_perturb_seq",
+      "domain": "compbio",
+      "desc": "Perturb-seq analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_phage",
+      "domain": "compbio",
+      "desc": "Phage genomics outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_phewas",
+      "domain": "compbio",
+      "desc": "PheWAS design",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_phospho",
+      "domain": "compbio",
+      "desc": "Phosphoproteomics outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_phylogeny",
+      "domain": "compbio",
+      "desc": "Phylogenetic tree workflow",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_plate_effect",
+      "domain": "compbio",
+      "desc": "Plate effect normalization",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_popgen",
+      "domain": "compbio",
+      "desc": "Population genetics stats",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_ppi_network",
+      "domain": "compbio",
+      "desc": "Protein\u2013protein interaction network",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_pqtl",
+      "domain": "compbio",
+      "desc": "pQTL proteomics QTL",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_prime_edit",
+      "domain": "compbio",
+      "desc": "Prime editing guide design",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_progeny",
+      "domain": "compbio",
+      "desc": "PROGENy pathway activity",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_promoter_design",
+      "domain": "compbio",
+      "desc": "Promoter/enhancer design",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_proteomics_lfq",
+      "domain": "compbio",
+      "desc": "LFQ proteomics pipeline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_prs",
+      "domain": "compbio",
+      "desc": "Polygenic risk score outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_pseudobulk",
+      "domain": "compbio",
+      "desc": "Pseudobulk DE for single-cell",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_qc_fastqc",
+      "domain": "compbio",
+      "desc": "FastQC / MultiQC report review",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_repro_nfcore",
+      "domain": "compbio",
+      "desc": "nf-core pipeline reuse notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_rna_quant",
+      "domain": "compbio",
+      "desc": "RNA quantification (counts/TPM)",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_rwe",
+      "domain": "compbio",
+      "desc": "Real-world evidence checklist",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_scrna_doublet",
+      "domain": "compbio",
+      "desc": "Doublet detection scRNA",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_scrna_harmony",
+      "domain": "compbio",
+      "desc": "Harmony batch integration",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_scrna_scvi",
+      "domain": "compbio",
+      "desc": "scVI integration outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_selection_scan",
+      "domain": "compbio",
+      "desc": "Selection scan methods",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_single_cell",
+      "domain": "compbio",
+      "desc": "scRNA-seq QC + clustering outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_soupx",
+      "domain": "compbio",
+      "desc": "SoupX ambient correction",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_spatial_deconv",
+      "domain": "compbio",
+      "desc": "Spatial deconvolution",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_spatial_tx",
+      "domain": "compbio",
+      "desc": "Spatial transcriptomics outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_spike_in",
+      "domain": "compbio",
+      "desc": "Spike-in controls design",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_sqtl",
+      "domain": "compbio",
+      "desc": "sQTL splicing QTL",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_structural_var",
+      "domain": "compbio",
+      "desc": "Structural variant calling",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_structure_predict",
+      "domain": "compbio",
+      "desc": "Protein structure prediction notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_survival_omics",
+      "domain": "compbio",
+      "desc": "Survival analysis with omics features",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_synteny",
+      "domain": "compbio",
+      "desc": "Synteny mapping",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_synthetic_circuit",
+      "domain": "compbio",
+      "desc": "Genetic circuit design",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_tcr_bcr",
+      "domain": "compbio",
+      "desc": "TCR/BCR repertoire analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_trajectory",
+      "domain": "compbio",
+      "desc": "Trajectory / pseudotime outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_trial_emulation",
+      "domain": "compbio",
+      "desc": "Target trial emulation",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_twmr",
+      "domain": "compbio",
+      "desc": "TWAS / MR outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_umi_correct",
+      "domain": "compbio",
+      "desc": "UMI error correction",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_vaccine_epitope",
+      "domain": "compbio",
+      "desc": "Epitope prediction checklist",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_variant_call",
+      "domain": "compbio",
+      "desc": "Variant calling pipeline outline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_vcf_validate",
+      "domain": "compbio",
+      "desc": "VCF validation & stats",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_velocity",
+      "domain": "compbio",
+      "desc": "RNA velocity analysis",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_vep_annotate",
+      "domain": "compbio",
+      "desc": "Variant effect prediction notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_viral_assembly",
+      "domain": "compbio",
+      "desc": "Viral genome assembly notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "bioinformatics",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_visium",
+      "domain": "compbio",
+      "desc": "Visium spatial pipeline",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_workflow_cwl",
+      "domain": "compbio",
+      "desc": "CWL/Nextflow workflow design",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cbi_xenium",
+      "domain": "compbio",
+      "desc": "Xenium spatial notes",
+      "kind": "playbook",
+      "tags": [
+        "compbio",
+        "science",
+        "research",
+        "genomics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

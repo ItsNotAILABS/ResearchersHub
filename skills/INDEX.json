@@ -1,0 +1,4861 @@
+{
+  "product": "ResearchersHub",
+  "total": 971,
+  "skills": [
+    {
+      "id": "chem_stoichiometry",
+      "domain": "chemistry",
+      "desc": "Balance equations + mole/mass stoichiometry"
+    },
+    {
+      "id": "chem_limiting_reagent",
+      "domain": "chemistry",
+      "desc": "Identify limiting reagent and theoretical yield"
+    },
+    {
+      "id": "chem_equilibrium",
+      "domain": "chemistry",
+      "desc": "Keq, Le Chatelier, ICE tables"
+    },
+    {
+      "id": "chem_kinetics_rate",
+      "domain": "chemistry",
+      "desc": "Rate laws, order, half-life, Arrhenius"
+    },
+    {
+      "id": "chem_thermodynamics",
+      "domain": "chemistry",
+      "desc": "\u0394H \u0394G \u0394S, Hess law, van't Hoff"
+    },
+    {
+      "id": "chem_acid_base",
+      "domain": "chemistry",
+      "desc": "pH, Ka/Kb, buffers, Henderson\u2013Hasselbalch"
+    },
+    {
+      "id": "chem_titration_curve",
+      "domain": "chemistry",
+      "desc": "Generate titration curve chart + script"
+    },
+    {
+      "id": "chem_redox_halfcells",
+      "domain": "chemistry",
+      "desc": "Balance redox half-reactions + E\u00b0 cell"
+    },
+    {
+      "id": "chem_electrochemistry",
+      "domain": "chemistry",
+      "desc": "Nernst equation, galvanic/electrolytic cells"
+    },
+    {
+      "id": "chem_gas_laws",
+      "domain": "chemistry",
+      "desc": "Ideal/real gas, Dalton, Graham"
+    },
+    {
+      "id": "chem_phase_diagram",
+      "domain": "chemistry",
+      "desc": "Phase diagram sketch data + chart"
+    },
+    {
+      "id": "chem_colligative",
+      "domain": "chemistry",
+      "desc": "Boiling/freezing point, osmotic pressure"
+    },
+    {
+      "id": "chem_solubility_product",
+      "domain": "chemistry",
+      "desc": "Ksp calculations and common-ion effect"
+    },
+    {
+      "id": "chem_crystal_field",
+      "domain": "chemistry",
+      "desc": "Crystal field splitting octahedral/tetrahedral"
+    },
+    {
+      "id": "chem_vsepr",
+      "domain": "chemistry",
+      "desc": "VSEPR geometry and polarity"
+    },
+    {
+      "id": "chem_hybridization",
+      "domain": "chemistry",
+      "desc": "Orbital hybridization and bonding"
+    },
+    {
+      "id": "chem_moles_to_molarity",
+      "domain": "chemistry",
+      "desc": "Concentration conversions"
+    },
+    {
+      "id": "chem_dilution",
+      "domain": "chemistry",
+      "desc": "C1V1=C2V2 dilution planner"
+    },
+    {
+      "id": "chem_calorimetry",
+      "domain": "chemistry",
+      "desc": "q=mc\u0394T and bomb calorimetry"
+    },
+    {
+      "id": "chem_spectroscopy_uvvis",
+      "domain": "chemistry",
+      "desc": "UV-Vis Beer\u2013Lambert calibration curve"
+    },
+    {
+      "id": "chem_ir_peaks",
+      "domain": "chemistry",
+      "desc": "IR functional group peak guide"
+    },
+    {
+      "id": "chem_nmr_h1",
+      "domain": "chemistry",
+      "desc": "\u00b9H NMR chemical shift interpretation aid"
+    },
+    {
+      "id": "chem_nmr_c13",
+      "domain": "chemistry",
+      "desc": "\u00b9\u00b3C NMR interpretation aid"
+    },
+    {
+      "id": "chem_ms_fragments",
+      "domain": "chemistry",
+      "desc": "Mass spectrometry fragmentation patterns"
+    },
+    {
+      "id": "chem_xrd_bragg",
+      "domain": "chemistry",
+      "desc": "Bragg law XRD d-spacing"
+    },
+    {
+      "id": "chem_organic_nomenclature",
+      "domain": "chemistry",
+      "desc": "IUPAC organic naming assist"
+    },
+    {
+      "id": "chem_organic_mechanisms",
+      "domain": "chemistry",
+      "desc": "Common organic mechanisms outline"
+    },
+    {
+      "id": "chem_retrosynthesis",
+      "domain": "chemistry",
+      "desc": "Simple retrosynthesis sketch steps"
+    },
+    {
+      "id": "chem_protecting_groups",
+      "domain": "chemistry",
+      "desc": "Protecting group selection guide"
+    },
+    {
+      "id": "chem_green_metrics",
+      "domain": "chemistry",
+      "desc": "Atom economy, E-factor, PMI"
+    },
+    {
+      "id": "chem_process_safety",
+      "domain": "chemistry",
+      "desc": "Lab safety checklist + SDS thinking"
+    },
+    {
+      "id": "chem_hazard_ghs",
+      "domain": "chemistry",
+      "desc": "GHS pictogram / hazard class map"
+    },
+    {
+      "id": "chem_polymer_mw",
+      "domain": "chemistry",
+      "desc": "Polymer Mn/Mw/PDI basics"
+    },
+    {
+      "id": "chem_catalysis",
+      "domain": "chemistry",
+      "desc": "Homogeneous vs heterogeneous catalysis"
+    },
+    {
+      "id": "chem_photochemistry",
+      "domain": "chemistry",
+      "desc": "Quantum yield and photochemical basics"
+    },
+    {
+      "id": "chem_computational_dft",
+      "domain": "chemistry",
+      "desc": "DFT workflow outline (geometry, energy)"
+    },
+    {
+      "id": "chem_rdkit_smiles",
+      "domain": "chemistry",
+      "desc": "SMILES parse/describe constructive script"
+    },
+    {
+      "id": "chem_mol_weight",
+      "domain": "chemistry",
+      "desc": "Molecular weight from formula"
+    },
+    {
+      "id": "chem_element_lookup",
+      "domain": "chemistry",
+      "desc": "Periodic table properties"
+    },
+    {
+      "id": "chem_reaction_yield_plot",
+      "domain": "chemistry",
+      "desc": "Yield vs condition chart + Python"
+    },
+    {
+      "id": "bio_central_dogma",
+      "domain": "biology",
+      "desc": "DNA\u2192RNA\u2192protein workflow brief"
+    },
+    {
+      "id": "bio_pcr_design",
+      "domain": "biology",
+      "desc": "PCR primer design checklist"
+    },
+    {
+      "id": "bio_gel_electrophoresis",
+      "domain": "biology",
+      "desc": "Gel band interpretation aid"
+    },
+    {
+      "id": "bio_western_blot",
+      "domain": "biology",
+      "desc": "Western blot protocol skeleton"
+    },
+    {
+      "id": "bio_elisa",
+      "domain": "biology",
+      "desc": "ELISA standard curve + chart"
+    },
+    {
+      "id": "bio_sequence_align",
+      "domain": "biology",
+      "desc": "Pairwise sequence alignment sketch"
+    },
+    {
+      "id": "bio_blast_query",
+      "domain": "biology",
+      "desc": "BLAST search planning"
+    },
+    {
+      "id": "bio_crispr_guide",
+      "domain": "biology",
+      "desc": "CRISPR guide RNA design checklist"
+    },
+    {
+      "id": "bio_cell_culture",
+      "domain": "biology",
+      "desc": "Mammalian cell culture basics"
+    },
+    {
+      "id": "bio_pharmacokinetics",
+      "domain": "biology",
+      "desc": "ADME / PK curve chart"
+    },
+    {
+      "id": "bio_dose_response",
+      "domain": "biology",
+      "desc": "IC50/EC50 dose\u2013response fit + chart"
+    },
+    {
+      "id": "bio_enzyme_kinetics",
+      "domain": "biology",
+      "desc": "Michaelis\u2013Menten Km/Vmax chart"
+    },
+    {
+      "id": "bio_protein_structure",
+      "domain": "biology",
+      "desc": "Secondary structure / PDB notes"
+    },
+    {
+      "id": "bio_metabolomics_qc",
+      "domain": "biology",
+      "desc": "Metabolomics QC checklist"
+    },
+    {
+      "id": "bio_rnaseq_pipeline",
+      "domain": "biology",
+      "desc": "RNA-seq analysis pipeline skeleton"
+    },
+    {
+      "id": "bio_microbiome",
+      "domain": "biology",
+      "desc": "16S microbiome analysis outline"
+    },
+    {
+      "id": "bio_immuno_assay",
+      "domain": "biology",
+      "desc": "Immunoassay design notes"
+    },
+    {
+      "id": "bio_flow_cytometry",
+      "domain": "biology",
+      "desc": "Flow cytometry gating concepts"
+    },
+    {
+      "id": "bio_cloning_map",
+      "domain": "biology",
+      "desc": "Plasmid cloning map checklist"
+    },
+    {
+      "id": "bio_virology_basics",
+      "domain": "biology",
+      "desc": "Virus structure / assay notes"
+    },
+    {
+      "id": "phys_kinematics",
+      "domain": "physics",
+      "desc": "1D/2D kinematics solver + plots"
+    },
+    {
+      "id": "phys_newton_laws",
+      "domain": "physics",
+      "desc": "Force diagrams + free body notes"
+    },
+    {
+      "id": "phys_energy_work",
+      "domain": "physics",
+      "desc": "Work\u2013energy theorem plots"
+    },
+    {
+      "id": "phys_oscillator",
+      "domain": "physics",
+      "desc": "Simple harmonic motion chart"
+    },
+    {
+      "id": "phys_wave_interference",
+      "domain": "physics",
+      "desc": "Wave interference pattern data"
+    },
+    {
+      "id": "phys_optics_snell",
+      "domain": "physics",
+      "desc": "Snell's law ray sketch data"
+    },
+    {
+      "id": "phys_thermo_cycles",
+      "domain": "physics",
+      "desc": "Carnot / Otto cycle overview"
+    },
+    {
+      "id": "phys_quantum_particle",
+      "domain": "physics",
+      "desc": "Particle in a box energy levels"
+    },
+    {
+      "id": "phys_band_structure",
+      "domain": "physics",
+      "desc": "Semiconductor band gap notes"
+    },
+    {
+      "id": "mat_stress_strain",
+      "domain": "physics",
+      "desc": "Stress\u2013strain curve chart"
+    },
+    {
+      "id": "mat_phase_binary",
+      "domain": "physics",
+      "desc": "Binary phase diagram conceptual"
+    },
+    {
+      "id": "mat_diffusion_fick",
+      "domain": "physics",
+      "desc": "Fick's laws diffusion plot"
+    },
+    {
+      "id": "mat_hardness",
+      "domain": "physics",
+      "desc": "Hardness test comparison"
+    },
+    {
+      "id": "mat_corrosion",
+      "domain": "physics",
+      "desc": "Corrosion rate estimation"
+    },
+    {
+      "id": "mat_nanomaterials",
+      "domain": "physics",
+      "desc": "Nanomaterial characterization map"
+    },
+    {
+      "id": "data_descriptive_stats",
+      "domain": "data",
+      "desc": "Mean/median/SD/CI table + chart"
+    },
+    {
+      "id": "data_hypothesis_ttest",
+      "domain": "data",
+      "desc": "t-test workflow + Python"
+    },
+    {
+      "id": "data_anova",
+      "domain": "data",
+      "desc": "One-way ANOVA skeleton"
+    },
+    {
+      "id": "data_regression_linear",
+      "domain": "data",
+      "desc": "Linear regression fit + residual chart"
+    },
+    {
+      "id": "data_regression_logistic",
+      "domain": "data",
+      "desc": "Logistic regression outline"
+    },
+    {
+      "id": "data_pca",
+      "domain": "data",
+      "desc": "PCA projection chart"
+    },
+    {
+      "id": "data_clustering_kmeans",
+      "domain": "data",
+      "desc": "K-means clustering chart"
+    },
+    {
+      "id": "data_survival_kaplan",
+      "domain": "data",
+      "desc": "Kaplan\u2013Meier curve chart"
+    },
+    {
+      "id": "data_roc_curve",
+      "domain": "data",
+      "desc": "ROC / AUC chart"
+    },
+    {
+      "id": "data_error_bars",
+      "domain": "data",
+      "desc": "Bar chart with error bars"
+    },
+    {
+      "id": "data_heatmap",
+      "domain": "data",
+      "desc": "Correlation heatmap chart"
+    },
+    {
+      "id": "data_timeseries",
+      "domain": "data",
+      "desc": "Time series trend + seasonality sketch"
+    },
+    {
+      "id": "data_power_analysis",
+      "domain": "data",
+      "desc": "Sample size / power estimate"
+    },
+    {
+      "id": "data_outlier_iqr",
+      "domain": "data",
+      "desc": "Outlier detection IQR"
+    },
+    {
+      "id": "data_bootstrap_ci",
+      "domain": "data",
+      "desc": "Bootstrap confidence interval"
+    },
+    {
+      "id": "data_bayes_simple",
+      "domain": "data",
+      "desc": "Simple Bayesian update sketch"
+    },
+    {
+      "id": "data_csv_load_clean",
+      "domain": "data",
+      "desc": "CSV load/clean constructive script"
+    },
+    {
+      "id": "data_figure_publication",
+      "domain": "data",
+      "desc": "Publication-ready figure settings"
+    },
+    {
+      "id": "data_units_convert",
+      "domain": "data",
+      "desc": "Scientific unit conversion"
+    },
+    {
+      "id": "data_significant_figures",
+      "domain": "data",
+      "desc": "Sig-fig and uncertainty report"
+    },
+    {
+      "id": "lit_arxiv_search",
+      "domain": "literature",
+      "desc": "arXiv search planning + Edge open"
+    },
+    {
+      "id": "lit_pubmed_search",
+      "domain": "literature",
+      "desc": "PubMed query design"
+    },
+    {
+      "id": "lit_scholar_search",
+      "domain": "literature",
+      "desc": "Google Scholar search plan"
+    },
+    {
+      "id": "lit_doi_resolve",
+      "domain": "literature",
+      "desc": "DOI metadata resolve plan"
+    },
+    {
+      "id": "lit_cite_bibtex",
+      "domain": "literature",
+      "desc": "Generate BibTeX skeleton"
+    },
+    {
+      "id": "lit_related_work",
+      "domain": "literature",
+      "desc": "Related-work matrix template"
+    },
+    {
+      "id": "lit_prism_flow",
+      "domain": "literature",
+      "desc": "PRISMA systematic review flow"
+    },
+    {
+      "id": "lit_paper_outline",
+      "domain": "literature",
+      "desc": "IMRaD paper outline"
+    },
+    {
+      "id": "lit_grant_aims",
+      "domain": "literature",
+      "desc": "Specific aims page skeleton"
+    },
+    {
+      "id": "lit_peer_review",
+      "domain": "literature",
+      "desc": "Peer review checklist"
+    },
+    {
+      "id": "lab_notebook_entry",
+      "domain": "lab",
+      "desc": "ELN / lab notebook entry template"
+    },
+    {
+      "id": "lab_protocol_sop",
+      "domain": "lab",
+      "desc": "SOP protocol template"
+    },
+    {
+      "id": "lab_reagent_calc",
+      "domain": "lab",
+      "desc": "Reagent volume/mass calculator"
+    },
+    {
+      "id": "lab_inventory",
+      "domain": "lab",
+      "desc": "Lab inventory checklist"
+    },
+    {
+      "id": "lab_equipment_log",
+      "domain": "lab",
+      "desc": "Equipment use log template"
+    },
+    {
+      "id": "lab_qc_batch",
+      "domain": "lab",
+      "desc": "Batch QC pass/fail report"
+    },
+    {
+      "id": "lab_lams_sample",
+      "domain": "lab",
+      "desc": "Sample chain-of-custody note"
+    },
+    {
+      "id": "edge_pubchem",
+      "domain": "web",
+      "desc": "Open PubChem"
+    },
+    {
+      "id": "edge_chembl",
+      "domain": "web",
+      "desc": "Open ChEMBL"
+    },
+    {
+      "id": "edge_pdb",
+      "domain": "web",
+      "desc": "Open RCSB PDB"
+    },
+    {
+      "id": "edge_nist_webbook",
+      "domain": "web",
+      "desc": "Open NIST Chemistry WebBook"
+    },
+    {
+      "id": "edge_materials_project",
+      "domain": "web",
+      "desc": "Open Materials Project"
+    },
+    {
+      "id": "edge_nature",
+      "domain": "web",
+      "desc": "Open nature.com"
+    },
+    {
+      "id": "edge_science",
+      "domain": "web",
+      "desc": "Open science.org"
+    },
+    {
+      "id": "edge_cell",
+      "domain": "web",
+      "desc": "Open cell.com"
+    },
+    {
+      "id": "construct_python_workflow",
+      "domain": "construct",
+      "desc": "Emit real multi-step Python research workflow script"
+    },
+    {
+      "id": "construct_chart_matplotlib",
+      "domain": "construct",
+      "desc": "Run matplotlib chart \u2192 full PNG in chat"
+    },
+    {
+      "id": "construct_multi_panel_figure",
+      "domain": "construct",
+      "desc": "Multi-panel publication figure"
+    },
+    {
+      "id": "construct_lab_report",
+      "domain": "construct",
+      "desc": "Lab report with methods + figure + code"
+    },
+    {
+      "id": "construct_notebook_cells",
+      "domain": "construct",
+      "desc": "Jupyter-style cell blocks as .py workflow"
+    },
+    {
+      "id": "construct_repro_bundle",
+      "domain": "construct",
+      "desc": "Reproducible script + requirements stub"
+    },
+    {
+      "id": "construct_simulation_loop",
+      "domain": "construct",
+      "desc": "Parameter sweep simulation + plots"
+    },
+    {
+      "id": "construct_fit_model",
+      "domain": "construct",
+      "desc": "Fit model to data + residual plots"
+    },
+    {
+      "id": "construct_export_csv",
+      "domain": "construct",
+      "desc": "Write results CSV next to script"
+    },
+    {
+      "id": "construct_image_board",
+      "domain": "construct",
+      "desc": "Return multiple charts as chat images"
+    },
+    {
+      "id": "ml_train_test_split",
+      "domain": "ml",
+      "desc": "Stratified train/val/test split workflow"
+    },
+    {
+      "id": "ml_cross_validation",
+      "domain": "ml",
+      "desc": "K-fold CV plan + metrics aggregate"
+    },
+    {
+      "id": "ml_baseline_models",
+      "domain": "ml",
+      "desc": "Baseline classifier/regressor suite"
+    },
+    {
+      "id": "ml_feature_engineering",
+      "domain": "ml",
+      "desc": "Feature transforms + leakage checklist"
+    },
+    {
+      "id": "ml_feature_selection",
+      "domain": "ml",
+      "desc": "Filter/wrapper/embedded selection"
+    },
+    {
+      "id": "ml_imbalance_handling",
+      "domain": "ml",
+      "desc": "Class imbalance: weights, SMOTE notes"
+    },
+    {
+      "id": "ml_hyperparam_grid",
+      "domain": "ml",
+      "desc": "Grid/random search skeleton"
+    },
+    {
+      "id": "ml_hyperparam_bayes",
+      "domain": "ml",
+      "desc": "Bayesian optimization outline"
+    },
+    {
+      "id": "ml_early_stopping",
+      "domain": "ml",
+      "desc": "Early stopping + checkpoint policy"
+    },
+    {
+      "id": "ml_metrics_classif",
+      "domain": "ml",
+      "desc": "Accuracy/F1/ROC-AUC/PR-AUC report"
+    },
+    {
+      "id": "ml_metrics_regress",
+      "domain": "ml",
+      "desc": "MAE/RMSE/R\u00b2 residual analysis"
+    },
+    {
+      "id": "ml_confusion_matrix",
+      "domain": "ml",
+      "desc": "Confusion matrix chart + script"
+    },
+    {
+      "id": "ml_learning_curve",
+      "domain": "ml",
+      "desc": "Learning curve plot workflow"
+    },
+    {
+      "id": "ml_calibration_curve",
+      "domain": "ml",
+      "desc": "Probability calibration chart"
+    },
+    {
+      "id": "ml_shap_explain",
+      "domain": "ml",
+      "desc": "SHAP / feature importance workflow"
+    },
+    {
+      "id": "ml_lime_explain",
+      "domain": "ml",
+      "desc": "LIME local explanation outline"
+    },
+    {
+      "id": "ml_pipeline_sklearn",
+      "domain": "ml",
+      "desc": "sklearn Pipeline constructive script"
+    },
+    {
+      "id": "ml_xgboost_train",
+      "domain": "ml",
+      "desc": "XGBoost train + eval workflow"
+    },
+    {
+      "id": "ml_lightgbm_train",
+      "domain": "ml",
+      "desc": "LightGBM train + eval workflow"
+    },
+    {
+      "id": "ml_random_forest",
+      "domain": "ml",
+      "desc": "Random forest baseline workflow"
+    },
+    {
+      "id": "ml_svm_kernel",
+      "domain": "ml",
+      "desc": "SVM kernel selection notes"
+    },
+    {
+      "id": "ml_knn_baseline",
+      "domain": "ml",
+      "desc": "k-NN baseline + distance metrics"
+    },
+    {
+      "id": "ml_clustering_eval",
+      "domain": "ml",
+      "desc": "Silhouette / ARI clustering eval"
+    },
+    {
+      "id": "ml_dbscan",
+      "domain": "ml",
+      "desc": "DBSCAN density clustering"
+    },
+    {
+      "id": "ml_umap_embed",
+      "domain": "ml",
+      "desc": "UMAP embedding visualization"
+    },
+    {
+      "id": "ml_tsne_embed",
+      "domain": "ml",
+      "desc": "t-SNE embedding visualization"
+    },
+    {
+      "id": "ml_autoencoder",
+      "domain": "ml",
+      "desc": "Autoencoder recon + latent chart"
+    },
+    {
+      "id": "ml_vae_outline",
+      "domain": "ml",
+      "desc": "VAE generative outline"
+    },
+    {
+      "id": "ml_gan_outline",
+      "domain": "ml",
+      "desc": "GAN training pitfalls checklist"
+    },
+    {
+      "id": "ml_contrastive",
+      "domain": "ml",
+      "desc": "Contrastive learning skeleton"
+    },
+    {
+      "id": "ml_transfer_learning",
+      "domain": "ml",
+      "desc": "Transfer / fine-tune strategy"
+    },
+    {
+      "id": "ml_lora_finetune",
+      "domain": "ml",
+      "desc": "LoRA / PEFT fine-tune checklist"
+    },
+    {
+      "id": "ml_prompt_eval",
+      "domain": "ml",
+      "desc": "LLM prompt evaluation harness"
+    },
+    {
+      "id": "ml_rag_pipeline",
+      "domain": "ml",
+      "desc": "RAG retrieve-then-generate pipeline"
+    },
+    {
+      "id": "ml_embedding_index",
+      "domain": "ml",
+      "desc": "Vector index build/query notes"
+    },
+    {
+      "id": "ml_token_budget",
+      "domain": "ml",
+      "desc": "Context token budget planner"
+    },
+    {
+      "id": "ml_dataset_card",
+      "domain": "ml",
+      "desc": "Dataset card template"
+    },
+    {
+      "id": "ml_model_card",
+      "domain": "ml",
+      "desc": "Model card template"
+    },
+    {
+      "id": "ml_experiment_track",
+      "domain": "ml",
+      "desc": "Experiment tracking (MLflow-style)"
+    },
+    {
+      "id": "ml_repro_seed",
+      "domain": "ml",
+      "desc": "Full reproducibility seed policy"
+    },
+    {
+      "id": "ml_data_version",
+      "domain": "ml",
+      "desc": "Dataset versioning checklist"
+    },
+    {
+      "id": "ml_dvc_outline",
+      "domain": "ml",
+      "desc": "DVC pipeline outline"
+    },
+    {
+      "id": "ml_onnx_export",
+      "domain": "ml",
+      "desc": "ONNX export + validate"
+    },
+    {
+      "id": "ml_batch_infer",
+      "domain": "ml",
+      "desc": "Batch inference job skeleton"
+    },
+    {
+      "id": "ml_online_infer",
+      "domain": "ml",
+      "desc": "Online inference latency budget"
+    },
+    {
+      "id": "ml_drift_detect",
+      "domain": "ml",
+      "desc": "Data/concept drift detection"
+    },
+    {
+      "id": "ml_active_learning",
+      "domain": "ml",
+      "desc": "Active learning loop"
+    },
+    {
+      "id": "ml_semi_supervised",
+      "domain": "ml",
+      "desc": "Semi-supervised pseudo-label plan"
+    },
+    {
+      "id": "ml_time_series_cv",
+      "domain": "ml",
+      "desc": "Time-series CV (no leakage)"
+    },
+    {
+      "id": "ml_forecast_baseline",
+      "domain": "ml",
+      "desc": "Forecast baseline + residual plot"
+    },
+    {
+      "id": "ml_anomaly_detect",
+      "domain": "ml",
+      "desc": "Anomaly detection workflow"
+    },
+    {
+      "id": "ml_nlp_classify",
+      "domain": "ml",
+      "desc": "Text classification pipeline"
+    },
+    {
+      "id": "ml_nlp_ner",
+      "domain": "ml",
+      "desc": "NER pipeline outline"
+    },
+    {
+      "id": "ml_cv_classify",
+      "domain": "ml",
+      "desc": "Image classification pipeline"
+    },
+    {
+      "id": "ml_cv_segment",
+      "domain": "ml",
+      "desc": "Segmentation metrics (IoU/Dice)"
+    },
+    {
+      "id": "ml_audio_features",
+      "domain": "ml",
+      "desc": "Audio feature extraction notes"
+    },
+    {
+      "id": "ml_multimodal_fuse",
+      "domain": "ml",
+      "desc": "Multimodal fusion patterns"
+    },
+    {
+      "id": "ml_rl_outline",
+      "domain": "ml",
+      "desc": "RL problem formulation checklist"
+    },
+    {
+      "id": "ml_causal_inference",
+      "domain": "ml",
+      "desc": "Causal DAG / ATE outline"
+    },
+    {
+      "id": "ml_ab_test",
+      "domain": "ml",
+      "desc": "A/B test design + power"
+    },
+    {
+      "id": "ml_fairness_audit",
+      "domain": "ml",
+      "desc": "Fairness metrics audit"
+    },
+    {
+      "id": "ml_privacy_dp",
+      "domain": "ml",
+      "desc": "Differential privacy notes"
+    },
+    {
+      "id": "ml_secure_agg",
+      "domain": "ml",
+      "desc": "Federated / secure agg outline"
+    },
+    {
+      "id": "ml_gpu_profile",
+      "domain": "ml",
+      "desc": "GPU memory/throughput profiling"
+    },
+    {
+      "id": "ml_distributed_train",
+      "domain": "ml",
+      "desc": "DDP / multi-GPU checklist"
+    },
+    {
+      "id": "ml_unit_test_model",
+      "domain": "ml",
+      "desc": "Model unit tests + golden set"
+    },
+    {
+      "id": "ml_ci_ml",
+      "domain": "ml",
+      "desc": "CI for training + eval gates"
+    },
+    {
+      "id": "ml_error_analysis",
+      "domain": "ml",
+      "desc": "Slice-based error analysis"
+    },
+    {
+      "id": "ml_label_quality",
+      "domain": "ml",
+      "desc": "Label noise audit"
+    },
+    {
+      "id": "ml_weak_supervision",
+      "domain": "ml",
+      "desc": "Weak supervision labeling"
+    },
+    {
+      "id": "ml_synthetic_data",
+      "domain": "ml",
+      "desc": "Synthetic data generation plan"
+    },
+    {
+      "id": "ml_curriculum",
+      "domain": "ml",
+      "desc": "Curriculum learning schedule"
+    },
+    {
+      "id": "ml_knowledge_distill",
+      "domain": "ml",
+      "desc": "Knowledge distillation outline"
+    },
+    {
+      "id": "ml_quantization",
+      "domain": "ml",
+      "desc": "INT8/FP16 quantization checklist"
+    },
+    {
+      "id": "ml_pruning",
+      "domain": "ml",
+      "desc": "Pruning / sparsity outline"
+    },
+    {
+      "id": "ml_serving_fastapi",
+      "domain": "ml",
+      "desc": "FastAPI model serve skeleton"
+    },
+    {
+      "id": "ml_monitor_prod",
+      "domain": "ml",
+      "desc": "Production monitoring dashboard plan"
+    },
+    {
+      "id": "cbi_genome_assembly",
+      "domain": "compbio",
+      "desc": "Genome assembly QC metrics"
+    },
+    {
+      "id": "cbi_variant_call",
+      "domain": "compbio",
+      "desc": "Variant calling pipeline outline"
+    },
+    {
+      "id": "cbi_vep_annotate",
+      "domain": "compbio",
+      "desc": "Variant effect prediction notes"
+    },
+    {
+      "id": "cbi_gwas_outline",
+      "domain": "compbio",
+      "desc": "GWAS design + Manhattan plot plan"
+    },
+    {
+      "id": "cbi_eqtl",
+      "domain": "compbio",
+      "desc": "eQTL analysis outline"
+    },
+    {
+      "id": "cbi_rna_quant",
+      "domain": "compbio",
+      "desc": "RNA quantification (counts/TPM)"
+    },
+    {
+      "id": "cbi_de_genes",
+      "domain": "compbio",
+      "desc": "Differential expression workflow"
+    },
+    {
+      "id": "cbi_gsea",
+      "domain": "compbio",
+      "desc": "Gene set enrichment analysis"
+    },
+    {
+      "id": "cbi_pathway_ora",
+      "domain": "compbio",
+      "desc": "Over-representation pathway analysis"
+    },
+    {
+      "id": "cbi_single_cell",
+      "domain": "compbio",
+      "desc": "scRNA-seq QC + clustering outline"
+    },
+    {
+      "id": "cbi_spatial_tx",
+      "domain": "compbio",
+      "desc": "Spatial transcriptomics outline"
+    },
+    {
+      "id": "cbi_atac",
+      "domain": "compbio",
+      "desc": "ATAC-seq peak workflow"
+    },
+    {
+      "id": "cbi_chipseq",
+      "domain": "compbio",
+      "desc": "ChIP-seq peak calling outline"
+    },
+    {
+      "id": "cbi_methylation",
+      "domain": "compbio",
+      "desc": "Bisulfite / methylation analysis"
+    },
+    {
+      "id": "cbi_hic",
+      "domain": "compbio",
+      "desc": "Hi-C contact map notes"
+    },
+    {
+      "id": "cbi_proteomics_lfq",
+      "domain": "compbio",
+      "desc": "LFQ proteomics pipeline"
+    },
+    {
+      "id": "cbi_phospho",
+      "domain": "compbio",
+      "desc": "Phosphoproteomics outline"
+    },
+    {
+      "id": "cbi_metabolomics_ms",
+      "domain": "compbio",
+      "desc": "MS metabolomics peak table workflow"
+    },
+    {
+      "id": "cbi_lipidomics",
+      "domain": "compbio",
+      "desc": "Lipidomics analysis outline"
+    },
+    {
+      "id": "cbi_multiomics_integrate",
+      "domain": "compbio",
+      "desc": "Multi-omics integration patterns"
+    },
+    {
+      "id": "cbi_phylogeny",
+      "domain": "compbio",
+      "desc": "Phylogenetic tree workflow"
+    },
+    {
+      "id": "cbi_msa",
+      "domain": "compbio",
+      "desc": "Multiple sequence alignment"
+    },
+    {
+      "id": "cbi_hmm_profile",
+      "domain": "compbio",
+      "desc": "HMM profile search outline"
+    },
+    {
+      "id": "cbi_structure_predict",
+      "domain": "compbio",
+      "desc": "Protein structure prediction notes"
+    },
+    {
+      "id": "cbi_docking_protein",
+      "domain": "compbio",
+      "desc": "Protein\u2013ligand docking outline"
+    },
+    {
+      "id": "cbi_md_sim",
+      "domain": "compbio",
+      "desc": "Molecular dynamics setup checklist"
+    },
+    {
+      "id": "cbi_alphafold_use",
+      "domain": "compbio",
+      "desc": "AlphaFold result interpretation"
+    },
+    {
+      "id": "cbi_antibody_design",
+      "domain": "compbio",
+      "desc": "Antibody CDR design notes"
+    },
+    {
+      "id": "cbi_vaccine_epitope",
+      "domain": "compbio",
+      "desc": "Epitope prediction checklist"
+    },
+    {
+      "id": "cbi_microbiome_diversity",
+      "domain": "compbio",
+      "desc": "Alpha/beta diversity analysis"
+    },
+    {
+      "id": "cbi_metagenome",
+      "domain": "compbio",
+      "desc": "Metagenome assembly/binning outline"
+    },
+    {
+      "id": "cbi_viral_assembly",
+      "domain": "compbio",
+      "desc": "Viral genome assembly notes"
+    },
+    {
+      "id": "cbi_crispr_screens",
+      "domain": "compbio",
+      "desc": "CRISPR screen analysis"
+    },
+    {
+      "id": "cbi_drug_response_omics",
+      "domain": "compbio",
+      "desc": "Omics\u2013drug response modeling"
+    },
+    {
+      "id": "cbi_clinical_biomarker",
+      "domain": "compbio",
+      "desc": "Biomarker discovery pipeline"
+    },
+    {
+      "id": "cbi_survival_omics",
+      "domain": "compbio",
+      "desc": "Survival analysis with omics features"
+    },
+    {
+      "id": "cbi_batch_correct",
+      "domain": "compbio",
+      "desc": "Batch correction (ComBat-style)"
+    },
+    {
+      "id": "cbi_qc_fastqc",
+      "domain": "compbio",
+      "desc": "FastQC / MultiQC report review"
+    },
+    {
+      "id": "cbi_alignment_bwa",
+      "domain": "compbio",
+      "desc": "Read alignment (BWA/STAR) notes"
+    },
+    {
+      "id": "cbi_count_matrix",
+      "domain": "compbio",
+      "desc": "Build gene count matrix"
+    },
+    {
+      "id": "cbi_pseudobulk",
+      "domain": "compbio",
+      "desc": "Pseudobulk DE for single-cell"
+    },
+    {
+      "id": "cbi_celltype_annotate",
+      "domain": "compbio",
+      "desc": "Cell type annotation strategies"
+    },
+    {
+      "id": "cbi_trajectory",
+      "domain": "compbio",
+      "desc": "Trajectory / pseudotime outline"
+    },
+    {
+      "id": "cbi_network_grn",
+      "domain": "compbio",
+      "desc": "Gene regulatory network inference"
+    },
+    {
+      "id": "cbi_ppi_network",
+      "domain": "compbio",
+      "desc": "Protein\u2013protein interaction network"
+    },
+    {
+      "id": "cbi_gwas_fine_map",
+      "domain": "compbio",
+      "desc": "Fine-mapping outline"
+    },
+    {
+      "id": "cbi_prs",
+      "domain": "compbio",
+      "desc": "Polygenic risk score outline"
+    },
+    {
+      "id": "cbi_mendelian_random",
+      "domain": "compbio",
+      "desc": "Mendelian randomization checklist"
+    },
+    {
+      "id": "cbi_fair_omics",
+      "domain": "compbio",
+      "desc": "FAIR omics data packaging"
+    },
+    {
+      "id": "cbi_repro_nfcore",
+      "domain": "compbio",
+      "desc": "nf-core pipeline reuse notes"
+    },
+    {
+      "id": "cheminf_smiles_parse",
+      "domain": "cheminformatics",
+      "desc": "Parse/validate SMILES"
+    },
+    {
+      "id": "cheminf_inchi_key",
+      "domain": "cheminformatics",
+      "desc": "InChI / InChIKey conversion"
+    },
+    {
+      "id": "cheminf_canonical_smiles",
+      "domain": "cheminformatics",
+      "desc": "Canonicalize SMILES"
+    },
+    {
+      "id": "cheminf_descriptors_2d",
+      "domain": "cheminformatics",
+      "desc": "2D molecular descriptors"
+    },
+    {
+      "id": "cheminf_descriptors_3d",
+      "domain": "cheminformatics",
+      "desc": "3D descriptors + conformers"
+    },
+    {
+      "id": "cheminf_fingerprints_ecfp",
+      "domain": "cheminformatics",
+      "desc": "ECFP/Morgan fingerprints"
+    },
+    {
+      "id": "cheminf_fingerprints_maccs",
+      "domain": "cheminformatics",
+      "desc": "MACCS keys"
+    },
+    {
+      "id": "cheminf_tanimoto",
+      "domain": "cheminformatics",
+      "desc": "Tanimoto similarity matrix"
+    },
+    {
+      "id": "cheminf_mcs",
+      "domain": "cheminformatics",
+      "desc": "Maximum common substructure"
+    },
+    {
+      "id": "cheminf_substructure_search",
+      "domain": "cheminformatics",
+      "desc": "Substructure filter"
+    },
+    {
+      "id": "cheminf_scaffold_bemis",
+      "domain": "cheminformatics",
+      "desc": "Bemis\u2013Murcko scaffolds"
+    },
+    {
+      "id": "cheminf_scaffold_hop",
+      "domain": "cheminformatics",
+      "desc": "Scaffold hopping ideas"
+    },
+    {
+      "id": "cheminf_lipinski",
+      "domain": "cheminformatics",
+      "desc": "Lipinski Ro5 filter"
+    },
+    {
+      "id": "cheminf_veber",
+      "domain": "cheminformatics",
+      "desc": "Veber oral bioavailability rules"
+    },
+    {
+      "id": "cheminf_pains",
+      "domain": "cheminformatics",
+      "desc": "PAINS filter"
+    },
+    {
+      "id": "cheminf_brenk",
+      "domain": "cheminformatics",
+      "desc": "Brenk unwanted groups"
+    },
+    {
+      "id": "cheminf_qed",
+      "domain": "cheminformatics",
+      "desc": "QED drug-likeness score"
+    },
+    {
+      "id": "cheminf_sa_score",
+      "domain": "cheminformatics",
+      "desc": "Synthetic accessibility score"
+    },
+    {
+      "id": "cheminf_logp",
+      "domain": "cheminformatics",
+      "desc": "logP / logD estimation notes"
+    },
+    {
+      "id": "cheminf_pka",
+      "domain": "cheminformatics",
+      "desc": "pKa estimation outline"
+    },
+    {
+      "id": "cheminf_tautomer",
+      "domain": "cheminformatics",
+      "desc": "Tautomer enumeration"
+    },
+    {
+      "id": "cheminf_stereo",
+      "domain": "cheminformatics",
+      "desc": "Stereochemistry perception"
+    },
+    {
+      "id": "cheminf_conformer_gen",
+      "domain": "cheminformatics",
+      "desc": "Conformer generation workflow"
+    },
+    {
+      "id": "cheminf_minimize",
+      "domain": "cheminformatics",
+      "desc": "Energy minimization outline"
+    },
+    {
+      "id": "cheminf_docking_ligand",
+      "domain": "cheminformatics",
+      "desc": "Ligand docking prep (PDBQT)"
+    },
+    {
+      "id": "cheminf_virtual_screen",
+      "domain": "cheminformatics",
+      "desc": "Virtual screening cascade"
+    },
+    {
+      "id": "cheminf_qsar_build",
+      "domain": "cheminformatics",
+      "desc": "QSAR model build + validate"
+    },
+    {
+      "id": "cheminf_qsar_ad",
+      "domain": "cheminformatics",
+      "desc": "Applicability domain"
+    },
+    {
+      "id": "cheminf_admet_predict",
+      "domain": "cheminformatics",
+      "desc": "ADMET property prediction plan"
+    },
+    {
+      "id": "cheminf_toxicity_alert",
+      "domain": "cheminformatics",
+      "desc": "Toxicity structural alerts"
+    },
+    {
+      "id": "cheminf_metabolite",
+      "domain": "cheminformatics",
+      "desc": "Metabolite prediction outline"
+    },
+    {
+      "id": "cheminf_reaction_smarts",
+      "domain": "cheminformatics",
+      "desc": "Reaction SMARTS encoding"
+    },
+    {
+      "id": "cheminf_retrosyn_template",
+      "domain": "cheminformatics",
+      "desc": "Template retrosynthesis"
+    },
+    {
+      "id": "cheminf_library_enum",
+      "domain": "cheminformatics",
+      "desc": "Combinatorial library enum"
+    },
+    {
+      "id": "cheminf_diversity_select",
+      "domain": "cheminformatics",
+      "desc": "Diverse subset selection"
+    },
+    {
+      "id": "cheminf_clustering_mol",
+      "domain": "cheminformatics",
+      "desc": "Molecular clustering"
+    },
+    {
+      "id": "cheminf_mcp_map",
+      "domain": "cheminformatics",
+      "desc": "Matched molecular pairs"
+    },
+    {
+      "id": "cheminf_rgroup",
+      "domain": "cheminformatics",
+      "desc": "R-group decomposition"
+    },
+    {
+      "id": "cheminf_ph4",
+      "domain": "cheminformatics",
+      "desc": "Pharmacophore modeling outline"
+    },
+    {
+      "id": "cheminf_shape_sim",
+      "domain": "cheminformatics",
+      "desc": "Shape similarity screening"
+    },
+    {
+      "id": "cheminf_dock_rescore",
+      "domain": "cheminformatics",
+      "desc": "Docking rescoring strategies"
+    },
+    {
+      "id": "cheminf_md_ligand",
+      "domain": "cheminformatics",
+      "desc": "Ligand MD stability notes"
+    },
+    {
+      "id": "cheminf_free_energy",
+      "domain": "cheminformatics",
+      "desc": "Free energy perturbation outline"
+    },
+    {
+      "id": "cheminf_crystal_packing",
+      "domain": "cheminformatics",
+      "desc": "Crystal packing / polymorph notes"
+    },
+    {
+      "id": "cheminf_spectrum_predict",
+      "domain": "cheminformatics",
+      "desc": "NMR/MS spectrum prediction notes"
+    },
+    {
+      "id": "cheminf_pubchem_assay",
+      "domain": "cheminformatics",
+      "desc": "PubChem bioassay mining plan"
+    },
+    {
+      "id": "cheminf_chembl_query",
+      "domain": "cheminformatics",
+      "desc": "ChEMBL activity query design"
+    },
+    {
+      "id": "cheminf_pdb_ligand",
+      "domain": "cheminformatics",
+      "desc": "PDB ligand extraction"
+    },
+    {
+      "id": "cheminf_sdf_io",
+      "domain": "cheminformatics",
+      "desc": "SDF read/write workflow"
+    },
+    {
+      "id": "cheminf_parquet_mol",
+      "domain": "cheminformatics",
+      "desc": "Large moltable \u2192 parquet plan"
+    },
+    {
+      "id": "cheminf_active_learning_qsar",
+      "domain": "cheminformatics",
+      "desc": "Active learning for QSAR"
+    },
+    {
+      "id": "cheminf_multiobj_opt",
+      "domain": "cheminformatics",
+      "desc": "Multi-objective molecule opt"
+    },
+    {
+      "id": "cheminf_generative_smiles",
+      "domain": "cheminformatics",
+      "desc": "SMILES generative model outline"
+    },
+    {
+      "id": "cheminf_graph_nn",
+      "domain": "cheminformatics",
+      "desc": "Molecular GNN training outline"
+    },
+    {
+      "id": "cheminf_contrastive_mol",
+      "domain": "cheminformatics",
+      "desc": "Molecular contrastive learning"
+    },
+    {
+      "id": "cheminf_reagents_db",
+      "domain": "cheminformatics",
+      "desc": "Reagent database hygiene"
+    },
+    {
+      "id": "cheminf_eln_chem",
+      "domain": "cheminformatics",
+      "desc": "Chemistry ELN reaction table"
+    },
+    {
+      "id": "cheminf_green_chem_score",
+      "domain": "cheminformatics",
+      "desc": "Green chemistry scoring"
+    },
+    {
+      "id": "cheminf_patent_markush",
+      "domain": "cheminformatics",
+      "desc": "Markush structure notes"
+    },
+    {
+      "id": "cheminf_fair_chem",
+      "domain": "cheminformatics",
+      "desc": "FAIR chemical data packaging"
+    },
+    {
+      "id": "res_preregister",
+      "domain": "research_ops",
+      "desc": "Study pre-registration template"
+    },
+    {
+      "id": "res_power_calc",
+      "domain": "research_ops",
+      "desc": "Statistical power calculation"
+    },
+    {
+      "id": "res_sample_size",
+      "domain": "research_ops",
+      "desc": "Sample size justification"
+    },
+    {
+      "id": "res_blind_design",
+      "domain": "research_ops",
+      "desc": "Blinding / randomization design"
+    },
+    {
+      "id": "res_irreproducible",
+      "domain": "research_ops",
+      "desc": "Irreproducibility risk checklist"
+    },
+    {
+      "id": "res_open_data",
+      "domain": "research_ops",
+      "desc": "Open data release checklist"
+    },
+    {
+      "id": "res_code_ocean",
+      "domain": "research_ops",
+      "desc": "Compute capsule packaging"
+    },
+    {
+      "id": "res_container_repro",
+      "domain": "research_ops",
+      "desc": "Docker/Singularity repro env"
+    },
+    {
+      "id": "res_citation_graph",
+      "domain": "research_ops",
+      "desc": "Citation graph exploration"
+    },
+    {
+      "id": "res_evidence_grade",
+      "domain": "research_ops",
+      "desc": "Evidence grading (study design)"
+    },
+    {
+      "id": "res_conflict_interest",
+      "domain": "research_ops",
+      "desc": "COI disclosure checklist"
+    },
+    {
+      "id": "res_ethics_irb",
+      "domain": "research_ops",
+      "desc": "IRB/ethics protocol notes"
+    },
+    {
+      "id": "res_biosafety",
+      "domain": "research_ops",
+      "desc": "Biosafety level checklist"
+    },
+    {
+      "id": "res_chemical_safety",
+      "domain": "research_ops",
+      "desc": "Chemical hygiene plan notes"
+    },
+    {
+      "id": "res_data_dictionary",
+      "domain": "research_ops",
+      "desc": "Data dictionary template"
+    },
+    {
+      "id": "res_crd_protocol",
+      "domain": "research_ops",
+      "desc": "CRD / factorial experiment design"
+    },
+    {
+      "id": "res_doe_response",
+      "domain": "research_ops",
+      "desc": "Design of experiments (DoE)"
+    },
+    {
+      "id": "res_bayes_ab",
+      "domain": "research_ops",
+      "desc": "Bayesian A/B analysis outline"
+    },
+    {
+      "id": "res_meta_analysis",
+      "domain": "research_ops",
+      "desc": "Meta-analysis workflow"
+    },
+    {
+      "id": "res_forest_plot",
+      "domain": "research_ops",
+      "desc": "Forest plot constructive chart"
+    },
+    {
+      "id": "res_funnel_plot",
+      "domain": "research_ops",
+      "desc": "Publication bias funnel plot"
+    },
+    {
+      "id": "res_prisma_update",
+      "domain": "research_ops",
+      "desc": "PRISMA 2020 checklist"
+    },
+    {
+      "id": "res_arrive",
+      "domain": "research_ops",
+      "desc": "ARRIVE animal research checklist"
+    },
+    {
+      "id": "res_strobe",
+      "domain": "research_ops",
+      "desc": "STROBE observational checklist"
+    },
+    {
+      "id": "res_consort",
+      "domain": "research_ops",
+      "desc": "CONSORT trial checklist"
+    },
+    {
+      "id": "res_spirit",
+      "domain": "research_ops",
+      "desc": "SPIRIT protocol checklist"
+    },
+    {
+      "id": "res_tripod",
+      "domain": "research_ops",
+      "desc": "TRIPOD prediction model checklist"
+    },
+    {
+      "id": "res_claim_graph",
+      "domain": "research_ops",
+      "desc": "Link claim \u2192 evidence in Atlas"
+    },
+    {
+      "id": "res_agent_handoff",
+      "domain": "research_ops",
+      "desc": "Multi-agent handoff protocol"
+    },
+    {
+      "id": "res_atlas_export",
+      "domain": "research_ops",
+      "desc": "Export Atlas graph JSON"
+    },
+    {
+      "id": "custom_lab_assay_template",
+      "domain": "custom",
+      "desc": "Example editable skill \u2014 replace with your lab assay protocol"
+    },
+    {
+      "id": "custom_qsar_house_rules",
+      "domain": "cheminformatics",
+      "desc": "Lab-specific QSAR acceptance criteria (edit this file)"
+    },
+    {
+      "id": "ml_transformer_train",
+      "domain": "ml",
+      "desc": "Transformer pretrain/finetune checklist"
+    },
+    {
+      "id": "ml_attention_viz",
+      "domain": "ml",
+      "desc": "Attention map visualization workflow"
+    },
+    {
+      "id": "ml_rope_posenc",
+      "domain": "ml",
+      "desc": "RoPE / positional encoding notes"
+    },
+    {
+      "id": "ml_flash_attn",
+      "domain": "ml",
+      "desc": "FlashAttention integration notes"
+    },
+    {
+      "id": "ml_kv_cache",
+      "domain": "ml",
+      "desc": "KV-cache inference optimization"
+    },
+    {
+      "id": "ml_speculative_decode",
+      "domain": "ml",
+      "desc": "Speculative decoding outline"
+    },
+    {
+      "id": "ml_mixture_experts",
+      "domain": "ml",
+      "desc": "MoE routing and load balance"
+    },
+    {
+      "id": "ml_rlhf_pipeline",
+      "domain": "ml",
+      "desc": "RLHF preference data + reward model"
+    },
+    {
+      "id": "ml_dpo_train",
+      "domain": "ml",
+      "desc": "DPO / preference optimization"
+    },
+    {
+      "id": "ml_orpo_train",
+      "domain": "ml",
+      "desc": "ORPO training outline"
+    },
+    {
+      "id": "ml_sft_recipe",
+      "domain": "ml",
+      "desc": "Supervised fine-tune data recipe"
+    },
+    {
+      "id": "ml_eval_harness",
+      "domain": "ml",
+      "desc": "LLM eval harness (tasks + metrics)"
+    },
+    {
+      "id": "ml_benchmark_suite",
+      "domain": "ml",
+      "desc": "Standard NLP/CV benchmark runner plan"
+    },
+    {
+      "id": "ml_mt_bench",
+      "domain": "ml",
+      "desc": "Multi-turn chat evaluation"
+    },
+    {
+      "id": "ml_toxicity_eval",
+      "domain": "ml",
+      "desc": "Safety/toxicity evaluation suite"
+    },
+    {
+      "id": "ml_hallucination_check",
+      "domain": "ml",
+      "desc": "Hallucination detection checklist"
+    },
+    {
+      "id": "ml_rag_eval",
+      "domain": "ml",
+      "desc": "RAG faithfulness / context precision"
+    },
+    {
+      "id": "ml_chunking_strat",
+      "domain": "ml",
+      "desc": "Document chunking strategies"
+    },
+    {
+      "id": "ml_hybrid_search",
+      "domain": "ml",
+      "desc": "Hybrid BM25 + dense retrieval"
+    },
+    {
+      "id": "ml_rerank",
+      "domain": "ml",
+      "desc": "Cross-encoder re-ranking"
+    },
+    {
+      "id": "ml_agent_tool_use",
+      "domain": "ml",
+      "desc": "Tool-use agent eval harness"
+    },
+    {
+      "id": "ml_function_call",
+      "domain": "ml",
+      "desc": "Function-calling schema design"
+    },
+    {
+      "id": "ml_structured_out",
+      "domain": "ml",
+      "desc": "JSON/schema-constrained generation"
+    },
+    {
+      "id": "ml_guardrails",
+      "domain": "ml",
+      "desc": "Output guardrails policy"
+    },
+    {
+      "id": "ml_prompt_version",
+      "domain": "ml",
+      "desc": "Prompt versioning & registry"
+    },
+    {
+      "id": "ml_ab_prompts",
+      "domain": "ml",
+      "desc": "A/B prompt experiments"
+    },
+    {
+      "id": "ml_cost_latency",
+      "domain": "ml",
+      "desc": "Cost vs latency tradeoff dashboard"
+    },
+    {
+      "id": "ml_batch_api",
+      "domain": "ml",
+      "desc": "Batch inference API design"
+    },
+    {
+      "id": "ml_streaming_tokens",
+      "domain": "ml",
+      "desc": "Streaming token UX checklist"
+    },
+    {
+      "id": "ml_multimodal_vlm",
+      "domain": "ml",
+      "desc": "Vision-language model fine-tune"
+    },
+    {
+      "id": "ml_clip_embed",
+      "domain": "ml",
+      "desc": "CLIP-style image-text embeddings"
+    },
+    {
+      "id": "ml_diffusion_train",
+      "domain": "ml",
+      "desc": "Diffusion model training outline"
+    },
+    {
+      "id": "ml_controlnet",
+      "domain": "ml",
+      "desc": "ControlNet conditioning workflow"
+    },
+    {
+      "id": "ml_audio_asr",
+      "domain": "ml",
+      "desc": "ASR fine-tune + WER eval"
+    },
+    {
+      "id": "ml_tts_eval",
+      "domain": "ml",
+      "desc": "TTS quality evaluation"
+    },
+    {
+      "id": "ml_speech_emotion",
+      "domain": "ml",
+      "desc": "Speech emotion recognition"
+    },
+    {
+      "id": "ml_time_series_tft",
+      "domain": "ml",
+      "desc": "Temporal fusion transformer outline"
+    },
+    {
+      "id": "ml_prophet_baseline",
+      "domain": "ml",
+      "desc": "Prophet/forecast baseline"
+    },
+    {
+      "id": "ml_nbeats",
+      "domain": "ml",
+      "desc": "N-BEATS forecasting outline"
+    },
+    {
+      "id": "ml_graph_gnn_train",
+      "domain": "ml",
+      "desc": "Graph neural net train loop"
+    },
+    {
+      "id": "ml_graph_sage",
+      "domain": "ml",
+      "desc": "GraphSAGE inductive learning"
+    },
+    {
+      "id": "ml_link_predict",
+      "domain": "ml",
+      "desc": "Link prediction eval"
+    },
+    {
+      "id": "ml_recsys_cf",
+      "domain": "ml",
+      "desc": "Collaborative filtering baseline"
+    },
+    {
+      "id": "ml_recsys_two_tower",
+      "domain": "ml",
+      "desc": "Two-tower retrieval model"
+    },
+    {
+      "id": "ml_bandit",
+      "domain": "ml",
+      "desc": "Contextual bandit experiment"
+    },
+    {
+      "id": "ml_causal_forest",
+      "domain": "ml",
+      "desc": "Causal forest / uplift modeling"
+    },
+    {
+      "id": "ml_doubly_robust",
+      "domain": "ml",
+      "desc": "Doubly robust ATE estimator"
+    },
+    {
+      "id": "ml_synth_control",
+      "domain": "ml",
+      "desc": "Synthetic control method"
+    },
+    {
+      "id": "ml_iv_estimate",
+      "domain": "ml",
+      "desc": "Instrumental variables outline"
+    },
+    {
+      "id": "ml_survival_cox",
+      "domain": "ml",
+      "desc": "Cox PH model + PH assumption checks"
+    },
+    {
+      "id": "ml_competing_risks",
+      "domain": "ml",
+      "desc": "Competing risks analysis"
+    },
+    {
+      "id": "ml_impute_mice",
+      "domain": "ml",
+      "desc": "MICE multiple imputation"
+    },
+    {
+      "id": "ml_missingness",
+      "domain": "ml",
+      "desc": "MCAR/MAR/MNAR diagnostics"
+    },
+    {
+      "id": "ml_outlier_iforest",
+      "domain": "ml",
+      "desc": "Isolation forest anomaly detect"
+    },
+    {
+      "id": "ml_one_class_svm",
+      "domain": "ml",
+      "desc": "One-class SVM novelty detect"
+    },
+    {
+      "id": "ml_auto_ml",
+      "domain": "ml",
+      "desc": "AutoML search budget plan"
+    },
+    {
+      "id": "ml_nas_outline",
+      "domain": "ml",
+      "desc": "Neural architecture search outline"
+    },
+    {
+      "id": "ml_knowledge_graph",
+      "domain": "ml",
+      "desc": "KG construction + embedding"
+    },
+    {
+      "id": "ml_entity_link",
+      "domain": "ml",
+      "desc": "Entity linking pipeline"
+    },
+    {
+      "id": "ml_coref",
+      "domain": "ml",
+      "desc": "Coreference resolution notes"
+    },
+    {
+      "id": "ml_summarize_eval",
+      "domain": "ml",
+      "desc": "Summarization ROUGE/BERTScore"
+    },
+    {
+      "id": "ml_mt_bleu",
+      "domain": "ml",
+      "desc": "Machine translation BLEU/COMET"
+    },
+    {
+      "id": "ml_code_gen_eval",
+      "domain": "ml",
+      "desc": "Code generation pass@k eval"
+    },
+    {
+      "id": "ml_unit_test_gen",
+      "domain": "ml",
+      "desc": "Unit-test generation workflow"
+    },
+    {
+      "id": "ml_static_analysis",
+      "domain": "ml",
+      "desc": "Static analysis in ML CI"
+    },
+    {
+      "id": "ml_data_contract",
+      "domain": "ml",
+      "desc": "Data contract / schema validation"
+    },
+    {
+      "id": "ml_feature_store",
+      "domain": "ml",
+      "desc": "Feature store design notes"
+    },
+    {
+      "id": "ml_online_features",
+      "domain": "ml",
+      "desc": "Online feature serving"
+    },
+    {
+      "id": "ml_shadow_deploy",
+      "domain": "ml",
+      "desc": "Shadow deployment checklist"
+    },
+    {
+      "id": "ml_canary_model",
+      "domain": "ml",
+      "desc": "Canary model release"
+    },
+    {
+      "id": "ml_rollback_plan",
+      "domain": "ml",
+      "desc": "Model rollback runbook"
+    },
+    {
+      "id": "ml_model_registry",
+      "domain": "ml",
+      "desc": "Model registry lifecycle"
+    },
+    {
+      "id": "ml_lineage_track",
+      "domain": "ml",
+      "desc": "Data/model lineage tracking"
+    },
+    {
+      "id": "ml_pii_redact",
+      "domain": "ml",
+      "desc": "PII detection & redaction"
+    },
+    {
+      "id": "ml_synth_privacy",
+      "domain": "ml",
+      "desc": "Synthetic data privacy checks"
+    },
+    {
+      "id": "ml_watermark",
+      "domain": "ml",
+      "desc": "Model/output watermarking notes"
+    },
+    {
+      "id": "ml_adversarial",
+      "domain": "ml",
+      "desc": "Adversarial robustness tests"
+    },
+    {
+      "id": "ml_ood_detect",
+      "domain": "ml",
+      "desc": "Out-of-distribution detection"
+    },
+    {
+      "id": "ml_domain_adapt",
+      "domain": "ml",
+      "desc": "Domain adaptation strategies"
+    },
+    {
+      "id": "ml_continual",
+      "domain": "ml",
+      "desc": "Continual learning checklist"
+    },
+    {
+      "id": "ml_few_shot",
+      "domain": "ml",
+      "desc": "Few-shot learning protocols"
+    },
+    {
+      "id": "ml_meta_learn",
+      "domain": "ml",
+      "desc": "Meta-learning outline"
+    },
+    {
+      "id": "ml_self_super",
+      "domain": "ml",
+      "desc": "Self-supervised pretraining"
+    },
+    {
+      "id": "ml_ssl_simclr",
+      "domain": "ml",
+      "desc": "SimCLR-style contrastive SSL"
+    },
+    {
+      "id": "ml_mae_pretrain",
+      "domain": "ml",
+      "desc": "Masked autoencoder pretrain"
+    },
+    {
+      "id": "ml_distill_teacher",
+      "domain": "ml",
+      "desc": "Teacher-student distillation"
+    },
+    {
+      "id": "ml_ensemble",
+      "domain": "ml",
+      "desc": "Model ensembling strategies"
+    },
+    {
+      "id": "ml_stacking",
+      "domain": "ml",
+      "desc": "Stacked generalization"
+    },
+    {
+      "id": "ml_calibration_temp",
+      "domain": "ml",
+      "desc": "Temperature scaling calibration"
+    },
+    {
+      "id": "ml_uncertainty",
+      "domain": "ml",
+      "desc": "Uncertainty quantification"
+    },
+    {
+      "id": "ml_bayes_nn",
+      "domain": "ml",
+      "desc": "Bayesian NN approximate inference"
+    },
+    {
+      "id": "ml_gaussian_process",
+      "domain": "ml",
+      "desc": "Gaussian process regression"
+    },
+    {
+      "id": "ml_bo_loop",
+      "domain": "ml",
+      "desc": "Bayesian optimization experiment loop"
+    },
+    {
+      "id": "ml_hpo_optuna",
+      "domain": "ml",
+      "desc": "Optuna HPO workflow"
+    },
+    {
+      "id": "ml_ray_tune",
+      "domain": "ml",
+      "desc": "Ray Tune distributed HPO"
+    },
+    {
+      "id": "ml_spark_ml",
+      "domain": "ml",
+      "desc": "Spark MLlib pipeline outline"
+    },
+    {
+      "id": "ml_polars_etl",
+      "domain": "ml",
+      "desc": "Polars ETL for ML tables"
+    },
+    {
+      "id": "ml_duckdb_feature",
+      "domain": "ml",
+      "desc": "DuckDB feature engineering"
+    },
+    {
+      "id": "ml_parquet_layout",
+      "domain": "ml",
+      "desc": "Parquet partitioning for training"
+    },
+    {
+      "id": "ml_tfrecord",
+      "domain": "ml",
+      "desc": "TFRecord / webdataset packaging"
+    },
+    {
+      "id": "ml_dataloader",
+      "domain": "ml",
+      "desc": "Efficient DataLoader tuning"
+    },
+    {
+      "id": "ml_mixed_precision",
+      "domain": "ml",
+      "desc": "AMP mixed-precision training"
+    },
+    {
+      "id": "ml_grad_accum",
+      "domain": "ml",
+      "desc": "Gradient accumulation recipes"
+    },
+    {
+      "id": "ml_grad_checkpoint",
+      "domain": "ml",
+      "desc": "Activation checkpointing"
+    },
+    {
+      "id": "ml_fsdp",
+      "domain": "ml",
+      "desc": "FSDP / ZeRO sharding notes"
+    },
+    {
+      "id": "ml_deepspeed",
+      "domain": "ml",
+      "desc": "DeepSpeed config checklist"
+    },
+    {
+      "id": "ml_tensorrt",
+      "domain": "ml",
+      "desc": "TensorRT export & optimize"
+    },
+    {
+      "id": "ml_onnx_runtime",
+      "domain": "ml",
+      "desc": "ONNX Runtime deploy"
+    },
+    {
+      "id": "ml_openvino",
+      "domain": "ml",
+      "desc": "OpenVINO optimization"
+    },
+    {
+      "id": "ml_coreml",
+      "domain": "ml",
+      "desc": "Core ML conversion notes"
+    },
+    {
+      "id": "ml_tflite",
+      "domain": "ml",
+      "desc": "TFLite mobile deploy"
+    },
+    {
+      "id": "ml_edge_quant",
+      "domain": "ml",
+      "desc": "Edge quantization checklist"
+    },
+    {
+      "id": "ml_observability",
+      "domain": "ml",
+      "desc": "ML observability stack plan"
+    },
+    {
+      "id": "ml_drift_psi",
+      "domain": "ml",
+      "desc": "PSI/KS drift monitoring"
+    },
+    {
+      "id": "ml_label_studio",
+      "domain": "ml",
+      "desc": "Labeling tool workflow"
+    },
+    {
+      "id": "ml_active_batch",
+      "domain": "ml",
+      "desc": "Batch active learning"
+    },
+    {
+      "id": "ml_weak_snorkel",
+      "domain": "ml",
+      "desc": "Weak supervision labeling functions"
+    },
+    {
+      "id": "ml_data_cent_ai",
+      "domain": "ml",
+      "desc": "Data-centric AI iteration loop"
+    },
+    {
+      "id": "ml_slice_discovery",
+      "domain": "ml",
+      "desc": "Error slice discovery"
+    },
+    {
+      "id": "ml_subgroup_fair",
+      "domain": "ml",
+      "desc": "Subgroup fairness metrics"
+    },
+    {
+      "id": "ml_counterfactual",
+      "domain": "ml",
+      "desc": "Counterfactual explanation"
+    },
+    {
+      "id": "ml_concept_act",
+      "domain": "ml",
+      "desc": "Concept activation vectors"
+    },
+    {
+      "id": "ml_mech_interp",
+      "domain": "ml",
+      "desc": "Mechanistic interpretability notes"
+    },
+    {
+      "id": "ml_sae_features",
+      "domain": "ml",
+      "desc": "Sparse autoencoder feature discovery"
+    },
+    {
+      "id": "ml_repro_lockfile",
+      "domain": "ml",
+      "desc": "Lockfile + seed full repro"
+    },
+    {
+      "id": "ml_paper_repro",
+      "domain": "ml",
+      "desc": "Paper reproduction checklist"
+    },
+    {
+      "id": "cbi_long_read",
+      "domain": "compbio",
+      "desc": "Long-read sequencing analysis"
+    },
+    {
+      "id": "cbi_ont_basecall",
+      "domain": "compbio",
+      "desc": "ONT basecalling QC"
+    },
+    {
+      "id": "cbi_pacbio_ccs",
+      "domain": "compbio",
+      "desc": "PacBio HiFi analysis outline"
+    },
+    {
+      "id": "cbi_structural_var",
+      "domain": "compbio",
+      "desc": "Structural variant calling"
+    },
+    {
+      "id": "cbi_cnv_call",
+      "domain": "compbio",
+      "desc": "CNV detection workflow"
+    },
+    {
+      "id": "cbi_fusion_gene",
+      "domain": "compbio",
+      "desc": "Gene fusion detection"
+    },
+    {
+      "id": "cbi_hla_type",
+      "domain": "compbio",
+      "desc": "HLA typing from NGS"
+    },
+    {
+      "id": "cbi_tcr_bcr",
+      "domain": "compbio",
+      "desc": "TCR/BCR repertoire analysis"
+    },
+    {
+      "id": "cbi_neoantigen",
+      "domain": "compbio",
+      "desc": "Neoantigen prediction pipeline"
+    },
+    {
+      "id": "cbi_immunopeptidomics",
+      "domain": "compbio",
+      "desc": "Immunopeptidomics outline"
+    },
+    {
+      "id": "cbi_scrna_doublet",
+      "domain": "compbio",
+      "desc": "Doublet detection scRNA"
+    },
+    {
+      "id": "cbi_scrna_harmony",
+      "domain": "compbio",
+      "desc": "Harmony batch integration"
+    },
+    {
+      "id": "cbi_scrna_scvi",
+      "domain": "compbio",
+      "desc": "scVI integration outline"
+    },
+    {
+      "id": "cbi_multiome",
+      "domain": "compbio",
+      "desc": "Multiome RNA+ATAC joint analysis"
+    },
+    {
+      "id": "cbi_cite_seq",
+      "domain": "compbio",
+      "desc": "CITE-seq protein+RNA"
+    },
+    {
+      "id": "cbi_spatial_deconv",
+      "domain": "compbio",
+      "desc": "Spatial deconvolution"
+    },
+    {
+      "id": "cbi_visium",
+      "domain": "compbio",
+      "desc": "Visium spatial pipeline"
+    },
+    {
+      "id": "cbi_xenium",
+      "domain": "compbio",
+      "desc": "Xenium spatial notes"
+    },
+    {
+      "id": "cbi_cell_comm",
+      "domain": "compbio",
+      "desc": "Cell-cell communication (ligand-receptor)"
+    },
+    {
+      "id": "cbi_grn_scenic",
+      "domain": "compbio",
+      "desc": "SCENIC GRN inference"
+    },
+    {
+      "id": "cbi_perturb_seq",
+      "domain": "compbio",
+      "desc": "Perturb-seq analysis"
+    },
+    {
+      "id": "cbi_crispri_screen",
+      "domain": "compbio",
+      "desc": "CRISPRi/a screen analysis"
+    },
+    {
+      "id": "cbi_base_edit",
+      "domain": "compbio",
+      "desc": "Base/prime editing design"
+    },
+    {
+      "id": "cbi_offtarget",
+      "domain": "compbio",
+      "desc": "CRISPR off-target assessment"
+    },
+    {
+      "id": "cbi_prime_edit",
+      "domain": "compbio",
+      "desc": "Prime editing guide design"
+    },
+    {
+      "id": "cbi_aav_design",
+      "domain": "compbio",
+      "desc": "AAV vector design notes"
+    },
+    {
+      "id": "cbi_lnp_rna",
+      "domain": "compbio",
+      "desc": "LNP mRNA formulation checklist"
+    },
+    {
+      "id": "cbi_codon_opt",
+      "domain": "compbio",
+      "desc": "Codon optimization"
+    },
+    {
+      "id": "cbi_promoter_design",
+      "domain": "compbio",
+      "desc": "Promoter/enhancer design"
+    },
+    {
+      "id": "cbi_synthetic_circuit",
+      "domain": "compbio",
+      "desc": "Genetic circuit design"
+    },
+    {
+      "id": "cbi_metabolic_fba",
+      "domain": "compbio",
+      "desc": "Flux balance analysis"
+    },
+    {
+      "id": "cbi_genome_scale_model",
+      "domain": "compbio",
+      "desc": "GEM model curation"
+    },
+    {
+      "id": "cbi_phage",
+      "domain": "compbio",
+      "desc": "Phage genomics outline"
+    },
+    {
+      "id": "cbi_amr_gene",
+      "domain": "compbio",
+      "desc": "AMR gene detection"
+    },
+    {
+      "id": "cbi_mlst",
+      "domain": "compbio",
+      "desc": "MLST typing"
+    },
+    {
+      "id": "cbi_pangenome",
+      "domain": "compbio",
+      "desc": "Pangenome analysis"
+    },
+    {
+      "id": "cbi_comparative_genomics",
+      "domain": "compbio",
+      "desc": "Comparative genomics"
+    },
+    {
+      "id": "cbi_ortholog",
+      "domain": "compbio",
+      "desc": "Ortholog inference"
+    },
+    {
+      "id": "cbi_synteny",
+      "domain": "compbio",
+      "desc": "Synteny mapping"
+    },
+    {
+      "id": "cbi_popgen",
+      "domain": "compbio",
+      "desc": "Population genetics stats"
+    },
+    {
+      "id": "cbi_selection_scan",
+      "domain": "compbio",
+      "desc": "Selection scan methods"
+    },
+    {
+      "id": "cbi_admixture",
+      "domain": "compbio",
+      "desc": "Admixture analysis"
+    },
+    {
+      "id": "cbi_ibd",
+      "domain": "compbio",
+      "desc": "IBD segment detection"
+    },
+    {
+      "id": "cbi_imputation_genotype",
+      "domain": "compbio",
+      "desc": "Genotype imputation"
+    },
+    {
+      "id": "cbi_gwas_gcta",
+      "domain": "compbio",
+      "desc": "GCTA / heritability"
+    },
+    {
+      "id": "cbi_ldsc",
+      "domain": "compbio",
+      "desc": "LD score regression"
+    },
+    {
+      "id": "cbi_colocalization",
+      "domain": "compbio",
+      "desc": "eQTL-GWAS colocalization"
+    },
+    {
+      "id": "cbi_twmr",
+      "domain": "compbio",
+      "desc": "TWAS / MR outline"
+    },
+    {
+      "id": "cbi_phewas",
+      "domain": "compbio",
+      "desc": "PheWAS design"
+    },
+    {
+      "id": "cbi_ehr_phenotype",
+      "domain": "compbio",
+      "desc": "EHR phenotyping"
+    },
+    {
+      "id": "cbi_clinical_nlp",
+      "domain": "compbio",
+      "desc": "Clinical NLP extraction"
+    },
+    {
+      "id": "cbi_imaging_omics",
+      "domain": "compbio",
+      "desc": "Radiomics + omics fusion"
+    },
+    {
+      "id": "cbi_pathology_ai",
+      "domain": "compbio",
+      "desc": "Digital pathology ML outline"
+    },
+    {
+      "id": "cbi_drug_repurpose",
+      "domain": "compbio",
+      "desc": "Drug repurposing pipeline"
+    },
+    {
+      "id": "cbi_connectivity_map",
+      "domain": "compbio",
+      "desc": "Connectivity map analysis"
+    },
+    {
+      "id": "cbi_network_medicine",
+      "domain": "compbio",
+      "desc": "Network medicine modules"
+    },
+    {
+      "id": "cbi_patient_similarity",
+      "domain": "compbio",
+      "desc": "Patient similarity networks"
+    },
+    {
+      "id": "cbi_digital_twin",
+      "domain": "compbio",
+      "desc": "Digital twin patient model notes"
+    },
+    {
+      "id": "cbi_trial_emulation",
+      "domain": "compbio",
+      "desc": "Target trial emulation"
+    },
+    {
+      "id": "cbi_rwe",
+      "domain": "compbio",
+      "desc": "Real-world evidence checklist"
+    },
+    {
+      "id": "cbi_biomarker_validate",
+      "domain": "compbio",
+      "desc": "Biomarker validation stages"
+    },
+    {
+      "id": "cbi_assay_cv",
+      "domain": "compbio",
+      "desc": "Assay coefficient of variation QC"
+    },
+    {
+      "id": "cbi_plate_effect",
+      "domain": "compbio",
+      "desc": "Plate effect normalization"
+    },
+    {
+      "id": "cbi_spike_in",
+      "domain": "compbio",
+      "desc": "Spike-in controls design"
+    },
+    {
+      "id": "cbi_ercc",
+      "domain": "compbio",
+      "desc": "ERCC spike-in analysis"
+    },
+    {
+      "id": "cbi_umi_correct",
+      "domain": "compbio",
+      "desc": "UMI error correction"
+    },
+    {
+      "id": "cbi_barcode_qc",
+      "domain": "compbio",
+      "desc": "Cell barcode QC"
+    },
+    {
+      "id": "cbi_ambient_rna",
+      "domain": "compbio",
+      "desc": "Ambient RNA correction"
+    },
+    {
+      "id": "cbi_soupx",
+      "domain": "compbio",
+      "desc": "SoupX ambient correction"
+    },
+    {
+      "id": "cbi_cellbender",
+      "domain": "compbio",
+      "desc": "CellBender outline"
+    },
+    {
+      "id": "cbi_velocity",
+      "domain": "compbio",
+      "desc": "RNA velocity analysis"
+    },
+    {
+      "id": "cbi_paga",
+      "domain": "compbio",
+      "desc": "PAGA graph abstraction"
+    },
+    {
+      "id": "cbi_cyclone",
+      "domain": "compbio",
+      "desc": "Cell cycle scoring"
+    },
+    {
+      "id": "cbi_module_score",
+      "domain": "compbio",
+      "desc": "Gene module scoring"
+    },
+    {
+      "id": "cbi_gsea_prerank",
+      "domain": "compbio",
+      "desc": "Preranked GSEA"
+    },
+    {
+      "id": "cbi_gsva",
+      "domain": "compbio",
+      "desc": "GSVA pathway scores"
+    },
+    {
+      "id": "cbi_progeny",
+      "domain": "compbio",
+      "desc": "PROGENy pathway activity"
+    },
+    {
+      "id": "cbi_dorothea",
+      "domain": "compbio",
+      "desc": "DoRothEA TF activity"
+    },
+    {
+      "id": "cbi_motif_enrich",
+      "domain": "compbio",
+      "desc": "Motif enrichment (HOMER-style)"
+    },
+    {
+      "id": "cbi_footprint",
+      "domain": "compbio",
+      "desc": "TF footprinting"
+    },
+    {
+      "id": "cbi_peak_anno",
+      "domain": "compbio",
+      "desc": "Peak annotation"
+    },
+    {
+      "id": "cbi_diffbind",
+      "domain": "compbio",
+      "desc": "Differential binding"
+    },
+    {
+      "id": "cbi_hic_tads",
+      "domain": "compbio",
+      "desc": "TAD calling Hi-C"
+    },
+    {
+      "id": "cbi_loop_call",
+      "domain": "compbio",
+      "desc": "Chromatin loop calling"
+    },
+    {
+      "id": "cbi_abc_model",
+      "domain": "compbio",
+      "desc": "ABC enhancer-gene model"
+    },
+    {
+      "id": "cbi_eqtl_map",
+      "domain": "compbio",
+      "desc": "cis-eQTL mapping"
+    },
+    {
+      "id": "cbi_sqtl",
+      "domain": "compbio",
+      "desc": "sQTL splicing QTL"
+    },
+    {
+      "id": "cbi_pqtl",
+      "domain": "compbio",
+      "desc": "pQTL proteomics QTL"
+    },
+    {
+      "id": "cbi_mQTL",
+      "domain": "compbio",
+      "desc": "mQTL methylation QTL"
+    },
+    {
+      "id": "cbi_multi_qtl",
+      "domain": "compbio",
+      "desc": "Multi-omics QTL integration"
+    },
+    {
+      "id": "cbi_fair_genomics",
+      "domain": "compbio",
+      "desc": "FAIR genomics packaging"
+    },
+    {
+      "id": "cbi_ga4gh",
+      "domain": "compbio",
+      "desc": "GA4GH standards checklist"
+    },
+    {
+      "id": "cbi_vcf_validate",
+      "domain": "compbio",
+      "desc": "VCF validation & stats"
+    },
+    {
+      "id": "cbi_bco",
+      "domain": "compbio",
+      "desc": "BioCompute Object packaging"
+    },
+    {
+      "id": "cbi_workflow_cwl",
+      "domain": "compbio",
+      "desc": "CWL/Nextflow workflow design"
+    },
+    {
+      "id": "cbi_containers_bioc",
+      "domain": "compbio",
+      "desc": "Biocontainers reproducibility"
+    },
+    {
+      "id": "cheminf_rdkit_sanitize",
+      "domain": "cheminformatics",
+      "desc": "RDKit sanitize & cleanup"
+    },
+    {
+      "id": "cheminf_salt_strip",
+      "domain": "cheminformatics",
+      "desc": "Salt/solvent stripping"
+    },
+    {
+      "id": "cheminf_neutralize",
+      "domain": "cheminformatics",
+      "desc": "Charge neutralization"
+    },
+    {
+      "id": "cheminf_standardize",
+      "domain": "cheminformatics",
+      "desc": "MolStandardize pipeline"
+    },
+    {
+      "id": "cheminf_duplicate_remove",
+      "domain": "cheminformatics",
+      "desc": "Duplicate structure removal"
+    },
+    {
+      "id": "cheminf_stereo_enum",
+      "domain": "cheminformatics",
+      "desc": "Stereo enumeration"
+    },
+    {
+      "id": "cheminf_confab",
+      "domain": "cheminformatics",
+      "desc": "Confab conformer generation"
+    },
+    {
+      "id": "cheminf_etkdg",
+      "domain": "cheminformatics",
+      "desc": "ETKDG conformer workflow"
+    },
+    {
+      "id": "cheminf_mmff_min",
+      "domain": "cheminformatics",
+      "desc": "MMFF minimization"
+    },
+    {
+      "id": "cheminf_uff_min",
+      "domain": "cheminformatics",
+      "desc": "UFF minimization"
+    },
+    {
+      "id": "cheminf_pharmacophore_3d",
+      "domain": "cheminformatics",
+      "desc": "3D pharmacophore"
+    },
+    {
+      "id": "cheminf_rocs_shape",
+      "domain": "cheminformatics",
+      "desc": "ROCS-style shape screening"
+    },
+    {
+      "id": "cheminf_esp_map",
+      "domain": "cheminformatics",
+      "desc": "Electrostatic potential map"
+    },
+    {
+      "id": "cheminf_dock_vina",
+      "domain": "cheminformatics",
+      "desc": "AutoDock Vina workflow"
+    },
+    {
+      "id": "cheminf_dock_glide",
+      "domain": "cheminformatics",
+      "desc": "Glide-style docking notes"
+    },
+    {
+      "id": "cheminf_pose_cluster",
+      "domain": "cheminformatics",
+      "desc": "Pose clustering"
+    },
+    {
+      "id": "cheminf_plip",
+      "domain": "cheminformatics",
+      "desc": "Protein-ligand interaction profile"
+    },
+    {
+      "id": "cheminf_water_sites",
+      "domain": "cheminformatics",
+      "desc": "Water site analysis"
+    },
+    {
+      "id": "cheminf_fep_setup",
+      "domain": "cheminformatics",
+      "desc": "FEP setup checklist"
+    },
+    {
+      "id": "cheminf_ti_md",
+      "domain": "cheminformatics",
+      "desc": "Thermodynamic integration MD"
+    },
+    {
+      "id": "cheminf_rbfe",
+      "domain": "cheminformatics",
+      "desc": "Relative binding free energy"
+    },
+    {
+      "id": "cheminf_abfe",
+      "domain": "cheminformatics",
+      "desc": "Absolute binding free energy"
+    },
+    {
+      "id": "cheminf_qsar_rf",
+      "domain": "cheminformatics",
+      "desc": "Random forest QSAR"
+    },
+    {
+      "id": "cheminf_qsar_gp",
+      "domain": "cheminformatics",
+      "desc": "GP QSAR + uncertainty"
+    },
+    {
+      "id": "cheminf_qsar_gnn",
+      "domain": "cheminformatics",
+      "desc": "Graph neural QSAR"
+    },
+    {
+      "id": "cheminf_activity_cliff",
+      "domain": "cheminformatics",
+      "desc": "Activity cliff detection"
+    },
+    {
+      "id": "cheminf_sar_matrix",
+      "domain": "cheminformatics",
+      "desc": "SAR matrix analysis"
+    },
+    {
+      "id": "cheminf_mmpdb",
+      "domain": "cheminformatics",
+      "desc": "Matched molecular pair DB"
+    },
+    {
+      "id": "cheminf_rgroup_decomp",
+      "domain": "cheminformatics",
+      "desc": "R-group table generation"
+    },
+    {
+      "id": "cheminf_frag_link",
+      "domain": "cheminformatics",
+      "desc": "Fragment linking design"
+    },
+    {
+      "id": "cheminf_frag_grow",
+      "domain": "cheminformatics",
+      "desc": "Fragment growing"
+    },
+    {
+      "id": "cheminf_fbdd",
+      "domain": "cheminformatics",
+      "desc": "FBDD cascade"
+    },
+    {
+      "id": "cheminf_htl",
+      "domain": "cheminformatics",
+      "desc": "Hit-to-lead checklist"
+    },
+    {
+      "id": "cheminf_lead_opt",
+      "domain": "cheminformatics",
+      "desc": "Lead optimization multi-param"
+    },
+    {
+      "id": "cheminf_cns_mpo",
+      "domain": "cheminformatics",
+      "desc": "CNS MPO scoring"
+    },
+    {
+      "id": "cheminf_ppp",
+      "domain": "cheminformatics",
+      "desc": "Property forecast plots"
+    },
+    {
+      "id": "cheminf_solubility",
+      "domain": "cheminformatics",
+      "desc": "Aqueous solubility models"
+    },
+    {
+      "id": "cheminf_permeability",
+      "domain": "cheminformatics",
+      "desc": "Permeability prediction"
+    },
+    {
+      "id": "cheminf_clearance",
+      "domain": "cheminformatics",
+      "desc": "Metabolic clearance models"
+    },
+    {
+      "id": "cheminf_herg",
+      "domain": "cheminformatics",
+      "desc": "hERG liability filter"
+    },
+    {
+      "id": "cheminf_cyp",
+      "domain": "cheminformatics",
+      "desc": "CYP inhibition alerts"
+    },
+    {
+      "id": "cheminf_ames",
+      "domain": "cheminformatics",
+      "desc": "Ames mutagenicity notes"
+    },
+    {
+      "id": "cheminf_reactive",
+      "domain": "cheminformatics",
+      "desc": "Reactive metabolite flags"
+    },
+    {
+      "id": "cheminf_prodrug",
+      "domain": "cheminformatics",
+      "desc": "Prodrug design notes"
+    },
+    {
+      "id": "cheminf_protac",
+      "domain": "cheminformatics",
+      "desc": "PROTAC design outline"
+    },
+    {
+      "id": "cheminf_macrocycle",
+      "domain": "cheminformatics",
+      "desc": "Macrocycle design notes"
+    },
+    {
+      "id": "cheminf_peptide",
+      "domain": "cheminformatics",
+      "desc": "Peptide drug-likeness"
+    },
+    {
+      "id": "cheminf_oligo",
+      "domain": "cheminformatics",
+      "desc": "Oligonucleotide chem notes"
+    },
+    {
+      "id": "cheminf_adc",
+      "domain": "cheminformatics",
+      "desc": "Antibody-drug conjugate linker notes"
+    },
+    {
+      "id": "cheminf_crystal_struct",
+      "domain": "cheminformatics",
+      "desc": "Small-molecule crystallography"
+    },
+    {
+      "id": "cheminf_powder_xrd",
+      "domain": "cheminformatics",
+      "desc": "Powder XRD phase ID"
+    },
+    {
+      "id": "cheminf_polymorph_screen",
+      "domain": "cheminformatics",
+      "desc": "Polymorph screening plan"
+    },
+    {
+      "id": "cheminf_salt_screen",
+      "domain": "cheminformatics",
+      "desc": "Salt/cocrystal screen"
+    },
+    {
+      "id": "cheminf_formulation",
+      "domain": "cheminformatics",
+      "desc": "Formulation preformulation"
+    },
+    {
+      "id": "cheminf_stability_ich",
+      "domain": "cheminformatics",
+      "desc": "ICH stability study design"
+    },
+    {
+      "id": "cheminf_impurity",
+      "domain": "cheminformatics",
+      "desc": "Impurity profiling"
+    },
+    {
+      "id": "cheminf_genotoxic",
+      "domain": "cheminformatics",
+      "desc": "Genotoxic impurity control"
+    },
+    {
+      "id": "cheminf_process_chem",
+      "domain": "cheminformatics",
+      "desc": "Process chemistry route scouting"
+    },
+    {
+      "id": "cheminf_route_score",
+      "domain": "cheminformatics",
+      "desc": "Route ideality / PMI scoring"
+    },
+    {
+      "id": "cheminf_catalyst_screen",
+      "domain": "cheminformatics",
+      "desc": "Catalyst screening DoE"
+    },
+    {
+      "id": "cheminf_flow_chem",
+      "domain": "cheminformatics",
+      "desc": "Flow chemistry parameters"
+    },
+    {
+      "id": "cheminf_photoredox",
+      "domain": "cheminformatics",
+      "desc": "Photoredox reaction design"
+    },
+    {
+      "id": "cheminf_electrochem_syn",
+      "domain": "cheminformatics",
+      "desc": "Electrosynthesis notes"
+    },
+    {
+      "id": "cheminf_biocatalysis",
+      "domain": "cheminformatics",
+      "desc": "Biocatalysis route design"
+    },
+    {
+      "id": "cheminf_enzyme_eng",
+      "domain": "cheminformatics",
+      "desc": "Enzyme engineering for chem"
+    },
+    {
+      "id": "cheminf_retrosyn_ai",
+      "domain": "cheminformatics",
+      "desc": "AI retrosynthesis planning"
+    },
+    {
+      "id": "cheminf_synth_plan",
+      "domain": "cheminformatics",
+      "desc": "Multi-step synthesis planning"
+    },
+    {
+      "id": "cheminf_inventory_eln",
+      "domain": "cheminformatics",
+      "desc": "Chemical inventory + ELN link"
+    },
+    {
+      "id": "cheminf_sds_parse",
+      "domain": "cheminformatics",
+      "desc": "SDS hazard extraction"
+    },
+    {
+      "id": "cheminf_ghs_label",
+      "domain": "cheminformatics",
+      "desc": "GHS labeling checklist"
+    },
+    {
+      "id": "cheminf_green_solvent",
+      "domain": "cheminformatics",
+      "desc": "Green solvent selection"
+    },
+    {
+      "id": "cheminf_lca_chem",
+      "domain": "cheminformatics",
+      "desc": "LCA for chemical process"
+    },
+    {
+      "id": "cheminf_patent_fto",
+      "domain": "cheminformatics",
+      "desc": "Freedom-to-operate sketch"
+    },
+    {
+      "id": "cheminf_scaffold_ip",
+      "domain": "cheminformatics",
+      "desc": "Scaffold IP landscaping"
+    },
+    {
+      "id": "cheminf_pubchem_mine",
+      "domain": "cheminformatics",
+      "desc": "PubChem data mining"
+    },
+    {
+      "id": "cheminf_zinc_screen",
+      "domain": "cheminformatics",
+      "desc": "ZINC library screening plan"
+    },
+    {
+      "id": "cheminf_enamine",
+      "domain": "cheminformatics",
+      "desc": "Enamine REAL space notes"
+    },
+    {
+      "id": "cheminf_chembl_sar",
+      "domain": "cheminformatics",
+      "desc": "ChEMBL SAR extraction"
+    },
+    {
+      "id": "cheminf_pdbbind",
+      "domain": "cheminformatics",
+      "desc": "PDBbind affinity dataset"
+    },
+    {
+      "id": "cheminf_dude",
+      "domain": "cheminformatics",
+      "desc": "DUD-E virtual screen benchmark"
+    },
+    {
+      "id": "cheminf_litpcba",
+      "domain": "cheminformatics",
+      "desc": "LIT-PCBA benchmark notes"
+    },
+    {
+      "id": "cheminf_moleculenet",
+      "domain": "cheminformatics",
+      "desc": "MoleculeNet benchmark suite"
+    },
+    {
+      "id": "cheminf_therapeutics_data",
+      "domain": "cheminformatics",
+      "desc": "Therapeutic data packaging"
+    },
+    {
+      "id": "cheminf_fair_mol",
+      "domain": "cheminformatics",
+      "desc": "FAIR molecular datasets"
+    },
+    {
+      "id": "cheminf_smiles_aug",
+      "domain": "cheminformatics",
+      "desc": "SMILES augmentation for ML"
+    },
+    {
+      "id": "cheminf_selfies",
+      "domain": "cheminformatics",
+      "desc": "SELFIES representation"
+    },
+    {
+      "id": "cheminf_graphormer",
+      "domain": "cheminformatics",
+      "desc": "Molecular Graphormer outline"
+    },
+    {
+      "id": "cheminf_3d_inf",
+      "domain": "cheminformatics",
+      "desc": "3D-informed molecular ML"
+    },
+    {
+      "id": "cheminf_dock_ml_score",
+      "domain": "cheminformatics",
+      "desc": "ML docking score models"
+    },
+    {
+      "id": "cheminf_active_learn_vs",
+      "domain": "cheminformatics",
+      "desc": "Active learning virtual screen"
+    },
+    {
+      "id": "cheminf_multiobj_pareto",
+      "domain": "cheminformatics",
+      "desc": "Pareto multi-obj mol design"
+    },
+    {
+      "id": "cheminf_bayes_opt_mol",
+      "domain": "cheminformatics",
+      "desc": "Bayesian optimization molecules"
+    },
+    {
+      "id": "cheminf_rl_mol",
+      "domain": "cheminformatics",
+      "desc": "RL molecule generation"
+    },
+    {
+      "id": "cheminf_vae_mol",
+      "domain": "cheminformatics",
+      "desc": "Molecular VAE generation"
+    },
+    {
+      "id": "cheminf_gan_mol",
+      "domain": "cheminformatics",
+      "desc": "Molecular GAN outline"
+    },
+    {
+      "id": "cheminf_diff_mol",
+      "domain": "cheminformatics",
+      "desc": "Diffusion molecular generation"
+    },
+    {
+      "id": "cheminf_cond_gen",
+      "domain": "cheminformatics",
+      "desc": "Property-conditioned generation"
+    },
+    {
+      "id": "cheminf_scaffold_cond",
+      "domain": "cheminformatics",
+      "desc": "Scaffold-conditioned gen"
+    },
+    {
+      "id": "cheminf_reaction_pred",
+      "domain": "cheminformatics",
+      "desc": "Reaction outcome prediction"
+    },
+    {
+      "id": "cheminf_yield_model",
+      "domain": "cheminformatics",
+      "desc": "Reaction yield models"
+    },
+    {
+      "id": "cheminf_condition_rec",
+      "domain": "cheminformatics",
+      "desc": "Condition recommendation"
+    },
+    {
+      "id": "cheminf_retrosyn_eval",
+      "domain": "cheminformatics",
+      "desc": "Retrosynthesis eval metrics"
+    },
+    {
+      "id": "clin_protocol_synopsis",
+      "domain": "clinical",
+      "desc": "Clinical protocol synopsis template"
+    },
+    {
+      "id": "clin_sap",
+      "domain": "clinical",
+      "desc": "Statistical analysis plan skeleton"
+    },
+    {
+      "id": "clin_randomization",
+      "domain": "clinical",
+      "desc": "Randomization schedule design"
+    },
+    {
+      "id": "clin_stratify",
+      "domain": "clinical",
+      "desc": "Stratified randomization"
+    },
+    {
+      "id": "clin_block_rand",
+      "domain": "clinical",
+      "desc": "Block randomization"
+    },
+    {
+      "id": "clin_blinding",
+      "domain": "clinical",
+      "desc": "Blinding integrity checklist"
+    },
+    {
+      "id": "clin_sample_size_survival",
+      "domain": "clinical",
+      "desc": "Survival sample size"
+    },
+    {
+      "id": "clin_sample_size_binary",
+      "domain": "clinical",
+      "desc": "Binary endpoint sample size"
+    },
+    {
+      "id": "clin_interim",
+      "domain": "clinical",
+      "desc": "Interim analysis / alpha spend"
+    },
+    {
+      "id": "clin_dmc",
+      "domain": "clinical",
+      "desc": "DMC charter notes"
+    },
+    {
+      "id": "clin_endpoint_def",
+      "domain": "clinical",
+      "desc": "Endpoint definition"
+    },
+    {
+      "id": "clin_estimand",
+      "domain": "clinical",
+      "desc": "ICH E9(R1) estimand framework"
+    },
+    {
+      "id": "clin_itt_pp",
+      "domain": "clinical",
+      "desc": "ITT vs per-protocol analysis"
+    },
+    {
+      "id": "clin_missing_data",
+      "domain": "clinical",
+      "desc": "Missing data strategies"
+    },
+    {
+      "id": "clin_mmrm",
+      "domain": "clinical",
+      "desc": "MMRM longitudinal analysis"
+    },
+    {
+      "id": "clin_mixed_model",
+      "domain": "clinical",
+      "desc": "Mixed-effects models"
+    },
+    {
+      "id": "clin_gee",
+      "domain": "clinical",
+      "desc": "GEE correlated outcomes"
+    },
+    {
+      "id": "clin_time_to_event",
+      "domain": "clinical",
+      "desc": "Time-to-event analysis suite"
+    },
+    {
+      "id": "clin_landmark",
+      "domain": "clinical",
+      "desc": "Landmark analysis"
+    },
+    {
+      "id": "clin_rmst",
+      "domain": "clinical",
+      "desc": "Restricted mean survival time"
+    },
+    {
+      "id": "clin_competing",
+      "domain": "clinical",
+      "desc": "Competing risks clinical"
+    },
+    {
+      "id": "clin_subgroup",
+      "domain": "clinical",
+      "desc": "Pre-specified subgroup analysis"
+    },
+    {
+      "id": "clin_interaction",
+      "domain": "clinical",
+      "desc": "Treatment-by-covariate interaction"
+    },
+    {
+      "id": "clin_multiplicity",
+      "domain": "clinical",
+      "desc": "Multiplicity adjustment"
+    },
+    {
+      "id": "clin_bayes_trial",
+      "domain": "clinical",
+      "desc": "Bayesian adaptive trial outline"
+    },
+    {
+      "id": "clin_platform_trial",
+      "domain": "clinical",
+      "desc": "Platform trial design"
+    },
+    {
+      "id": "clin_basket",
+      "domain": "clinical",
+      "desc": "Basket trial design"
+    },
+    {
+      "id": "clin_umbrella",
+      "domain": "clinical",
+      "desc": "Umbrella trial design"
+    },
+    {
+      "id": "clin_n_of_1",
+      "domain": "clinical",
+      "desc": "N-of-1 trial design"
+    },
+    {
+      "id": "clin_crossover",
+      "domain": "clinical",
+      "desc": "Crossover design analysis"
+    },
+    {
+      "id": "clin_cluster_rct",
+      "domain": "clinical",
+      "desc": "Cluster RCT design"
+    },
+    {
+      "id": "clin_stepped_wedge",
+      "domain": "clinical",
+      "desc": "Stepped-wedge design"
+    },
+    {
+      "id": "clin_noninferior",
+      "domain": "clinical",
+      "desc": "Non-inferiority margin"
+    },
+    {
+      "id": "clin_equivalence",
+      "domain": "clinical",
+      "desc": "Equivalence trial design"
+    },
+    {
+      "id": "clin_pk_nca",
+      "domain": "clinical",
+      "desc": "PK noncompartmental analysis"
+    },
+    {
+      "id": "clin_pkpd",
+      "domain": "clinical",
+      "desc": "PK/PD modeling outline"
+    },
+    {
+      "id": "clin_pop_pk",
+      "domain": "clinical",
+      "desc": "Population PK notes"
+    },
+    {
+      "id": "clin_bioequivalence",
+      "domain": "clinical",
+      "desc": "Bioequivalence stats"
+    },
+    {
+      "id": "clin_safety_ae",
+      "domain": "clinical",
+      "desc": "AE coding & signal detection"
+    },
+    {
+      "id": "clin_lab_shift",
+      "domain": "clinical",
+      "desc": "Lab shift tables"
+    },
+    {
+      "id": "clin_qt",
+      "domain": "clinical",
+      "desc": "QT/QTc analysis notes"
+    },
+    {
+      "id": "clin_immunogenicity",
+      "domain": "clinical",
+      "desc": "Immunogenicity analysis"
+    },
+    {
+      "id": "clin_ada",
+      "domain": "clinical",
+      "desc": "Anti-drug antibody assessment"
+    },
+    {
+      "id": "clin_biomarker_strat",
+      "domain": "clinical",
+      "desc": "Biomarker-stratified design"
+    },
+    {
+      "id": "clin_cdisc_sdtm",
+      "domain": "clinical",
+      "desc": "CDISC SDTM mapping notes"
+    },
+    {
+      "id": "clin_adam",
+      "domain": "clinical",
+      "desc": "ADaM analysis datasets"
+    },
+    {
+      "id": "clin_define_xml",
+      "domain": "clinical",
+      "desc": "Define-XML checklist"
+    },
+    {
+      "id": "clin_tlf",
+      "domain": "clinical",
+      "desc": "TLF shell generation plan"
+    },
+    {
+      "id": "clin_csr",
+      "domain": "clinical",
+      "desc": "CSR structure checklist"
+    },
+    {
+      "id": "clin_reg_submit",
+      "domain": "clinical",
+      "desc": "Regulatory submission package"
+    },
+    {
+      "id": "clin_fda_guidance",
+      "domain": "clinical",
+      "desc": "FDA guidance mapping"
+    },
+    {
+      "id": "clin_ema_guidance",
+      "domain": "clinical",
+      "desc": "EMA guidance mapping"
+    },
+    {
+      "id": "clin_ich_gcp",
+      "domain": "clinical",
+      "desc": "ICH GCP compliance checklist"
+    },
+    {
+      "id": "clin_informed_consent",
+      "domain": "clinical",
+      "desc": "Informed consent elements"
+    },
+    {
+      "id": "clin_dsmb",
+      "domain": "clinical",
+      "desc": "DSMB report template"
+    },
+    {
+      "id": "clin_pharmacovigilance",
+      "domain": "clinical",
+      "desc": "Pharmacovigilance signal triage"
+    },
+    {
+      "id": "clin_rwe_study",
+      "domain": "clinical",
+      "desc": "RWE study protocol"
+    },
+    {
+      "id": "clin_claims_data",
+      "domain": "clinical",
+      "desc": "Claims data analysis caveats"
+    },
+    {
+      "id": "clin_ehr_extract",
+      "domain": "clinical",
+      "desc": "EHR extract QC"
+    },
+    {
+      "id": "clin_propensity",
+      "domain": "clinical",
+      "desc": "Propensity score methods"
+    },
+    {
+      "id": "clin_iptw",
+      "domain": "clinical",
+      "desc": "IPTW weighting diagnostics"
+    },
+    {
+      "id": "clin_matching",
+      "domain": "clinical",
+      "desc": "PS matching balance tables"
+    },
+    {
+      "id": "clin_sensitivity",
+      "domain": "clinical",
+      "desc": "Sensitivity analysis suite"
+    },
+    {
+      "id": "clin_evalue",
+      "domain": "clinical",
+      "desc": "E-value for confounding"
+    },
+    {
+      "id": "clin_meta_rct",
+      "domain": "clinical",
+      "desc": "RCT meta-analysis"
+    },
+    {
+      "id": "clin_network_meta",
+      "domain": "clinical",
+      "desc": "Network meta-analysis"
+    },
+    {
+      "id": "clin_ipd_meta",
+      "domain": "clinical",
+      "desc": "IPD meta-analysis"
+    },
+    {
+      "id": "clin_forest_clin",
+      "domain": "clinical",
+      "desc": "Clinical forest plot chart"
+    },
+    {
+      "id": "clin_km_plot",
+      "domain": "clinical",
+      "desc": "Kaplan\u2013Meier publication figure"
+    },
+    {
+      "id": "clin_waterfall",
+      "domain": "clinical",
+      "desc": "Waterfall tumor response plot"
+    },
+    {
+      "id": "clin_swimmer",
+      "domain": "clinical",
+      "desc": "Swimmer plot"
+    },
+    {
+      "id": "clin_spider",
+      "domain": "clinical",
+      "desc": "Spider plot tumor change"
+    },
+    {
+      "id": "clin_consort_flow",
+      "domain": "clinical",
+      "desc": "CONSORT flow diagram data"
+    },
+    {
+      "id": "mat_dft_geo_opt",
+      "domain": "materials",
+      "desc": "DFT geometry optimization"
+    },
+    {
+      "id": "mat_dft_band",
+      "domain": "materials",
+      "desc": "Band structure calculation plan"
+    },
+    {
+      "id": "mat_dft_dos",
+      "domain": "materials",
+      "desc": "Density of states workflow"
+    },
+    {
+      "id": "mat_phonon",
+      "domain": "materials",
+      "desc": "Phonon / thermal properties"
+    },
+    {
+      "id": "mat_neb",
+      "domain": "materials",
+      "desc": "NEB transition state search"
+    },
+    {
+      "id": "mat_surface_slab",
+      "domain": "materials",
+      "desc": "Surface slab model setup"
+    },
+    {
+      "id": "mat_adsorption",
+      "domain": "materials",
+      "desc": "Adsorption energy workflow"
+    },
+    {
+      "id": "mat_catalyst_screen",
+      "domain": "materials",
+      "desc": "Catalyst descriptor screening"
+    },
+    {
+      "id": "mat_phase_predict",
+      "domain": "materials",
+      "desc": "Phase stability prediction"
+    },
+    {
+      "id": "mat_convex_hull",
+      "domain": "materials",
+      "desc": "Convex hull construction"
+    },
+    {
+      "id": "mat_elastic_tensor",
+      "domain": "materials",
+      "desc": "Elastic tensor calculation"
+    },
+    {
+      "id": "mat_thermal_cond",
+      "domain": "materials",
+      "desc": "Thermal conductivity models"
+    },
+    {
+      "id": "mat_battery_electrode",
+      "domain": "materials",
+      "desc": "Battery electrode materials screen"
+    },
+    {
+      "id": "mat_seebeck",
+      "domain": "materials",
+      "desc": "Thermoelectric Seebeck estimate"
+    },
+    {
+      "id": "mat_perovskite",
+      "domain": "materials",
+      "desc": "Perovskite stability heuristics"
+    },
+    {
+      "id": "mat_mof_design",
+      "domain": "materials",
+      "desc": "MOF design notes"
+    },
+    {
+      "id": "mat_polymer_md",
+      "domain": "materials",
+      "desc": "Polymer MD setup"
+    },
+    {
+      "id": "mat_glass_transition",
+      "domain": "materials",
+      "desc": "Glass transition estimation"
+    },
+    {
+      "id": "mat_fatigue",
+      "domain": "materials",
+      "desc": "Fatigue life analysis"
+    },
+    {
+      "id": "mat_fracture",
+      "domain": "materials",
+      "desc": "Fracture toughness notes"
+    },
+    {
+      "id": "mat_corrosion_eis",
+      "domain": "materials",
+      "desc": "EIS corrosion analysis"
+    },
+    {
+      "id": "mat_sem_eds",
+      "domain": "materials",
+      "desc": "SEM/EDS interpretation"
+    },
+    {
+      "id": "mat_tem",
+      "domain": "materials",
+      "desc": "TEM image analysis notes"
+    },
+    {
+      "id": "mat_afm",
+      "domain": "materials",
+      "desc": "AFM data processing"
+    },
+    {
+      "id": "mat_xps",
+      "domain": "materials",
+      "desc": "XPS peak fitting"
+    },
+    {
+      "id": "mat_xrd_refine",
+      "domain": "materials",
+      "desc": "Rietveld refinement outline"
+    },
+    {
+      "id": "mat_saxs",
+      "domain": "materials",
+      "desc": "SAXS analysis"
+    },
+    {
+      "id": "mat_rheology",
+      "domain": "materials",
+      "desc": "Rheology curve interpretation"
+    },
+    {
+      "id": "mat_dsc",
+      "domain": "materials",
+      "desc": "DSC thermal analysis"
+    },
+    {
+      "id": "mat_tga",
+      "domain": "materials",
+      "desc": "TGA decomposition analysis"
+    },
+    {
+      "id": "mat_dma",
+      "domain": "materials",
+      "desc": "DMA viscoelastic analysis"
+    },
+    {
+      "id": "phys_qm_perturb",
+      "domain": "materials",
+      "desc": "Quantum perturbation theory notes"
+    },
+    {
+      "id": "phys_scattering",
+      "domain": "materials",
+      "desc": "Scattering cross-section basics"
+    },
+    {
+      "id": "phys_laser_matter",
+      "domain": "materials",
+      "desc": "Laser-matter interaction notes"
+    },
+    {
+      "id": "phys_plasma",
+      "domain": "materials",
+      "desc": "Plasma parameter estimates"
+    },
+    {
+      "id": "phys_fluid_cfd",
+      "domain": "materials",
+      "desc": "CFD setup checklist"
+    },
+    {
+      "id": "phys_turbulence",
+      "domain": "materials",
+      "desc": "Turbulence model selection"
+    },
+    {
+      "id": "phys_heat_transfer",
+      "domain": "materials",
+      "desc": "Heat transfer calculation"
+    },
+    {
+      "id": "phys_em_wave",
+      "domain": "materials",
+      "desc": "EM wave propagation notes"
+    },
+    {
+      "id": "phys_antenna",
+      "domain": "materials",
+      "desc": "Antenna parameter basics"
+    },
+    {
+      "id": "phys_optics_fourier",
+      "domain": "materials",
+      "desc": "Fourier optics simulation"
+    },
+    {
+      "id": "phys_interferometry",
+      "domain": "materials",
+      "desc": "Interferometry analysis"
+    },
+    {
+      "id": "phys_cryogenics",
+      "domain": "materials",
+      "desc": "Cryogenics system notes"
+    },
+    {
+      "id": "phys_superconductor",
+      "domain": "materials",
+      "desc": "Superconductor Tc heuristics"
+    },
+    {
+      "id": "phys_spintronics",
+      "domain": "materials",
+      "desc": "Spintronics device notes"
+    },
+    {
+      "id": "phys_quantum_sensor",
+      "domain": "materials",
+      "desc": "Quantum sensor metrics"
+    },
+    {
+      "id": "phys_metrology",
+      "domain": "materials",
+      "desc": "Metrology uncertainty budget"
+    },
+    {
+      "id": "phys_units_si",
+      "domain": "materials",
+      "desc": "SI unit consistency checker"
+    },
+    {
+      "id": "phys_dimensional",
+      "domain": "materials",
+      "desc": "Dimensional analysis"
+    },
+    {
+      "id": "phys_error_prop",
+      "domain": "materials",
+      "desc": "Uncertainty propagation"
+    },
+    {
+      "id": "earth_gis_crs",
+      "domain": "earth",
+      "desc": "CRS / projection handling"
+    },
+    {
+      "id": "earth_raster_zonal",
+      "domain": "earth",
+      "desc": "Zonal statistics on rasters"
+    },
+    {
+      "id": "earth_vector_overlay",
+      "domain": "earth",
+      "desc": "Vector overlay analysis"
+    },
+    {
+      "id": "earth_remote_ndvi",
+      "domain": "earth",
+      "desc": "NDVI time series"
+    },
+    {
+      "id": "earth_landsat",
+      "domain": "earth",
+      "desc": "Landsat preprocessing"
+    },
+    {
+      "id": "earth_sentinel",
+      "domain": "earth",
+      "desc": "Sentinel-2 workflow"
+    },
+    {
+      "id": "earth_sar",
+      "domain": "earth",
+      "desc": "SAR backscatter analysis"
+    },
+    {
+      "id": "earth_dem",
+      "domain": "earth",
+      "desc": "DEM derivatives (slope/aspect)"
+    },
+    {
+      "id": "earth_hydrology",
+      "domain": "earth",
+      "desc": "Watershed delineation"
+    },
+    {
+      "id": "earth_climate_normals",
+      "domain": "earth",
+      "desc": "Climate normals calculation"
+    },
+    {
+      "id": "earth_extreme_events",
+      "domain": "earth",
+      "desc": "Extreme value analysis weather"
+    },
+    {
+      "id": "earth_downscale",
+      "domain": "earth",
+      "desc": "Climate downscaling outline"
+    },
+    {
+      "id": "earth_carbon_budget",
+      "domain": "earth",
+      "desc": "Carbon budget accounting"
+    },
+    {
+      "id": "earth_lulc",
+      "domain": "earth",
+      "desc": "Land use/land cover classify"
+    },
+    {
+      "id": "earth_species_dist",
+      "domain": "earth",
+      "desc": "Species distribution modeling"
+    },
+    {
+      "id": "earth_air_quality",
+      "domain": "earth",
+      "desc": "Air quality index analysis"
+    },
+    {
+      "id": "earth_ocean_sst",
+      "domain": "earth",
+      "desc": "SST anomaly analysis"
+    },
+    {
+      "id": "earth_seismic",
+      "domain": "earth",
+      "desc": "Seismic catalog analysis"
+    },
+    {
+      "id": "earth_soil",
+      "domain": "earth",
+      "desc": "Soil property mapping"
+    },
+    {
+      "id": "earth_repro_geo",
+      "domain": "earth",
+      "desc": "Reproducible geospatial pipeline"
+    },
+    {
+      "id": "neuro_eeg_preprocess",
+      "domain": "neuroscience",
+      "desc": "EEG preprocess pipeline"
+    },
+    {
+      "id": "neuro_erp",
+      "domain": "neuroscience",
+      "desc": "ERP analysis"
+    },
+    {
+      "id": "neuro_meg",
+      "domain": "neuroscience",
+      "desc": "MEG analysis outline"
+    },
+    {
+      "id": "neuro_fmri_pre",
+      "domain": "neuroscience",
+      "desc": "fMRI preprocessing"
+    },
+    {
+      "id": "neuro_glm_fmri",
+      "domain": "neuroscience",
+      "desc": "fMRI GLM first-level"
+    },
+    {
+      "id": "neuro_connectivity",
+      "domain": "neuroscience",
+      "desc": "Functional connectivity"
+    },
+    {
+      "id": "neuro_dti",
+      "domain": "neuroscience",
+      "desc": "DTI tractography notes"
+    },
+    {
+      "id": "neuro_freesurfer",
+      "domain": "neuroscience",
+      "desc": "FreeSurfer recon notes"
+    },
+    {
+      "id": "neuro_bids",
+      "domain": "neuroscience",
+      "desc": "BIDS dataset validation"
+    },
+    {
+      "id": "neuro_eye_track",
+      "domain": "neuroscience",
+      "desc": "Eye-tracking analysis"
+    },
+    {
+      "id": "neuro_behavior",
+      "domain": "neuroscience",
+      "desc": "Behavioral task analysis"
+    },
+    {
+      "id": "neuro_psychometrics",
+      "domain": "neuroscience",
+      "desc": "Psychometric scale analysis"
+    },
+    {
+      "id": "neuro_sleep",
+      "domain": "neuroscience",
+      "desc": "Sleep stage scoring notes"
+    },
+    {
+      "id": "neuro_bci",
+      "domain": "neuroscience",
+      "desc": "BCI feature + classify outline"
+    },
+    {
+      "id": "neuro_spike",
+      "domain": "neuroscience",
+      "desc": "Spike sorting basics"
+    },
+    {
+      "id": "neuro_calcium",
+      "domain": "neuroscience",
+      "desc": "Calcium imaging analysis"
+    },
+    {
+      "id": "neuro_network_graph",
+      "domain": "neuroscience",
+      "desc": "Brain network graph metrics"
+    },
+    {
+      "id": "neuro_lesion",
+      "domain": "neuroscience",
+      "desc": "Lesion-symptom mapping"
+    },
+    {
+      "id": "neuro_repro_neuro",
+      "domain": "neuroscience",
+      "desc": "Neuroimaging repro checklist"
+    },
+    {
+      "id": "neuro_prereg_cog",
+      "domain": "neuroscience",
+      "desc": "Cognitive study pre-reg"
+    },
+    {
+      "id": "astro_photometry",
+      "domain": "astro",
+      "desc": "Aperture photometry workflow"
+    },
+    {
+      "id": "astro_astrometry",
+      "domain": "astro",
+      "desc": "Astrometric calibration"
+    },
+    {
+      "id": "astro_spectra",
+      "domain": "astro",
+      "desc": "Stellar spectrum reduction"
+    },
+    {
+      "id": "astro_lightcurve",
+      "domain": "astro",
+      "desc": "Exoplanet light curve fit"
+    },
+    {
+      "id": "astro_periodogram",
+      "domain": "astro",
+      "desc": "Periodogram analysis"
+    },
+    {
+      "id": "astro_catalog_cross",
+      "domain": "astro",
+      "desc": "Catalog cross-match"
+    },
+    {
+      "id": "astro_fits_io",
+      "domain": "astro",
+      "desc": "FITS I/O + WCS"
+    },
+    {
+      "id": "astro_image_stack",
+      "domain": "astro",
+      "desc": "Image stacking / drizzle"
+    },
+    {
+      "id": "astro_psf",
+      "domain": "astro",
+      "desc": "PSF modeling"
+    },
+    {
+      "id": "astro_cosmo_distance",
+      "domain": "astro",
+      "desc": "Cosmological distance calc"
+    },
+    {
+      "id": "space_orbit",
+      "domain": "astro",
+      "desc": "Orbital element conversion"
+    },
+    {
+      "id": "space_tle",
+      "domain": "astro",
+      "desc": "TLE propagation notes"
+    },
+    {
+      "id": "space_link_budget",
+      "domain": "astro",
+      "desc": "RF link budget"
+    },
+    {
+      "id": "space_thermal",
+      "domain": "astro",
+      "desc": "Spacecraft thermal budget"
+    },
+    {
+      "id": "space_rad_hard",
+      "domain": "astro",
+      "desc": "Radiation hardness notes"
+    },
+    {
+      "id": "robo_kinematics",
+      "domain": "engineering",
+      "desc": "Forward/inverse kinematics"
+    },
+    {
+      "id": "robo_trajectory",
+      "domain": "engineering",
+      "desc": "Trajectory planning"
+    },
+    {
+      "id": "robo_pid_tune",
+      "domain": "engineering",
+      "desc": "PID tuning workflow"
+    },
+    {
+      "id": "robo_slam",
+      "domain": "engineering",
+      "desc": "SLAM pipeline outline"
+    },
+    {
+      "id": "robo_perception",
+      "domain": "engineering",
+      "desc": "Robot vision perception stack"
+    },
+    {
+      "id": "robo_calibration",
+      "domain": "engineering",
+      "desc": "Camera/IMU calibration"
+    },
+    {
+      "id": "robo_ros2",
+      "domain": "engineering",
+      "desc": "ROS 2 package layout"
+    },
+    {
+      "id": "robo_sim_gazebo",
+      "domain": "engineering",
+      "desc": "Gazebo/sim testing plan"
+    },
+    {
+      "id": "robo_safety",
+      "domain": "engineering",
+      "desc": "Robot safety checklist"
+    },
+    {
+      "id": "robo_hri",
+      "domain": "engineering",
+      "desc": "Human-robot interaction study"
+    },
+    {
+      "id": "eng_doe_taguchi",
+      "domain": "engineering",
+      "desc": "Taguchi DoE"
+    },
+    {
+      "id": "eng_six_sigma",
+      "domain": "engineering",
+      "desc": "Six Sigma DMAIC template"
+    },
+    {
+      "id": "eng_fmea",
+      "domain": "engineering",
+      "desc": "FMEA risk analysis"
+    },
+    {
+      "id": "eng_tolerance",
+      "domain": "engineering",
+      "desc": "Tolerance stack-up"
+    },
+    {
+      "id": "eng_fea",
+      "domain": "engineering",
+      "desc": "FEA setup checklist"
+    },
+    {
+      "id": "eng_cad_bom",
+      "domain": "engineering",
+      "desc": "CAD BOM hygiene"
+    },
+    {
+      "id": "eng_reliability",
+      "domain": "engineering",
+      "desc": "Reliability bathtub curve"
+    },
+    {
+      "id": "eng_mtbf",
+      "domain": "engineering",
+      "desc": "MTBF estimation"
+    },
+    {
+      "id": "eng_power_budget",
+      "domain": "engineering",
+      "desc": "Electronics power budget"
+    },
+    {
+      "id": "eng_signal_integrity",
+      "domain": "engineering",
+      "desc": "Signal integrity notes"
+    },
+    {
+      "id": "data_lakehouse",
+      "domain": "data_platform",
+      "desc": "Lakehouse table design"
+    },
+    {
+      "id": "data_medallion",
+      "domain": "data_platform",
+      "desc": "Medallion architecture"
+    },
+    {
+      "id": "data_dbt_model",
+      "domain": "data_platform",
+      "desc": "dbt model testing"
+    },
+    {
+      "id": "data_great_expectations",
+      "domain": "data_platform",
+      "desc": "Great Expectations suite"
+    },
+    {
+      "id": "data_soda_scan",
+      "domain": "data_platform",
+      "desc": "Data quality scan"
+    },
+    {
+      "id": "data_lineage_openlineage",
+      "domain": "data_platform",
+      "desc": "OpenLineage events"
+    },
+    {
+      "id": "data_catalog",
+      "domain": "data_platform",
+      "desc": "Data catalog metadata"
+    },
+    {
+      "id": "data_privacy_gdpr",
+      "domain": "data_platform",
+      "desc": "GDPR data handling checklist"
+    },
+    {
+      "id": "data_hipaa",
+      "domain": "data_platform",
+      "desc": "HIPAA research data notes"
+    },
+    {
+      "id": "data_anonymize",
+      "domain": "data_platform",
+      "desc": "Anonymization / k-anonymity"
+    },
+    {
+      "id": "data_synthetic_tab",
+      "domain": "data_platform",
+      "desc": "Tabular synthetic data"
+    },
+    {
+      "id": "data_stream_kafka",
+      "domain": "data_platform",
+      "desc": "Kafka stream processing plan"
+    },
+    {
+      "id": "data_spark_job",
+      "domain": "data_platform",
+      "desc": "Spark job tuning"
+    },
+    {
+      "id": "data_airflow_dag",
+      "domain": "data_platform",
+      "desc": "Airflow DAG design"
+    },
+    {
+      "id": "data_prefect",
+      "domain": "data_platform",
+      "desc": "Prefect flow design"
+    },
+    {
+      "id": "data_version_lake",
+      "domain": "data_platform",
+      "desc": "Lake dataset versioning"
+    },
+    {
+      "id": "data_sql_optimize",
+      "domain": "data_platform",
+      "desc": "SQL query optimization"
+    },
+    {
+      "id": "data_window_func",
+      "domain": "data_platform",
+      "desc": "Advanced window functions"
+    },
+    {
+      "id": "data_time_travel",
+      "domain": "data_platform",
+      "desc": "Time-travel query patterns"
+    },
+    {
+      "id": "data_cdc",
+      "domain": "data_platform",
+      "desc": "CDC pipeline design"
+    },
+    {
+      "id": "data_api_paginate",
+      "domain": "data_platform",
+      "desc": "API pagination & rate respect"
+    },
+    {
+      "id": "data_scrape_ethics",
+      "domain": "data_platform",
+      "desc": "Ethical scraping checklist"
+    },
+    {
+      "id": "data_ocr_table",
+      "domain": "data_platform",
+      "desc": "OCR table extraction"
+    },
+    {
+      "id": "data_pdf_parse",
+      "domain": "data_platform",
+      "desc": "Scientific PDF parse"
+    },
+    {
+      "id": "data_bib_manage",
+      "domain": "data_platform",
+      "desc": "Bibliography database hygiene"
+    },
+    {
+      "id": "data_orcid",
+      "domain": "data_platform",
+      "desc": "ORCID researcher graph"
+    },
+    {
+      "id": "data_doi_mint",
+      "domain": "data_platform",
+      "desc": "DOI minting checklist"
+    },
+    {
+      "id": "data_zenodo",
+      "domain": "data_platform",
+      "desc": "Zenodo deposit workflow"
+    },
+    {
+      "id": "data_figshare",
+      "domain": "data_platform",
+      "desc": "Figshare packaging"
+    },
+    {
+      "id": "data_dryad",
+      "domain": "data_platform",
+      "desc": "Dryad deposit notes"
+    },
+    {
+      "id": "viz_nature_figure",
+      "domain": "comms",
+      "desc": "Nature-style figure checklist"
+    },
+    {
+      "id": "viz_colorblind",
+      "domain": "comms",
+      "desc": "Colorblind-safe palettes"
+    },
+    {
+      "id": "viz_small_multiples",
+      "domain": "comms",
+      "desc": "Small multiples layout"
+    },
+    {
+      "id": "viz_upset",
+      "domain": "comms",
+      "desc": "UpSet plot for set intersections"
+    },
+    {
+      "id": "viz_alluvial",
+      "domain": "comms",
+      "desc": "Alluvial / Sankey diagram"
+    },
+    {
+      "id": "viz_ridge",
+      "domain": "comms",
+      "desc": "Ridge density plot"
+    },
+    {
+      "id": "viz_volcano",
+      "domain": "comms",
+      "desc": "Volcano plot (omics)"
+    },
+    {
+      "id": "viz_manhattan",
+      "domain": "comms",
+      "desc": "Manhattan plot"
+    },
+    {
+      "id": "viz_circos",
+      "domain": "comms",
+      "desc": "Circos-style genome plot"
+    },
+    {
+      "id": "viz_3d_scatter",
+      "domain": "comms",
+      "desc": "3D scatter interactive notes"
+    },
+    {
+      "id": "viz_animation",
+      "domain": "comms",
+      "desc": "Scientific animation ethics"
+    },
+    {
+      "id": "viz_dashboard",
+      "domain": "comms",
+      "desc": "Research dashboard IA"
+    },
+    {
+      "id": "write_abstract",
+      "domain": "comms",
+      "desc": "Structured abstract"
+    },
+    {
+      "id": "write_cover_letter",
+      "domain": "comms",
+      "desc": "Journal cover letter"
+    },
+    {
+      "id": "write_response_reviewers",
+      "domain": "comms",
+      "desc": "Response to reviewers"
+    },
+    {
+      "id": "write_grant_aims",
+      "domain": "comms",
+      "desc": "Grant specific aims page"
+    },
+    {
+      "id": "write_budget_just",
+      "domain": "comms",
+      "desc": "Budget justification"
+    },
+    {
+      "id": "write_biosketch",
+      "domain": "comms",
+      "desc": "NIH-style biosketch notes"
+    },
+    {
+      "id": "write_data_avail",
+      "domain": "comms",
+      "desc": "Data availability statement"
+    },
+    {
+      "id": "write_code_avail",
+      "domain": "comms",
+      "desc": "Code availability statement"
+    },
+    {
+      "id": "write_limitations",
+      "domain": "comms",
+      "desc": "Limitations section rigor"
+    },
+    {
+      "id": "write_stats_report",
+      "domain": "comms",
+      "desc": "SAMPL reporting stats"
+    },
+    {
+      "id": "write_preprint",
+      "domain": "comms",
+      "desc": "Preprint deposit checklist"
+    },
+    {
+      "id": "write_press",
+      "domain": "comms",
+      "desc": "Lay summary / press brief"
+    },
+    {
+      "id": "write_poster",
+      "domain": "comms",
+      "desc": "Conference poster structure"
+    },
+    {
+      "id": "write_talk",
+      "domain": "comms",
+      "desc": "Scientific talk storyboard"
+    },
+    {
+      "id": "write_methods_repro",
+      "domain": "comms",
+      "desc": "Methods reproducibility block"
+    },
+    {
+      "id": "write_supplement",
+      "domain": "comms",
+      "desc": "Supplement organization"
+    },
+    {
+      "id": "write_figure_legend",
+      "domain": "comms",
+      "desc": "Figure legend completeness"
+    },
+    {
+      "id": "write_table1",
+      "domain": "comms",
+      "desc": "Table 1 baseline characteristics"
+    },
+    {
+      "id": "atlas_add_claim",
+      "domain": "atlas",
+      "desc": "Add claim node to Atlas graph"
+    },
+    {
+      "id": "atlas_add_paper",
+      "domain": "atlas",
+      "desc": "Add paper node + cite edges"
+    },
+    {
+      "id": "atlas_add_dataset",
+      "domain": "atlas",
+      "desc": "Register dataset in Atlas"
+    },
+    {
+      "id": "atlas_add_experiment",
+      "domain": "atlas",
+      "desc": "Log experiment node"
+    },
+    {
+      "id": "atlas_link_figure",
+      "domain": "atlas",
+      "desc": "Link figure to experiment"
+    },
+    {
+      "id": "atlas_link_script",
+      "domain": "atlas",
+      "desc": "Link script to result"
+    },
+    {
+      "id": "atlas_export_subgraph",
+      "domain": "atlas",
+      "desc": "Export subgraph JSON"
+    },
+    {
+      "id": "atlas_query_neighbors",
+      "domain": "atlas",
+      "desc": "Query node neighbors"
+    },
+    {
+      "id": "atlas_replicate_edge",
+      "domain": "atlas",
+      "desc": "Mark replication edge"
+    },
+    {
+      "id": "atlas_refute_edge",
+      "domain": "atlas",
+      "desc": "Mark refutation edge"
+    },
+    {
+      "id": "atlas_agent_handoff",
+      "domain": "atlas",
+      "desc": "Agent handoff via graph"
+    },
+    {
+      "id": "atlas_merge_claims",
+      "domain": "atlas",
+      "desc": "Merge duplicate claims"
+    },
+    {
+      "id": "atlas_evidence_score",
+      "domain": "atlas",
+      "desc": "Score claim evidence weight"
+    },
+    {
+      "id": "atlas_timeline",
+      "domain": "atlas",
+      "desc": "Research timeline from events"
+    },
+    {
+      "id": "atlas_repro_bundle",
+      "domain": "atlas",
+      "desc": "Bundle graph + scripts + figures"
+    },
+    {
+      "id": "agent_chemist",
+      "domain": "atlas",
+      "desc": "Chemist agent skill routing"
+    },
+    {
+      "id": "agent_biologist",
+      "domain": "atlas",
+      "desc": "Biologist agent skill routing"
+    },
+    {
+      "id": "agent_ml_scientist",
+      "domain": "atlas",
+      "desc": "ML scientist agent routing"
+    },
+    {
+      "id": "agent_statistician",
+      "domain": "atlas",
+      "desc": "Statistician agent routing"
+    },
+    {
+      "id": "agent_writer",
+      "domain": "atlas",
+      "desc": "Scientific writer agent routing"
+    },
+    {
+      "id": "agent_reviewer",
+      "domain": "atlas",
+      "desc": "Critical reviewer agent"
+    },
+    {
+      "id": "agent_lab_ops",
+      "domain": "atlas",
+      "desc": "Lab ops agent routing"
+    },
+    {
+      "id": "agent_data_eng",
+      "domain": "atlas",
+      "desc": "Data engineer agent routing"
+    },
+    {
+      "id": "agent_safety",
+      "domain": "atlas",
+      "desc": "Safety/compliance agent"
+    },
+    {
+      "id": "agent_orchestrator",
+      "domain": "atlas",
+      "desc": "Multi-agent research orchestrator"
+    },
+    {
+      "id": "quantum_circuit",
+      "domain": "theory",
+      "desc": "Quantum circuit design basics"
+    },
+    {
+      "id": "quantum_vqe",
+      "domain": "theory",
+      "desc": "VQE algorithm outline"
+    },
+    {
+      "id": "quantum_qaoa",
+      "domain": "theory",
+      "desc": "QAOA outline"
+    },
+    {
+      "id": "quantum_error",
+      "domain": "theory",
+      "desc": "Error mitigation notes"
+    },
+    {
+      "id": "quantum_sim",
+      "domain": "theory",
+      "desc": "Statevector sim checklist"
+    },
+    {
+      "id": "theory_lagrangian",
+      "domain": "theory",
+      "desc": "Lagrangian mechanics notes"
+    },
+    {
+      "id": "theory_hamiltonian",
+      "domain": "theory",
+      "desc": "Hamiltonian systems"
+    },
+    {
+      "id": "theory_symmetry",
+      "domain": "theory",
+      "desc": "Symmetry / Noether notes"
+    },
+    {
+      "id": "theory_stat_mech",
+      "domain": "theory",
+      "desc": "Stat mech ensemble calc"
+    },
+    {
+      "id": "theory_info",
+      "domain": "theory",
+      "desc": "Information theory metrics"
+    },
+    {
+      "id": "theory_optim",
+      "domain": "theory",
+      "desc": "Convex optimization outline"
+    },
+    {
+      "id": "theory_control",
+      "domain": "theory",
+      "desc": "Control theory basics"
+    },
+    {
+      "id": "theory_signal",
+      "domain": "theory",
+      "desc": "Signal processing transforms"
+    },
+    {
+      "id": "theory_numerics",
+      "domain": "theory",
+      "desc": "Numerical stability checklist"
+    },
+    {
+      "id": "theory_mcmc",
+      "domain": "theory",
+      "desc": "MCMC diagnostics"
+    }
+  ]
+}

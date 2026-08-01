@@ -1,0 +1,119 @@
+{
+  "product": "ResearchersHub",
+  "domain": "lab",
+  "count": 7,
+  "skills": [
+    {
+      "id": "lab_equipment_log",
+      "domain": "lab",
+      "desc": "Equipment use log template",
+      "kind": "playbook",
+      "tags": [
+        "lab",
+        "science",
+        "research",
+        "literature"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lab_inventory",
+      "domain": "lab",
+      "desc": "Lab inventory checklist",
+      "kind": "playbook",
+      "tags": [
+        "lab",
+        "science",
+        "research",
+        "literature"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lab_lams_sample",
+      "domain": "lab",
+      "desc": "Sample chain-of-custody note",
+      "kind": "playbook",
+      "tags": [
+        "lab",
+        "science",
+        "research",
+        "literature"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lab_notebook_entry",
+      "domain": "lab",
+      "desc": "ELN / lab notebook entry template",
+      "kind": "playbook",
+      "tags": [
+        "lab",
+        "science",
+        "research",
+        "literature"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lab_protocol_sop",
+      "domain": "lab",
+      "desc": "SOP protocol template",
+      "kind": "playbook",
+      "tags": [
+        "lab",
+        "science",
+        "research",
+        "literature"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lab_qc_batch",
+      "domain": "lab",
+      "desc": "Batch QC pass/fail report",
+      "kind": "playbook",
+      "tags": [
+        "lab",
+        "science",
+        "research",
+        "literature"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lab_reagent_calc",
+      "domain": "lab",
+      "desc": "Reagent volume/mass calculator",
+      "kind": "playbook",
+      "tags": [
+        "lab",
+        "science",
+        "research",
+        "literature"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

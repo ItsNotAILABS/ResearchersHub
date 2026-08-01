@@ -1,0 +1,262 @@
+{
+  "product": "ResearchersHub",
+  "domain": "theory",
+  "count": 15,
+  "skills": [
+    {
+      "id": "quantum_circuit",
+      "domain": "theory",
+      "desc": "Quantum circuit design basics",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "quantum_error",
+      "domain": "theory",
+      "desc": "Error mitigation notes",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "quantum_qaoa",
+      "domain": "theory",
+      "desc": "QAOA outline",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "quantum_sim",
+      "domain": "theory",
+      "desc": "Statevector sim checklist",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "quantum_vqe",
+      "domain": "theory",
+      "desc": "VQE algorithm outline",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_control",
+      "domain": "theory",
+      "desc": "Control theory basics",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_hamiltonian",
+      "domain": "theory",
+      "desc": "Hamiltonian systems",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_info",
+      "domain": "theory",
+      "desc": "Information theory metrics",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_lagrangian",
+      "domain": "theory",
+      "desc": "Lagrangian mechanics notes",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_mcmc",
+      "domain": "theory",
+      "desc": "MCMC diagnostics",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_numerics",
+      "domain": "theory",
+      "desc": "Numerical stability checklist",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_optim",
+      "domain": "theory",
+      "desc": "Convex optimization outline",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_signal",
+      "domain": "theory",
+      "desc": "Signal processing transforms",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_stat_mech",
+      "domain": "theory",
+      "desc": "Stat mech ensemble calc",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "theory_symmetry",
+      "domain": "theory",
+      "desc": "Symmetry / Noether notes",
+      "kind": "playbook",
+      "tags": [
+        "theory",
+        "science",
+        "research",
+        "quantum",
+        "math"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

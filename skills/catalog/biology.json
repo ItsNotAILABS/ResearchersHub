@@ -1,0 +1,327 @@
+{
+  "product": "ResearchersHub",
+  "domain": "biology",
+  "count": 20,
+  "skills": [
+    {
+      "id": "bio_blast_query",
+      "domain": "biology",
+      "desc": "BLAST search planning",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_cell_culture",
+      "domain": "biology",
+      "desc": "Mammalian cell culture basics",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_central_dogma",
+      "domain": "biology",
+      "desc": "DNA\u2192RNA\u2192protein workflow brief",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_cloning_map",
+      "domain": "biology",
+      "desc": "Plasmid cloning map checklist",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_crispr_guide",
+      "domain": "biology",
+      "desc": "CRISPR guide RNA design checklist",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_dose_response",
+      "domain": "biology",
+      "desc": "IC50/EC50 dose\u2013response fit + chart",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_elisa",
+      "domain": "biology",
+      "desc": "ELISA standard curve + chart",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_enzyme_kinetics",
+      "domain": "biology",
+      "desc": "Michaelis\u2013Menten Km/Vmax chart",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_flow_cytometry",
+      "domain": "biology",
+      "desc": "Flow cytometry gating concepts",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_gel_electrophoresis",
+      "domain": "biology",
+      "desc": "Gel band interpretation aid",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_immuno_assay",
+      "domain": "biology",
+      "desc": "Immunoassay design notes",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_metabolomics_qc",
+      "domain": "biology",
+      "desc": "Metabolomics QC checklist",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_microbiome",
+      "domain": "biology",
+      "desc": "16S microbiome analysis outline",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_pcr_design",
+      "domain": "biology",
+      "desc": "PCR primer design checklist",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_pharmacokinetics",
+      "domain": "biology",
+      "desc": "ADME / PK curve chart",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_protein_structure",
+      "domain": "biology",
+      "desc": "Secondary structure / PDB notes",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_rnaseq_pipeline",
+      "domain": "biology",
+      "desc": "RNA-seq analysis pipeline skeleton",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_sequence_align",
+      "domain": "biology",
+      "desc": "Pairwise sequence alignment sketch",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_virology_basics",
+      "domain": "biology",
+      "desc": "Virus structure / assay notes",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "bio_western_blot",
+      "domain": "biology",
+      "desc": "Western blot protocol skeleton",
+      "kind": "playbook",
+      "tags": [
+        "biology",
+        "science",
+        "research",
+        "wetlab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

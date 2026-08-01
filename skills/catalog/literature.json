@@ -1,0 +1,167 @@
+{
+  "product": "ResearchersHub",
+  "domain": "literature",
+  "count": 10,
+  "skills": [
+    {
+      "id": "lit_arxiv_search",
+      "domain": "literature",
+      "desc": "arXiv search planning + Edge open",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_cite_bibtex",
+      "domain": "literature",
+      "desc": "Generate BibTeX skeleton",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_doi_resolve",
+      "domain": "literature",
+      "desc": "DOI metadata resolve plan",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_grant_aims",
+      "domain": "literature",
+      "desc": "Specific aims page skeleton",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_paper_outline",
+      "domain": "literature",
+      "desc": "IMRaD paper outline",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_peer_review",
+      "domain": "literature",
+      "desc": "Peer review checklist",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_prism_flow",
+      "domain": "literature",
+      "desc": "PRISMA systematic review flow",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_pubmed_search",
+      "domain": "literature",
+      "desc": "PubMed query design",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_related_work",
+      "domain": "literature",
+      "desc": "Related-work matrix template",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "lit_scholar_search",
+      "domain": "literature",
+      "desc": "Google Scholar search plan",
+      "kind": "playbook",
+      "tags": [
+        "literature",
+        "science",
+        "research",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "product": "ResearchersHub",
+  "domain": "data_platform",
+  "count": 30,
+  "skills": [
+    {
+      "id": "data_airflow_dag",
+      "domain": "data_platform",
+      "desc": "Airflow DAG design",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_anonymize",
+      "domain": "data_platform",
+      "desc": "Anonymization / k-anonymity",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_api_paginate",
+      "domain": "data_platform",
+      "desc": "API pagination & rate respect",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_bib_manage",
+      "domain": "data_platform",
+      "desc": "Bibliography database hygiene",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_catalog",
+      "domain": "data_platform",
+      "desc": "Data catalog metadata",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_cdc",
+      "domain": "data_platform",
+      "desc": "CDC pipeline design",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_dbt_model",
+      "domain": "data_platform",
+      "desc": "dbt model testing",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_doi_mint",
+      "domain": "data_platform",
+      "desc": "DOI minting checklist",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_dryad",
+      "domain": "data_platform",
+      "desc": "Dryad deposit notes",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_figshare",
+      "domain": "data_platform",
+      "desc": "Figshare packaging",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_great_expectations",
+      "domain": "data_platform",
+      "desc": "Great Expectations suite",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_hipaa",
+      "domain": "data_platform",
+      "desc": "HIPAA research data notes",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_lakehouse",
+      "domain": "data_platform",
+      "desc": "Lakehouse table design",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_lineage_openlineage",
+      "domain": "data_platform",
+      "desc": "OpenLineage events",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_medallion",
+      "domain": "data_platform",
+      "desc": "Medallion architecture",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_ocr_table",
+      "domain": "data_platform",
+      "desc": "OCR table extraction",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_orcid",
+      "domain": "data_platform",
+      "desc": "ORCID researcher graph",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_pdf_parse",
+      "domain": "data_platform",
+      "desc": "Scientific PDF parse",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_prefect",
+      "domain": "data_platform",
+      "desc": "Prefect flow design",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_privacy_gdpr",
+      "domain": "data_platform",
+      "desc": "GDPR data handling checklist",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_scrape_ethics",
+      "domain": "data_platform",
+      "desc": "Ethical scraping checklist",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_soda_scan",
+      "domain": "data_platform",
+      "desc": "Data quality scan",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_spark_job",
+      "domain": "data_platform",
+      "desc": "Spark job tuning",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_sql_optimize",
+      "domain": "data_platform",
+      "desc": "SQL query optimization",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_stream_kafka",
+      "domain": "data_platform",
+      "desc": "Kafka stream processing plan",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_synthetic_tab",
+      "domain": "data_platform",
+      "desc": "Tabular synthetic data",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_time_travel",
+      "domain": "data_platform",
+      "desc": "Time-travel query patterns",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_version_lake",
+      "domain": "data_platform",
+      "desc": "Lake dataset versioning",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_window_func",
+      "domain": "data_platform",
+      "desc": "Advanced window functions",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_zenodo",
+      "domain": "data_platform",
+      "desc": "Zenodo deposit workflow",
+      "kind": "playbook",
+      "tags": [
+        "data_platform",
+        "science",
+        "research",
+        "data",
+        "platform",
+        "repro"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

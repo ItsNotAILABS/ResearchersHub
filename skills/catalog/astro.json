@@ -1,0 +1,262 @@
+{
+  "product": "ResearchersHub",
+  "domain": "astro",
+  "count": 15,
+  "skills": [
+    {
+      "id": "astro_astrometry",
+      "domain": "astro",
+      "desc": "Astrometric calibration",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_catalog_cross",
+      "domain": "astro",
+      "desc": "Catalog cross-match",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_cosmo_distance",
+      "domain": "astro",
+      "desc": "Cosmological distance calc",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_fits_io",
+      "domain": "astro",
+      "desc": "FITS I/O + WCS",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_image_stack",
+      "domain": "astro",
+      "desc": "Image stacking / drizzle",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_lightcurve",
+      "domain": "astro",
+      "desc": "Exoplanet light curve fit",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_periodogram",
+      "domain": "astro",
+      "desc": "Periodogram analysis",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_photometry",
+      "domain": "astro",
+      "desc": "Aperture photometry workflow",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_psf",
+      "domain": "astro",
+      "desc": "PSF modeling",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "astro_spectra",
+      "domain": "astro",
+      "desc": "Stellar spectrum reduction",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "space_link_budget",
+      "domain": "astro",
+      "desc": "RF link budget",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "space_orbit",
+      "domain": "astro",
+      "desc": "Orbital element conversion",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "space_rad_hard",
+      "domain": "astro",
+      "desc": "Radiation hardness notes",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "space_thermal",
+      "domain": "astro",
+      "desc": "Spacecraft thermal budget",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "space_tle",
+      "domain": "astro",
+      "desc": "TLE propagation notes",
+      "kind": "playbook",
+      "tags": [
+        "astro",
+        "science",
+        "research",
+        "astronomy",
+        "space"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

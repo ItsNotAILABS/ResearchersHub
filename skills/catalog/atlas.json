@@ -1,0 +1,432 @@
+{
+  "product": "ResearchersHub",
+  "domain": "atlas",
+  "count": 25,
+  "skills": [
+    {
+      "id": "agent_biologist",
+      "domain": "atlas",
+      "desc": "Biologist agent skill routing",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_chemist",
+      "domain": "atlas",
+      "desc": "Chemist agent skill routing",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_data_eng",
+      "domain": "atlas",
+      "desc": "Data engineer agent routing",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_lab_ops",
+      "domain": "atlas",
+      "desc": "Lab ops agent routing",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_ml_scientist",
+      "domain": "atlas",
+      "desc": "ML scientist agent routing",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_orchestrator",
+      "domain": "atlas",
+      "desc": "Multi-agent research orchestrator",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_reviewer",
+      "domain": "atlas",
+      "desc": "Critical reviewer agent",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_safety",
+      "domain": "atlas",
+      "desc": "Safety/compliance agent",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_statistician",
+      "domain": "atlas",
+      "desc": "Statistician agent routing",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "agent_writer",
+      "domain": "atlas",
+      "desc": "Scientific writer agent routing",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_add_claim",
+      "domain": "atlas",
+      "desc": "Add claim node to Atlas graph",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_add_dataset",
+      "domain": "atlas",
+      "desc": "Register dataset in Atlas",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_add_experiment",
+      "domain": "atlas",
+      "desc": "Log experiment node",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_add_paper",
+      "domain": "atlas",
+      "desc": "Add paper node + cite edges",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_agent_handoff",
+      "domain": "atlas",
+      "desc": "Agent handoff via graph",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_evidence_score",
+      "domain": "atlas",
+      "desc": "Score claim evidence weight",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_export_subgraph",
+      "domain": "atlas",
+      "desc": "Export subgraph JSON",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_link_figure",
+      "domain": "atlas",
+      "desc": "Link figure to experiment",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_link_script",
+      "domain": "atlas",
+      "desc": "Link script to result",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_merge_claims",
+      "domain": "atlas",
+      "desc": "Merge duplicate claims",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_query_neighbors",
+      "domain": "atlas",
+      "desc": "Query node neighbors",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_refute_edge",
+      "domain": "atlas",
+      "desc": "Mark refutation edge",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_replicate_edge",
+      "domain": "atlas",
+      "desc": "Mark replication edge",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_repro_bundle",
+      "domain": "atlas",
+      "desc": "Bundle graph + scripts + figures",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "atlas_timeline",
+      "domain": "atlas",
+      "desc": "Research timeline from events",
+      "kind": "playbook",
+      "tags": [
+        "atlas",
+        "science",
+        "research",
+        "agents",
+        "graph"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

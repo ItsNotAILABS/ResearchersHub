@@ -1,0 +1,347 @@
+{
+  "product": "ResearchersHub",
+  "domain": "earth",
+  "count": 20,
+  "skills": [
+    {
+      "id": "earth_air_quality",
+      "domain": "earth",
+      "desc": "Air quality index analysis",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_carbon_budget",
+      "domain": "earth",
+      "desc": "Carbon budget accounting",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_climate_normals",
+      "domain": "earth",
+      "desc": "Climate normals calculation",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_dem",
+      "domain": "earth",
+      "desc": "DEM derivatives (slope/aspect)",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_downscale",
+      "domain": "earth",
+      "desc": "Climate downscaling outline",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_extreme_events",
+      "domain": "earth",
+      "desc": "Extreme value analysis weather",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_gis_crs",
+      "domain": "earth",
+      "desc": "CRS / projection handling",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_hydrology",
+      "domain": "earth",
+      "desc": "Watershed delineation",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_landsat",
+      "domain": "earth",
+      "desc": "Landsat preprocessing",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_lulc",
+      "domain": "earth",
+      "desc": "Land use/land cover classify",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_ocean_sst",
+      "domain": "earth",
+      "desc": "SST anomaly analysis",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_raster_zonal",
+      "domain": "earth",
+      "desc": "Zonal statistics on rasters",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_remote_ndvi",
+      "domain": "earth",
+      "desc": "NDVI time series",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_repro_geo",
+      "domain": "earth",
+      "desc": "Reproducible geospatial pipeline",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_sar",
+      "domain": "earth",
+      "desc": "SAR backscatter analysis",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_seismic",
+      "domain": "earth",
+      "desc": "Seismic catalog analysis",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_sentinel",
+      "domain": "earth",
+      "desc": "Sentinel-2 workflow",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_soil",
+      "domain": "earth",
+      "desc": "Soil property mapping",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_species_dist",
+      "domain": "earth",
+      "desc": "Species distribution modeling",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "earth_vector_overlay",
+      "domain": "earth",
+      "desc": "Vector overlay analysis",
+      "kind": "playbook",
+      "tags": [
+        "earth",
+        "science",
+        "research",
+        "climate",
+        "gis"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

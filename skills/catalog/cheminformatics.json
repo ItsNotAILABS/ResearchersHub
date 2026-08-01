@@ -1,0 +1,2676 @@
+{
+  "product": "ResearchersHub",
+  "domain": "cheminformatics",
+  "count": 163,
+  "skills": [
+    {
+      "id": "cheminf_3d_inf",
+      "domain": "cheminformatics",
+      "desc": "3D-informed molecular ML",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_abfe",
+      "domain": "cheminformatics",
+      "desc": "Absolute binding free energy",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_active_learn_vs",
+      "domain": "cheminformatics",
+      "desc": "Active learning virtual screen",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_active_learning_qsar",
+      "domain": "cheminformatics",
+      "desc": "Active learning for QSAR",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_activity_cliff",
+      "domain": "cheminformatics",
+      "desc": "Activity cliff detection",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_adc",
+      "domain": "cheminformatics",
+      "desc": "Antibody-drug conjugate linker notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_admet_predict",
+      "domain": "cheminformatics",
+      "desc": "ADMET property prediction plan",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_ames",
+      "domain": "cheminformatics",
+      "desc": "Ames mutagenicity notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_bayes_opt_mol",
+      "domain": "cheminformatics",
+      "desc": "Bayesian optimization molecules",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_biocatalysis",
+      "domain": "cheminformatics",
+      "desc": "Biocatalysis route design",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_brenk",
+      "domain": "cheminformatics",
+      "desc": "Brenk unwanted groups",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_canonical_smiles",
+      "domain": "cheminformatics",
+      "desc": "Canonicalize SMILES",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_catalyst_screen",
+      "domain": "cheminformatics",
+      "desc": "Catalyst screening DoE",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_chembl_query",
+      "domain": "cheminformatics",
+      "desc": "ChEMBL activity query design",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_chembl_sar",
+      "domain": "cheminformatics",
+      "desc": "ChEMBL SAR extraction",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_clearance",
+      "domain": "cheminformatics",
+      "desc": "Metabolic clearance models",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_clustering_mol",
+      "domain": "cheminformatics",
+      "desc": "Molecular clustering",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_cns_mpo",
+      "domain": "cheminformatics",
+      "desc": "CNS MPO scoring",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_cond_gen",
+      "domain": "cheminformatics",
+      "desc": "Property-conditioned generation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_condition_rec",
+      "domain": "cheminformatics",
+      "desc": "Condition recommendation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_confab",
+      "domain": "cheminformatics",
+      "desc": "Confab conformer generation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_conformer_gen",
+      "domain": "cheminformatics",
+      "desc": "Conformer generation workflow",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_contrastive_mol",
+      "domain": "cheminformatics",
+      "desc": "Molecular contrastive learning",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_crystal_packing",
+      "domain": "cheminformatics",
+      "desc": "Crystal packing / polymorph notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_crystal_struct",
+      "domain": "cheminformatics",
+      "desc": "Small-molecule crystallography",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_cyp",
+      "domain": "cheminformatics",
+      "desc": "CYP inhibition alerts",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_descriptors_2d",
+      "domain": "cheminformatics",
+      "desc": "2D molecular descriptors",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_descriptors_3d",
+      "domain": "cheminformatics",
+      "desc": "3D descriptors + conformers",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_diff_mol",
+      "domain": "cheminformatics",
+      "desc": "Diffusion molecular generation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_diversity_select",
+      "domain": "cheminformatics",
+      "desc": "Diverse subset selection",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_dock_glide",
+      "domain": "cheminformatics",
+      "desc": "Glide-style docking notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_dock_ml_score",
+      "domain": "cheminformatics",
+      "desc": "ML docking score models",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_dock_rescore",
+      "domain": "cheminformatics",
+      "desc": "Docking rescoring strategies",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_dock_vina",
+      "domain": "cheminformatics",
+      "desc": "AutoDock Vina workflow",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_docking_ligand",
+      "domain": "cheminformatics",
+      "desc": "Ligand docking prep (PDBQT)",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_dude",
+      "domain": "cheminformatics",
+      "desc": "DUD-E virtual screen benchmark",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_duplicate_remove",
+      "domain": "cheminformatics",
+      "desc": "Duplicate structure removal",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_electrochem_syn",
+      "domain": "cheminformatics",
+      "desc": "Electrosynthesis notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_eln_chem",
+      "domain": "cheminformatics",
+      "desc": "Chemistry ELN reaction table",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_enamine",
+      "domain": "cheminformatics",
+      "desc": "Enamine REAL space notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_enzyme_eng",
+      "domain": "cheminformatics",
+      "desc": "Enzyme engineering for chem",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_esp_map",
+      "domain": "cheminformatics",
+      "desc": "Electrostatic potential map",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_etkdg",
+      "domain": "cheminformatics",
+      "desc": "ETKDG conformer workflow",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_fair_chem",
+      "domain": "cheminformatics",
+      "desc": "FAIR chemical data packaging",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_fair_mol",
+      "domain": "cheminformatics",
+      "desc": "FAIR molecular datasets",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_fbdd",
+      "domain": "cheminformatics",
+      "desc": "FBDD cascade",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_fep_setup",
+      "domain": "cheminformatics",
+      "desc": "FEP setup checklist",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_fingerprints_ecfp",
+      "domain": "cheminformatics",
+      "desc": "ECFP/Morgan fingerprints",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_fingerprints_maccs",
+      "domain": "cheminformatics",
+      "desc": "MACCS keys",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_flow_chem",
+      "domain": "cheminformatics",
+      "desc": "Flow chemistry parameters",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_formulation",
+      "domain": "cheminformatics",
+      "desc": "Formulation preformulation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_frag_grow",
+      "domain": "cheminformatics",
+      "desc": "Fragment growing",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_frag_link",
+      "domain": "cheminformatics",
+      "desc": "Fragment linking design",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_free_energy",
+      "domain": "cheminformatics",
+      "desc": "Free energy perturbation outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_gan_mol",
+      "domain": "cheminformatics",
+      "desc": "Molecular GAN outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_generative_smiles",
+      "domain": "cheminformatics",
+      "desc": "SMILES generative model outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_genotoxic",
+      "domain": "cheminformatics",
+      "desc": "Genotoxic impurity control",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_ghs_label",
+      "domain": "cheminformatics",
+      "desc": "GHS labeling checklist",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_graph_nn",
+      "domain": "cheminformatics",
+      "desc": "Molecular GNN training outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_graphormer",
+      "domain": "cheminformatics",
+      "desc": "Molecular Graphormer outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_green_chem_score",
+      "domain": "cheminformatics",
+      "desc": "Green chemistry scoring",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_green_solvent",
+      "domain": "cheminformatics",
+      "desc": "Green solvent selection",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_herg",
+      "domain": "cheminformatics",
+      "desc": "hERG liability filter",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_htl",
+      "domain": "cheminformatics",
+      "desc": "Hit-to-lead checklist",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_impurity",
+      "domain": "cheminformatics",
+      "desc": "Impurity profiling",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_inchi_key",
+      "domain": "cheminformatics",
+      "desc": "InChI / InChIKey conversion",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_inventory_eln",
+      "domain": "cheminformatics",
+      "desc": "Chemical inventory + ELN link",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_lca_chem",
+      "domain": "cheminformatics",
+      "desc": "LCA for chemical process",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_lead_opt",
+      "domain": "cheminformatics",
+      "desc": "Lead optimization multi-param",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_library_enum",
+      "domain": "cheminformatics",
+      "desc": "Combinatorial library enum",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_lipinski",
+      "domain": "cheminformatics",
+      "desc": "Lipinski Ro5 filter",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_litpcba",
+      "domain": "cheminformatics",
+      "desc": "LIT-PCBA benchmark notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_logp",
+      "domain": "cheminformatics",
+      "desc": "logP / logD estimation notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_macrocycle",
+      "domain": "cheminformatics",
+      "desc": "Macrocycle design notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_mcp_map",
+      "domain": "cheminformatics",
+      "desc": "Matched molecular pairs",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_mcs",
+      "domain": "cheminformatics",
+      "desc": "Maximum common substructure",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_md_ligand",
+      "domain": "cheminformatics",
+      "desc": "Ligand MD stability notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_metabolite",
+      "domain": "cheminformatics",
+      "desc": "Metabolite prediction outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_minimize",
+      "domain": "cheminformatics",
+      "desc": "Energy minimization outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_mmff_min",
+      "domain": "cheminformatics",
+      "desc": "MMFF minimization",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_mmpdb",
+      "domain": "cheminformatics",
+      "desc": "Matched molecular pair DB",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_moleculenet",
+      "domain": "cheminformatics",
+      "desc": "MoleculeNet benchmark suite",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_multiobj_opt",
+      "domain": "cheminformatics",
+      "desc": "Multi-objective molecule opt",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_multiobj_pareto",
+      "domain": "cheminformatics",
+      "desc": "Pareto multi-obj mol design",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_neutralize",
+      "domain": "cheminformatics",
+      "desc": "Charge neutralization",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_oligo",
+      "domain": "cheminformatics",
+      "desc": "Oligonucleotide chem notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_pains",
+      "domain": "cheminformatics",
+      "desc": "PAINS filter",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_parquet_mol",
+      "domain": "cheminformatics",
+      "desc": "Large moltable \u2192 parquet plan",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_patent_fto",
+      "domain": "cheminformatics",
+      "desc": "Freedom-to-operate sketch",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_patent_markush",
+      "domain": "cheminformatics",
+      "desc": "Markush structure notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_pdb_ligand",
+      "domain": "cheminformatics",
+      "desc": "PDB ligand extraction",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_pdbbind",
+      "domain": "cheminformatics",
+      "desc": "PDBbind affinity dataset",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_peptide",
+      "domain": "cheminformatics",
+      "desc": "Peptide drug-likeness",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_permeability",
+      "domain": "cheminformatics",
+      "desc": "Permeability prediction",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_ph4",
+      "domain": "cheminformatics",
+      "desc": "Pharmacophore modeling outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_pharmacophore_3d",
+      "domain": "cheminformatics",
+      "desc": "3D pharmacophore",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_photoredox",
+      "domain": "cheminformatics",
+      "desc": "Photoredox reaction design",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_pka",
+      "domain": "cheminformatics",
+      "desc": "pKa estimation outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_plip",
+      "domain": "cheminformatics",
+      "desc": "Protein-ligand interaction profile",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_polymorph_screen",
+      "domain": "cheminformatics",
+      "desc": "Polymorph screening plan",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_pose_cluster",
+      "domain": "cheminformatics",
+      "desc": "Pose clustering",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_powder_xrd",
+      "domain": "cheminformatics",
+      "desc": "Powder XRD phase ID",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_ppp",
+      "domain": "cheminformatics",
+      "desc": "Property forecast plots",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_process_chem",
+      "domain": "cheminformatics",
+      "desc": "Process chemistry route scouting",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_prodrug",
+      "domain": "cheminformatics",
+      "desc": "Prodrug design notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_protac",
+      "domain": "cheminformatics",
+      "desc": "PROTAC design outline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_pubchem_assay",
+      "domain": "cheminformatics",
+      "desc": "PubChem bioassay mining plan",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_pubchem_mine",
+      "domain": "cheminformatics",
+      "desc": "PubChem data mining",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_qed",
+      "domain": "cheminformatics",
+      "desc": "QED drug-likeness score",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_qsar_ad",
+      "domain": "cheminformatics",
+      "desc": "Applicability domain",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_qsar_build",
+      "domain": "cheminformatics",
+      "desc": "QSAR model build + validate",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_qsar_gnn",
+      "domain": "cheminformatics",
+      "desc": "Graph neural QSAR",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_qsar_gp",
+      "domain": "cheminformatics",
+      "desc": "GP QSAR + uncertainty",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_qsar_rf",
+      "domain": "cheminformatics",
+      "desc": "Random forest QSAR",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_rbfe",
+      "domain": "cheminformatics",
+      "desc": "Relative binding free energy",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_rdkit_sanitize",
+      "domain": "cheminformatics",
+      "desc": "RDKit sanitize & cleanup",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_reaction_pred",
+      "domain": "cheminformatics",
+      "desc": "Reaction outcome prediction",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_reaction_smarts",
+      "domain": "cheminformatics",
+      "desc": "Reaction SMARTS encoding",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_reactive",
+      "domain": "cheminformatics",
+      "desc": "Reactive metabolite flags",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_reagents_db",
+      "domain": "cheminformatics",
+      "desc": "Reagent database hygiene",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_retrosyn_ai",
+      "domain": "cheminformatics",
+      "desc": "AI retrosynthesis planning",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_retrosyn_eval",
+      "domain": "cheminformatics",
+      "desc": "Retrosynthesis eval metrics",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_retrosyn_template",
+      "domain": "cheminformatics",
+      "desc": "Template retrosynthesis",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_rgroup",
+      "domain": "cheminformatics",
+      "desc": "R-group decomposition",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_rgroup_decomp",
+      "domain": "cheminformatics",
+      "desc": "R-group table generation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_rl_mol",
+      "domain": "cheminformatics",
+      "desc": "RL molecule generation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_rocs_shape",
+      "domain": "cheminformatics",
+      "desc": "ROCS-style shape screening",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_route_score",
+      "domain": "cheminformatics",
+      "desc": "Route ideality / PMI scoring",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_sa_score",
+      "domain": "cheminformatics",
+      "desc": "Synthetic accessibility score",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_salt_screen",
+      "domain": "cheminformatics",
+      "desc": "Salt/cocrystal screen",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_salt_strip",
+      "domain": "cheminformatics",
+      "desc": "Salt/solvent stripping",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_sar_matrix",
+      "domain": "cheminformatics",
+      "desc": "SAR matrix analysis",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_scaffold_bemis",
+      "domain": "cheminformatics",
+      "desc": "Bemis\u2013Murcko scaffolds",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_scaffold_cond",
+      "domain": "cheminformatics",
+      "desc": "Scaffold-conditioned gen",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_scaffold_hop",
+      "domain": "cheminformatics",
+      "desc": "Scaffold hopping ideas",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_scaffold_ip",
+      "domain": "cheminformatics",
+      "desc": "Scaffold IP landscaping",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_sdf_io",
+      "domain": "cheminformatics",
+      "desc": "SDF read/write workflow",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_sds_parse",
+      "domain": "cheminformatics",
+      "desc": "SDS hazard extraction",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_selfies",
+      "domain": "cheminformatics",
+      "desc": "SELFIES representation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_shape_sim",
+      "domain": "cheminformatics",
+      "desc": "Shape similarity screening",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_smiles_aug",
+      "domain": "cheminformatics",
+      "desc": "SMILES augmentation for ML",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_smiles_parse",
+      "domain": "cheminformatics",
+      "desc": "Parse/validate SMILES",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_solubility",
+      "domain": "cheminformatics",
+      "desc": "Aqueous solubility models",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_spectrum_predict",
+      "domain": "cheminformatics",
+      "desc": "NMR/MS spectrum prediction notes",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_stability_ich",
+      "domain": "cheminformatics",
+      "desc": "ICH stability study design",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_standardize",
+      "domain": "cheminformatics",
+      "desc": "MolStandardize pipeline",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_stereo",
+      "domain": "cheminformatics",
+      "desc": "Stereochemistry perception",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_stereo_enum",
+      "domain": "cheminformatics",
+      "desc": "Stereo enumeration",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_substructure_search",
+      "domain": "cheminformatics",
+      "desc": "Substructure filter",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_synth_plan",
+      "domain": "cheminformatics",
+      "desc": "Multi-step synthesis planning",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_tanimoto",
+      "domain": "cheminformatics",
+      "desc": "Tanimoto similarity matrix",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_tautomer",
+      "domain": "cheminformatics",
+      "desc": "Tautomer enumeration",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_therapeutics_data",
+      "domain": "cheminformatics",
+      "desc": "Therapeutic data packaging",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_ti_md",
+      "domain": "cheminformatics",
+      "desc": "Thermodynamic integration MD",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_toxicity_alert",
+      "domain": "cheminformatics",
+      "desc": "Toxicity structural alerts",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_uff_min",
+      "domain": "cheminformatics",
+      "desc": "UFF minimization",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_vae_mol",
+      "domain": "cheminformatics",
+      "desc": "Molecular VAE generation",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_veber",
+      "domain": "cheminformatics",
+      "desc": "Veber oral bioavailability rules",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_virtual_screen",
+      "domain": "cheminformatics",
+      "desc": "Virtual screening cascade",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "chemistry",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_water_sites",
+      "domain": "cheminformatics",
+      "desc": "Water site analysis",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_yield_model",
+      "domain": "cheminformatics",
+      "desc": "Reaction yield models",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "cheminf_zinc_screen",
+      "domain": "cheminformatics",
+      "desc": "ZINC library screening plan",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "custom_qsar_house_rules",
+      "domain": "cheminformatics",
+      "desc": "Lab-specific QSAR acceptance criteria (edit this file)",
+      "kind": "playbook",
+      "tags": [
+        "cheminformatics",
+        "science",
+        "research",
+        "qsar",
+        "editable"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

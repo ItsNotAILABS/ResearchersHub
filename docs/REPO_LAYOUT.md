@@ -16,7 +16,11 @@ ResearchersHub/
 │   ├── archive/              # Historical host papers only
 │   └── …
 ├── src/pocket/               # Runtime package (import name historical; product = ResearchersHub)
-├── skills/                   # Editable research + agent skill packs
+├── skills/                   # 971 research skills as public JSON (catalog/ + INDEX)
+│   ├── CATALOG.json
+│   ├── INDEX.json
+│   ├── catalog/*.json        # per-domain full skill objects
+│   └── researchershub/       # optional agent how-to
 ├── scripts/                  # Installers & launchers
 ├── desktop-electron/         # Optional desktop shell
 ├── releases/                 # Release artifacts metadata

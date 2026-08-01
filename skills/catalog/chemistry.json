@@ -1,0 +1,647 @@
+{
+  "product": "ResearchersHub",
+  "domain": "chemistry",
+  "count": 40,
+  "skills": [
+    {
+      "id": "chem_acid_base",
+      "domain": "chemistry",
+      "desc": "pH, Ka/Kb, buffers, Henderson\u2013Hasselbalch",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_calorimetry",
+      "domain": "chemistry",
+      "desc": "q=mc\u0394T and bomb calorimetry",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_catalysis",
+      "domain": "chemistry",
+      "desc": "Homogeneous vs heterogeneous catalysis",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_colligative",
+      "domain": "chemistry",
+      "desc": "Boiling/freezing point, osmotic pressure",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_computational_dft",
+      "domain": "chemistry",
+      "desc": "DFT workflow outline (geometry, energy)",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_crystal_field",
+      "domain": "chemistry",
+      "desc": "Crystal field splitting octahedral/tetrahedral",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_dilution",
+      "domain": "chemistry",
+      "desc": "C1V1=C2V2 dilution planner",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_electrochemistry",
+      "domain": "chemistry",
+      "desc": "Nernst equation, galvanic/electrolytic cells",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_element_lookup",
+      "domain": "chemistry",
+      "desc": "Periodic table properties",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_equilibrium",
+      "domain": "chemistry",
+      "desc": "Keq, Le Chatelier, ICE tables",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_gas_laws",
+      "domain": "chemistry",
+      "desc": "Ideal/real gas, Dalton, Graham",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_green_metrics",
+      "domain": "chemistry",
+      "desc": "Atom economy, E-factor, PMI",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_hazard_ghs",
+      "domain": "chemistry",
+      "desc": "GHS pictogram / hazard class map",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_hybridization",
+      "domain": "chemistry",
+      "desc": "Orbital hybridization and bonding",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_ir_peaks",
+      "domain": "chemistry",
+      "desc": "IR functional group peak guide",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_kinetics_rate",
+      "domain": "chemistry",
+      "desc": "Rate laws, order, half-life, Arrhenius",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_limiting_reagent",
+      "domain": "chemistry",
+      "desc": "Identify limiting reagent and theoretical yield",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_mol_weight",
+      "domain": "chemistry",
+      "desc": "Molecular weight from formula",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_moles_to_molarity",
+      "domain": "chemistry",
+      "desc": "Concentration conversions",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_ms_fragments",
+      "domain": "chemistry",
+      "desc": "Mass spectrometry fragmentation patterns",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_nmr_c13",
+      "domain": "chemistry",
+      "desc": "\u00b9\u00b3C NMR interpretation aid",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_nmr_h1",
+      "domain": "chemistry",
+      "desc": "\u00b9H NMR chemical shift interpretation aid",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_organic_mechanisms",
+      "domain": "chemistry",
+      "desc": "Common organic mechanisms outline",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_organic_nomenclature",
+      "domain": "chemistry",
+      "desc": "IUPAC organic naming assist",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_phase_diagram",
+      "domain": "chemistry",
+      "desc": "Phase diagram sketch data + chart",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_photochemistry",
+      "domain": "chemistry",
+      "desc": "Quantum yield and photochemical basics",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_polymer_mw",
+      "domain": "chemistry",
+      "desc": "Polymer Mn/Mw/PDI basics",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_process_safety",
+      "domain": "chemistry",
+      "desc": "Lab safety checklist + SDS thinking",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_protecting_groups",
+      "domain": "chemistry",
+      "desc": "Protecting group selection guide",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_rdkit_smiles",
+      "domain": "chemistry",
+      "desc": "SMILES parse/describe constructive script",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_reaction_yield_plot",
+      "domain": "chemistry",
+      "desc": "Yield vs condition chart + Python",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_redox_halfcells",
+      "domain": "chemistry",
+      "desc": "Balance redox half-reactions + E\u00b0 cell",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_retrosynthesis",
+      "domain": "chemistry",
+      "desc": "Simple retrosynthesis sketch steps",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_solubility_product",
+      "domain": "chemistry",
+      "desc": "Ksp calculations and common-ion effect",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_spectroscopy_uvvis",
+      "domain": "chemistry",
+      "desc": "UV-Vis Beer\u2013Lambert calibration curve",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_stoichiometry",
+      "domain": "chemistry",
+      "desc": "Balance equations + mole/mass stoichiometry",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_thermodynamics",
+      "domain": "chemistry",
+      "desc": "\u0394H \u0394G \u0394S, Hess law, van't Hoff",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_titration_curve",
+      "domain": "chemistry",
+      "desc": "Generate titration curve chart + script",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_vsepr",
+      "domain": "chemistry",
+      "desc": "VSEPR geometry and polarity",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "chem_xrd_bragg",
+      "domain": "chemistry",
+      "desc": "Bragg law XRD d-spacing",
+      "kind": "playbook",
+      "tags": [
+        "chemistry",
+        "science",
+        "research",
+        "advanced"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "product": "ResearchersHub",
+  "domain": "construct",
+  "count": 10,
+  "skills": [
+    {
+      "id": "construct_chart_matplotlib",
+      "domain": "construct",
+      "desc": "Run matplotlib chart \u2192 full PNG in chat",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_export_csv",
+      "domain": "construct",
+      "desc": "Write results CSV next to script",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_fit_model",
+      "domain": "construct",
+      "desc": "Fit model to data + residual plots",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_image_board",
+      "domain": "construct",
+      "desc": "Return multiple charts as chat images",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_lab_report",
+      "domain": "construct",
+      "desc": "Lab report with methods + figure + code",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_multi_panel_figure",
+      "domain": "construct",
+      "desc": "Multi-panel publication figure",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_notebook_cells",
+      "domain": "construct",
+      "desc": "Jupyter-style cell blocks as .py workflow",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_python_workflow",
+      "domain": "construct",
+      "desc": "Emit real multi-step Python research workflow script",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_repro_bundle",
+      "domain": "construct",
+      "desc": "Reproducible script + requirements stub",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "construct_simulation_loop",
+      "domain": "construct",
+      "desc": "Parameter sweep simulation + plots",
+      "kind": "playbook",
+      "tags": [
+        "construct",
+        "science",
+        "research",
+        "chart",
+        "image",
+        "python"
+      ],
+      "worker": "SCRIPTOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

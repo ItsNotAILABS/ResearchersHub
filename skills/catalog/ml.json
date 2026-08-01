@@ -1,0 +1,3255 @@
+{
+  "product": "ResearchersHub",
+  "domain": "ml",
+  "count": 203,
+  "skills": [
+    {
+      "id": "ml_ab_prompts",
+      "domain": "ml",
+      "desc": "A/B prompt experiments",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_ab_test",
+      "domain": "ml",
+      "desc": "A/B test design + power",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_active_batch",
+      "domain": "ml",
+      "desc": "Batch active learning",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_active_learning",
+      "domain": "ml",
+      "desc": "Active learning loop",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_adversarial",
+      "domain": "ml",
+      "desc": "Adversarial robustness tests",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_agent_tool_use",
+      "domain": "ml",
+      "desc": "Tool-use agent eval harness",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_anomaly_detect",
+      "domain": "ml",
+      "desc": "Anomaly detection workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_attention_viz",
+      "domain": "ml",
+      "desc": "Attention map visualization workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_audio_asr",
+      "domain": "ml",
+      "desc": "ASR fine-tune + WER eval",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_audio_features",
+      "domain": "ml",
+      "desc": "Audio feature extraction notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_auto_ml",
+      "domain": "ml",
+      "desc": "AutoML search budget plan",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_autoencoder",
+      "domain": "ml",
+      "desc": "Autoencoder recon + latent chart",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_bandit",
+      "domain": "ml",
+      "desc": "Contextual bandit experiment",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_baseline_models",
+      "domain": "ml",
+      "desc": "Baseline classifier/regressor suite",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_batch_api",
+      "domain": "ml",
+      "desc": "Batch inference API design",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_batch_infer",
+      "domain": "ml",
+      "desc": "Batch inference job skeleton",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_bayes_nn",
+      "domain": "ml",
+      "desc": "Bayesian NN approximate inference",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_benchmark_suite",
+      "domain": "ml",
+      "desc": "Standard NLP/CV benchmark runner plan",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_bo_loop",
+      "domain": "ml",
+      "desc": "Bayesian optimization experiment loop",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_calibration_curve",
+      "domain": "ml",
+      "desc": "Probability calibration chart",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_calibration_temp",
+      "domain": "ml",
+      "desc": "Temperature scaling calibration",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_canary_model",
+      "domain": "ml",
+      "desc": "Canary model release",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_causal_forest",
+      "domain": "ml",
+      "desc": "Causal forest / uplift modeling",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_causal_inference",
+      "domain": "ml",
+      "desc": "Causal DAG / ATE outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_chunking_strat",
+      "domain": "ml",
+      "desc": "Document chunking strategies",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_ci_ml",
+      "domain": "ml",
+      "desc": "CI for training + eval gates",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_clip_embed",
+      "domain": "ml",
+      "desc": "CLIP-style image-text embeddings",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_clustering_eval",
+      "domain": "ml",
+      "desc": "Silhouette / ARI clustering eval",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_code_gen_eval",
+      "domain": "ml",
+      "desc": "Code generation pass@k eval",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_competing_risks",
+      "domain": "ml",
+      "desc": "Competing risks analysis",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_concept_act",
+      "domain": "ml",
+      "desc": "Concept activation vectors",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_confusion_matrix",
+      "domain": "ml",
+      "desc": "Confusion matrix chart + script",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_continual",
+      "domain": "ml",
+      "desc": "Continual learning checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_contrastive",
+      "domain": "ml",
+      "desc": "Contrastive learning skeleton",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_controlnet",
+      "domain": "ml",
+      "desc": "ControlNet conditioning workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_coref",
+      "domain": "ml",
+      "desc": "Coreference resolution notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_coreml",
+      "domain": "ml",
+      "desc": "Core ML conversion notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_cost_latency",
+      "domain": "ml",
+      "desc": "Cost vs latency tradeoff dashboard",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_counterfactual",
+      "domain": "ml",
+      "desc": "Counterfactual explanation",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_cross_validation",
+      "domain": "ml",
+      "desc": "K-fold CV plan + metrics aggregate",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_curriculum",
+      "domain": "ml",
+      "desc": "Curriculum learning schedule",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_cv_classify",
+      "domain": "ml",
+      "desc": "Image classification pipeline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_cv_segment",
+      "domain": "ml",
+      "desc": "Segmentation metrics (IoU/Dice)",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_data_cent_ai",
+      "domain": "ml",
+      "desc": "Data-centric AI iteration loop",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_data_contract",
+      "domain": "ml",
+      "desc": "Data contract / schema validation",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_data_version",
+      "domain": "ml",
+      "desc": "Dataset versioning checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_dataloader",
+      "domain": "ml",
+      "desc": "Efficient DataLoader tuning",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_dataset_card",
+      "domain": "ml",
+      "desc": "Dataset card template",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_dbscan",
+      "domain": "ml",
+      "desc": "DBSCAN density clustering",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_deepspeed",
+      "domain": "ml",
+      "desc": "DeepSpeed config checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_diffusion_train",
+      "domain": "ml",
+      "desc": "Diffusion model training outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_distill_teacher",
+      "domain": "ml",
+      "desc": "Teacher-student distillation",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_distributed_train",
+      "domain": "ml",
+      "desc": "DDP / multi-GPU checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_domain_adapt",
+      "domain": "ml",
+      "desc": "Domain adaptation strategies",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_doubly_robust",
+      "domain": "ml",
+      "desc": "Doubly robust ATE estimator",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_dpo_train",
+      "domain": "ml",
+      "desc": "DPO / preference optimization",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_drift_detect",
+      "domain": "ml",
+      "desc": "Data/concept drift detection",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_drift_psi",
+      "domain": "ml",
+      "desc": "PSI/KS drift monitoring",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_duckdb_feature",
+      "domain": "ml",
+      "desc": "DuckDB feature engineering",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_dvc_outline",
+      "domain": "ml",
+      "desc": "DVC pipeline outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_early_stopping",
+      "domain": "ml",
+      "desc": "Early stopping + checkpoint policy",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_edge_quant",
+      "domain": "ml",
+      "desc": "Edge quantization checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_embedding_index",
+      "domain": "ml",
+      "desc": "Vector index build/query notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_ensemble",
+      "domain": "ml",
+      "desc": "Model ensembling strategies",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_entity_link",
+      "domain": "ml",
+      "desc": "Entity linking pipeline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_error_analysis",
+      "domain": "ml",
+      "desc": "Slice-based error analysis",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_eval_harness",
+      "domain": "ml",
+      "desc": "LLM eval harness (tasks + metrics)",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_experiment_track",
+      "domain": "ml",
+      "desc": "Experiment tracking (MLflow-style)",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_fairness_audit",
+      "domain": "ml",
+      "desc": "Fairness metrics audit",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_feature_engineering",
+      "domain": "ml",
+      "desc": "Feature transforms + leakage checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_feature_selection",
+      "domain": "ml",
+      "desc": "Filter/wrapper/embedded selection",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_feature_store",
+      "domain": "ml",
+      "desc": "Feature store design notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_few_shot",
+      "domain": "ml",
+      "desc": "Few-shot learning protocols",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_flash_attn",
+      "domain": "ml",
+      "desc": "FlashAttention integration notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_forecast_baseline",
+      "domain": "ml",
+      "desc": "Forecast baseline + residual plot",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_fsdp",
+      "domain": "ml",
+      "desc": "FSDP / ZeRO sharding notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_function_call",
+      "domain": "ml",
+      "desc": "Function-calling schema design",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_gan_outline",
+      "domain": "ml",
+      "desc": "GAN training pitfalls checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_gaussian_process",
+      "domain": "ml",
+      "desc": "Gaussian process regression",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_gpu_profile",
+      "domain": "ml",
+      "desc": "GPU memory/throughput profiling",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_grad_accum",
+      "domain": "ml",
+      "desc": "Gradient accumulation recipes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_grad_checkpoint",
+      "domain": "ml",
+      "desc": "Activation checkpointing",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_graph_gnn_train",
+      "domain": "ml",
+      "desc": "Graph neural net train loop",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_graph_sage",
+      "domain": "ml",
+      "desc": "GraphSAGE inductive learning",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_guardrails",
+      "domain": "ml",
+      "desc": "Output guardrails policy",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_hallucination_check",
+      "domain": "ml",
+      "desc": "Hallucination detection checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_hpo_optuna",
+      "domain": "ml",
+      "desc": "Optuna HPO workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_hybrid_search",
+      "domain": "ml",
+      "desc": "Hybrid BM25 + dense retrieval",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_hyperparam_bayes",
+      "domain": "ml",
+      "desc": "Bayesian optimization outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_hyperparam_grid",
+      "domain": "ml",
+      "desc": "Grid/random search skeleton",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_imbalance_handling",
+      "domain": "ml",
+      "desc": "Class imbalance: weights, SMOTE notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_impute_mice",
+      "domain": "ml",
+      "desc": "MICE multiple imputation",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_iv_estimate",
+      "domain": "ml",
+      "desc": "Instrumental variables outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_knn_baseline",
+      "domain": "ml",
+      "desc": "k-NN baseline + distance metrics",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_knowledge_distill",
+      "domain": "ml",
+      "desc": "Knowledge distillation outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_knowledge_graph",
+      "domain": "ml",
+      "desc": "KG construction + embedding",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_kv_cache",
+      "domain": "ml",
+      "desc": "KV-cache inference optimization",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_label_quality",
+      "domain": "ml",
+      "desc": "Label noise audit",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_label_studio",
+      "domain": "ml",
+      "desc": "Labeling tool workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_learning_curve",
+      "domain": "ml",
+      "desc": "Learning curve plot workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_lightgbm_train",
+      "domain": "ml",
+      "desc": "LightGBM train + eval workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_lime_explain",
+      "domain": "ml",
+      "desc": "LIME local explanation outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_lineage_track",
+      "domain": "ml",
+      "desc": "Data/model lineage tracking",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_link_predict",
+      "domain": "ml",
+      "desc": "Link prediction eval",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_lora_finetune",
+      "domain": "ml",
+      "desc": "LoRA / PEFT fine-tune checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_mae_pretrain",
+      "domain": "ml",
+      "desc": "Masked autoencoder pretrain",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_mech_interp",
+      "domain": "ml",
+      "desc": "Mechanistic interpretability notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_meta_learn",
+      "domain": "ml",
+      "desc": "Meta-learning outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_metrics_classif",
+      "domain": "ml",
+      "desc": "Accuracy/F1/ROC-AUC/PR-AUC report",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_metrics_regress",
+      "domain": "ml",
+      "desc": "MAE/RMSE/R\u00b2 residual analysis",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_missingness",
+      "domain": "ml",
+      "desc": "MCAR/MAR/MNAR diagnostics",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_mixed_precision",
+      "domain": "ml",
+      "desc": "AMP mixed-precision training",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_mixture_experts",
+      "domain": "ml",
+      "desc": "MoE routing and load balance",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_model_card",
+      "domain": "ml",
+      "desc": "Model card template",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_model_registry",
+      "domain": "ml",
+      "desc": "Model registry lifecycle",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_monitor_prod",
+      "domain": "ml",
+      "desc": "Production monitoring dashboard plan",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_mt_bench",
+      "domain": "ml",
+      "desc": "Multi-turn chat evaluation",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_mt_bleu",
+      "domain": "ml",
+      "desc": "Machine translation BLEU/COMET",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_multimodal_fuse",
+      "domain": "ml",
+      "desc": "Multimodal fusion patterns",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_multimodal_vlm",
+      "domain": "ml",
+      "desc": "Vision-language model fine-tune",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_nas_outline",
+      "domain": "ml",
+      "desc": "Neural architecture search outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_nbeats",
+      "domain": "ml",
+      "desc": "N-BEATS forecasting outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_nlp_classify",
+      "domain": "ml",
+      "desc": "Text classification pipeline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_nlp_ner",
+      "domain": "ml",
+      "desc": "NER pipeline outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_observability",
+      "domain": "ml",
+      "desc": "ML observability stack plan",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_one_class_svm",
+      "domain": "ml",
+      "desc": "One-class SVM novelty detect",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_online_features",
+      "domain": "ml",
+      "desc": "Online feature serving",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_online_infer",
+      "domain": "ml",
+      "desc": "Online inference latency budget",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_onnx_export",
+      "domain": "ml",
+      "desc": "ONNX export + validate",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_onnx_runtime",
+      "domain": "ml",
+      "desc": "ONNX Runtime deploy",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_ood_detect",
+      "domain": "ml",
+      "desc": "Out-of-distribution detection",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_openvino",
+      "domain": "ml",
+      "desc": "OpenVINO optimization",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_orpo_train",
+      "domain": "ml",
+      "desc": "ORPO training outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_outlier_iforest",
+      "domain": "ml",
+      "desc": "Isolation forest anomaly detect",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_paper_repro",
+      "domain": "ml",
+      "desc": "Paper reproduction checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_parquet_layout",
+      "domain": "ml",
+      "desc": "Parquet partitioning for training",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_pii_redact",
+      "domain": "ml",
+      "desc": "PII detection & redaction",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_pipeline_sklearn",
+      "domain": "ml",
+      "desc": "sklearn Pipeline constructive script",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_polars_etl",
+      "domain": "ml",
+      "desc": "Polars ETL for ML tables",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_privacy_dp",
+      "domain": "ml",
+      "desc": "Differential privacy notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_prompt_eval",
+      "domain": "ml",
+      "desc": "LLM prompt evaluation harness",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_prompt_version",
+      "domain": "ml",
+      "desc": "Prompt versioning & registry",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_prophet_baseline",
+      "domain": "ml",
+      "desc": "Prophet/forecast baseline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_pruning",
+      "domain": "ml",
+      "desc": "Pruning / sparsity outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_quantization",
+      "domain": "ml",
+      "desc": "INT8/FP16 quantization checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_rag_eval",
+      "domain": "ml",
+      "desc": "RAG faithfulness / context precision",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_rag_pipeline",
+      "domain": "ml",
+      "desc": "RAG retrieve-then-generate pipeline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_random_forest",
+      "domain": "ml",
+      "desc": "Random forest baseline workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_ray_tune",
+      "domain": "ml",
+      "desc": "Ray Tune distributed HPO",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_recsys_cf",
+      "domain": "ml",
+      "desc": "Collaborative filtering baseline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_recsys_two_tower",
+      "domain": "ml",
+      "desc": "Two-tower retrieval model",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_repro_lockfile",
+      "domain": "ml",
+      "desc": "Lockfile + seed full repro",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_repro_seed",
+      "domain": "ml",
+      "desc": "Full reproducibility seed policy",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_rerank",
+      "domain": "ml",
+      "desc": "Cross-encoder re-ranking",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_rl_outline",
+      "domain": "ml",
+      "desc": "RL problem formulation checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_rlhf_pipeline",
+      "domain": "ml",
+      "desc": "RLHF preference data + reward model",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_rollback_plan",
+      "domain": "ml",
+      "desc": "Model rollback runbook",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_rope_posenc",
+      "domain": "ml",
+      "desc": "RoPE / positional encoding notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_sae_features",
+      "domain": "ml",
+      "desc": "Sparse autoencoder feature discovery",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_secure_agg",
+      "domain": "ml",
+      "desc": "Federated / secure agg outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_self_super",
+      "domain": "ml",
+      "desc": "Self-supervised pretraining",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_semi_supervised",
+      "domain": "ml",
+      "desc": "Semi-supervised pseudo-label plan",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_serving_fastapi",
+      "domain": "ml",
+      "desc": "FastAPI model serve skeleton",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_sft_recipe",
+      "domain": "ml",
+      "desc": "Supervised fine-tune data recipe",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_shadow_deploy",
+      "domain": "ml",
+      "desc": "Shadow deployment checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_shap_explain",
+      "domain": "ml",
+      "desc": "SHAP / feature importance workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_slice_discovery",
+      "domain": "ml",
+      "desc": "Error slice discovery",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_spark_ml",
+      "domain": "ml",
+      "desc": "Spark MLlib pipeline outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_speculative_decode",
+      "domain": "ml",
+      "desc": "Speculative decoding outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_speech_emotion",
+      "domain": "ml",
+      "desc": "Speech emotion recognition",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_ssl_simclr",
+      "domain": "ml",
+      "desc": "SimCLR-style contrastive SSL",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_stacking",
+      "domain": "ml",
+      "desc": "Stacked generalization",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_static_analysis",
+      "domain": "ml",
+      "desc": "Static analysis in ML CI",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_streaming_tokens",
+      "domain": "ml",
+      "desc": "Streaming token UX checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_structured_out",
+      "domain": "ml",
+      "desc": "JSON/schema-constrained generation",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_subgroup_fair",
+      "domain": "ml",
+      "desc": "Subgroup fairness metrics",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_summarize_eval",
+      "domain": "ml",
+      "desc": "Summarization ROUGE/BERTScore",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_survival_cox",
+      "domain": "ml",
+      "desc": "Cox PH model + PH assumption checks",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_svm_kernel",
+      "domain": "ml",
+      "desc": "SVM kernel selection notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_synth_control",
+      "domain": "ml",
+      "desc": "Synthetic control method",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_synth_privacy",
+      "domain": "ml",
+      "desc": "Synthetic data privacy checks",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_synthetic_data",
+      "domain": "ml",
+      "desc": "Synthetic data generation plan",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_tensorrt",
+      "domain": "ml",
+      "desc": "TensorRT export & optimize",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_tflite",
+      "domain": "ml",
+      "desc": "TFLite mobile deploy",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_tfrecord",
+      "domain": "ml",
+      "desc": "TFRecord / webdataset packaging",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_time_series_cv",
+      "domain": "ml",
+      "desc": "Time-series CV (no leakage)",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_time_series_tft",
+      "domain": "ml",
+      "desc": "Temporal fusion transformer outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_token_budget",
+      "domain": "ml",
+      "desc": "Context token budget planner",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_toxicity_eval",
+      "domain": "ml",
+      "desc": "Safety/toxicity evaluation suite",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_train_test_split",
+      "domain": "ml",
+      "desc": "Stratified train/val/test split workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_transfer_learning",
+      "domain": "ml",
+      "desc": "Transfer / fine-tune strategy",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_transformer_train",
+      "domain": "ml",
+      "desc": "Transformer pretrain/finetune checklist",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_tsne_embed",
+      "domain": "ml",
+      "desc": "t-SNE embedding visualization",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_tts_eval",
+      "domain": "ml",
+      "desc": "TTS quality evaluation",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_umap_embed",
+      "domain": "ml",
+      "desc": "UMAP embedding visualization",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_uncertainty",
+      "domain": "ml",
+      "desc": "Uncertainty quantification",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_unit_test_gen",
+      "domain": "ml",
+      "desc": "Unit-test generation workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_unit_test_model",
+      "domain": "ml",
+      "desc": "Model unit tests + golden set",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_vae_outline",
+      "domain": "ml",
+      "desc": "VAE generative outline",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_watermark",
+      "domain": "ml",
+      "desc": "Model/output watermarking notes",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_weak_snorkel",
+      "domain": "ml",
+      "desc": "Weak supervision labeling functions",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "deep-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_weak_supervision",
+      "domain": "ml",
+      "desc": "Weak supervision labeling",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "ml_xgboost_train",
+      "domain": "ml",
+      "desc": "XGBoost train + eval workflow",
+      "kind": "playbook",
+      "tags": [
+        "ml",
+        "science",
+        "research",
+        "machine-learning"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

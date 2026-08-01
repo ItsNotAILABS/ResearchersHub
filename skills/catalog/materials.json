@@ -1,0 +1,857 @@
+{
+  "product": "ResearchersHub",
+  "domain": "materials",
+  "count": 50,
+  "skills": [
+    {
+      "id": "mat_adsorption",
+      "domain": "materials",
+      "desc": "Adsorption energy workflow",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_afm",
+      "domain": "materials",
+      "desc": "AFM data processing",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_battery_electrode",
+      "domain": "materials",
+      "desc": "Battery electrode materials screen",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_catalyst_screen",
+      "domain": "materials",
+      "desc": "Catalyst descriptor screening",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_convex_hull",
+      "domain": "materials",
+      "desc": "Convex hull construction",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_corrosion_eis",
+      "domain": "materials",
+      "desc": "EIS corrosion analysis",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_dft_band",
+      "domain": "materials",
+      "desc": "Band structure calculation plan",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_dft_dos",
+      "domain": "materials",
+      "desc": "Density of states workflow",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_dft_geo_opt",
+      "domain": "materials",
+      "desc": "DFT geometry optimization",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_dma",
+      "domain": "materials",
+      "desc": "DMA viscoelastic analysis",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_dsc",
+      "domain": "materials",
+      "desc": "DSC thermal analysis",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_elastic_tensor",
+      "domain": "materials",
+      "desc": "Elastic tensor calculation",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_fatigue",
+      "domain": "materials",
+      "desc": "Fatigue life analysis",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_fracture",
+      "domain": "materials",
+      "desc": "Fracture toughness notes",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_glass_transition",
+      "domain": "materials",
+      "desc": "Glass transition estimation",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_mof_design",
+      "domain": "materials",
+      "desc": "MOF design notes",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_neb",
+      "domain": "materials",
+      "desc": "NEB transition state search",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_perovskite",
+      "domain": "materials",
+      "desc": "Perovskite stability heuristics",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_phase_predict",
+      "domain": "materials",
+      "desc": "Phase stability prediction",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_phonon",
+      "domain": "materials",
+      "desc": "Phonon / thermal properties",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_polymer_md",
+      "domain": "materials",
+      "desc": "Polymer MD setup",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_rheology",
+      "domain": "materials",
+      "desc": "Rheology curve interpretation",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_saxs",
+      "domain": "materials",
+      "desc": "SAXS analysis",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_seebeck",
+      "domain": "materials",
+      "desc": "Thermoelectric Seebeck estimate",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_sem_eds",
+      "domain": "materials",
+      "desc": "SEM/EDS interpretation",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_surface_slab",
+      "domain": "materials",
+      "desc": "Surface slab model setup",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_tem",
+      "domain": "materials",
+      "desc": "TEM image analysis notes",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_tga",
+      "domain": "materials",
+      "desc": "TGA decomposition analysis",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_thermal_cond",
+      "domain": "materials",
+      "desc": "Thermal conductivity models",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_xps",
+      "domain": "materials",
+      "desc": "XPS peak fitting",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_xrd_refine",
+      "domain": "materials",
+      "desc": "Rietveld refinement outline",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_antenna",
+      "domain": "materials",
+      "desc": "Antenna parameter basics",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_cryogenics",
+      "domain": "materials",
+      "desc": "Cryogenics system notes",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_dimensional",
+      "domain": "materials",
+      "desc": "Dimensional analysis",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_em_wave",
+      "domain": "materials",
+      "desc": "EM wave propagation notes",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_error_prop",
+      "domain": "materials",
+      "desc": "Uncertainty propagation",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_fluid_cfd",
+      "domain": "materials",
+      "desc": "CFD setup checklist",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_heat_transfer",
+      "domain": "materials",
+      "desc": "Heat transfer calculation",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_interferometry",
+      "domain": "materials",
+      "desc": "Interferometry analysis",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_laser_matter",
+      "domain": "materials",
+      "desc": "Laser-matter interaction notes",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_metrology",
+      "domain": "materials",
+      "desc": "Metrology uncertainty budget",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_optics_fourier",
+      "domain": "materials",
+      "desc": "Fourier optics simulation",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_plasma",
+      "domain": "materials",
+      "desc": "Plasma parameter estimates",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_qm_perturb",
+      "domain": "materials",
+      "desc": "Quantum perturbation theory notes",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_quantum_sensor",
+      "domain": "materials",
+      "desc": "Quantum sensor metrics",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_scattering",
+      "domain": "materials",
+      "desc": "Scattering cross-section basics",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_spintronics",
+      "domain": "materials",
+      "desc": "Spintronics device notes",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_superconductor",
+      "domain": "materials",
+      "desc": "Superconductor Tc heuristics",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_turbulence",
+      "domain": "materials",
+      "desc": "Turbulence model selection",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_units_si",
+      "domain": "materials",
+      "desc": "SI unit consistency checker",
+      "kind": "playbook",
+      "tags": [
+        "materials",
+        "science",
+        "research",
+        "physics",
+        "dft"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

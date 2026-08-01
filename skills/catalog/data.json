@@ -1,0 +1,347 @@
+{
+  "product": "ResearchersHub",
+  "domain": "data",
+  "count": 20,
+  "skills": [
+    {
+      "id": "data_anova",
+      "domain": "data",
+      "desc": "One-way ANOVA skeleton",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_bayes_simple",
+      "domain": "data",
+      "desc": "Simple Bayesian update sketch",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_bootstrap_ci",
+      "domain": "data",
+      "desc": "Bootstrap confidence interval",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_clustering_kmeans",
+      "domain": "data",
+      "desc": "K-means clustering chart",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_csv_load_clean",
+      "domain": "data",
+      "desc": "CSV load/clean constructive script",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_descriptive_stats",
+      "domain": "data",
+      "desc": "Mean/median/SD/CI table + chart",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_error_bars",
+      "domain": "data",
+      "desc": "Bar chart with error bars",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_figure_publication",
+      "domain": "data",
+      "desc": "Publication-ready figure settings",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_heatmap",
+      "domain": "data",
+      "desc": "Correlation heatmap chart",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_hypothesis_ttest",
+      "domain": "data",
+      "desc": "t-test workflow + Python",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_outlier_iqr",
+      "domain": "data",
+      "desc": "Outlier detection IQR",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_pca",
+      "domain": "data",
+      "desc": "PCA projection chart",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_power_analysis",
+      "domain": "data",
+      "desc": "Sample size / power estimate",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_regression_linear",
+      "domain": "data",
+      "desc": "Linear regression fit + residual chart",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_regression_logistic",
+      "domain": "data",
+      "desc": "Logistic regression outline",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_roc_curve",
+      "domain": "data",
+      "desc": "ROC / AUC chart",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_significant_figures",
+      "domain": "data",
+      "desc": "Sig-fig and uncertainty report",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_survival_kaplan",
+      "domain": "data",
+      "desc": "Kaplan\u2013Meier curve chart",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_timeseries",
+      "domain": "data",
+      "desc": "Time series trend + seasonality sketch",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "data_units_convert",
+      "domain": "data",
+      "desc": "Scientific unit conversion",
+      "kind": "playbook",
+      "tags": [
+        "data",
+        "science",
+        "research",
+        "stats",
+        "chart"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "product": "ResearchersHub",
+  "domain": "comms",
+  "count": 30,
+  "skills": [
+    {
+      "id": "viz_3d_scatter",
+      "domain": "comms",
+      "desc": "3D scatter interactive notes",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_alluvial",
+      "domain": "comms",
+      "desc": "Alluvial / Sankey diagram",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_animation",
+      "domain": "comms",
+      "desc": "Scientific animation ethics",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_circos",
+      "domain": "comms",
+      "desc": "Circos-style genome plot",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_colorblind",
+      "domain": "comms",
+      "desc": "Colorblind-safe palettes",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_dashboard",
+      "domain": "comms",
+      "desc": "Research dashboard IA",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_manhattan",
+      "domain": "comms",
+      "desc": "Manhattan plot",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_nature_figure",
+      "domain": "comms",
+      "desc": "Nature-style figure checklist",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_ridge",
+      "domain": "comms",
+      "desc": "Ridge density plot",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_small_multiples",
+      "domain": "comms",
+      "desc": "Small multiples layout",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_upset",
+      "domain": "comms",
+      "desc": "UpSet plot for set intersections",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "viz_volcano",
+      "domain": "comms",
+      "desc": "Volcano plot (omics)",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_abstract",
+      "domain": "comms",
+      "desc": "Structured abstract",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_biosketch",
+      "domain": "comms",
+      "desc": "NIH-style biosketch notes",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_budget_just",
+      "domain": "comms",
+      "desc": "Budget justification",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_code_avail",
+      "domain": "comms",
+      "desc": "Code availability statement",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_cover_letter",
+      "domain": "comms",
+      "desc": "Journal cover letter",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_data_avail",
+      "domain": "comms",
+      "desc": "Data availability statement",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_figure_legend",
+      "domain": "comms",
+      "desc": "Figure legend completeness",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_grant_aims",
+      "domain": "comms",
+      "desc": "Grant specific aims page",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_limitations",
+      "domain": "comms",
+      "desc": "Limitations section rigor",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_methods_repro",
+      "domain": "comms",
+      "desc": "Methods reproducibility block",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_poster",
+      "domain": "comms",
+      "desc": "Conference poster structure",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_preprint",
+      "domain": "comms",
+      "desc": "Preprint deposit checklist",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_press",
+      "domain": "comms",
+      "desc": "Lay summary / press brief",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_response_reviewers",
+      "domain": "comms",
+      "desc": "Response to reviewers",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_stats_report",
+      "domain": "comms",
+      "desc": "SAMPL reporting stats",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_supplement",
+      "domain": "comms",
+      "desc": "Supplement organization",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_table1",
+      "domain": "comms",
+      "desc": "Table 1 baseline characteristics",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "write_talk",
+      "domain": "comms",
+      "desc": "Scientific talk storyboard",
+      "kind": "playbook",
+      "tags": [
+        "comms",
+        "science",
+        "research",
+        "visualization",
+        "writing"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

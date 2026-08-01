@@ -1,0 +1,327 @@
+{
+  "product": "ResearchersHub",
+  "domain": "engineering",
+  "count": 20,
+  "skills": [
+    {
+      "id": "eng_cad_bom",
+      "domain": "engineering",
+      "desc": "CAD BOM hygiene",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_doe_taguchi",
+      "domain": "engineering",
+      "desc": "Taguchi DoE",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_fea",
+      "domain": "engineering",
+      "desc": "FEA setup checklist",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_fmea",
+      "domain": "engineering",
+      "desc": "FMEA risk analysis",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_mtbf",
+      "domain": "engineering",
+      "desc": "MTBF estimation",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_power_budget",
+      "domain": "engineering",
+      "desc": "Electronics power budget",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_reliability",
+      "domain": "engineering",
+      "desc": "Reliability bathtub curve",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_signal_integrity",
+      "domain": "engineering",
+      "desc": "Signal integrity notes",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_six_sigma",
+      "domain": "engineering",
+      "desc": "Six Sigma DMAIC template",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "eng_tolerance",
+      "domain": "engineering",
+      "desc": "Tolerance stack-up",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_calibration",
+      "domain": "engineering",
+      "desc": "Camera/IMU calibration",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_hri",
+      "domain": "engineering",
+      "desc": "Human-robot interaction study",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_kinematics",
+      "domain": "engineering",
+      "desc": "Forward/inverse kinematics",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_perception",
+      "domain": "engineering",
+      "desc": "Robot vision perception stack",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_pid_tune",
+      "domain": "engineering",
+      "desc": "PID tuning workflow",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_ros2",
+      "domain": "engineering",
+      "desc": "ROS 2 package layout",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_safety",
+      "domain": "engineering",
+      "desc": "Robot safety checklist",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_sim_gazebo",
+      "domain": "engineering",
+      "desc": "Gazebo/sim testing plan",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_slam",
+      "domain": "engineering",
+      "desc": "SLAM pipeline outline",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "robo_trajectory",
+      "domain": "engineering",
+      "desc": "Trajectory planning",
+      "kind": "playbook",
+      "tags": [
+        "engineering",
+        "science",
+        "research",
+        "robotics"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

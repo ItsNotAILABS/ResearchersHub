@@ -1,0 +1,1248 @@
+{
+  "product": "ResearchersHub",
+  "domain": "clinical",
+  "count": 73,
+  "skills": [
+    {
+      "id": "clin_ada",
+      "domain": "clinical",
+      "desc": "Anti-drug antibody assessment",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_adam",
+      "domain": "clinical",
+      "desc": "ADaM analysis datasets",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_basket",
+      "domain": "clinical",
+      "desc": "Basket trial design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_bayes_trial",
+      "domain": "clinical",
+      "desc": "Bayesian adaptive trial outline",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_bioequivalence",
+      "domain": "clinical",
+      "desc": "Bioequivalence stats",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_biomarker_strat",
+      "domain": "clinical",
+      "desc": "Biomarker-stratified design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_blinding",
+      "domain": "clinical",
+      "desc": "Blinding integrity checklist",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_block_rand",
+      "domain": "clinical",
+      "desc": "Block randomization",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_cdisc_sdtm",
+      "domain": "clinical",
+      "desc": "CDISC SDTM mapping notes",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_claims_data",
+      "domain": "clinical",
+      "desc": "Claims data analysis caveats",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_cluster_rct",
+      "domain": "clinical",
+      "desc": "Cluster RCT design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_competing",
+      "domain": "clinical",
+      "desc": "Competing risks clinical",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_consort_flow",
+      "domain": "clinical",
+      "desc": "CONSORT flow diagram data",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_crossover",
+      "domain": "clinical",
+      "desc": "Crossover design analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_csr",
+      "domain": "clinical",
+      "desc": "CSR structure checklist",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_define_xml",
+      "domain": "clinical",
+      "desc": "Define-XML checklist",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_dmc",
+      "domain": "clinical",
+      "desc": "DMC charter notes",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_dsmb",
+      "domain": "clinical",
+      "desc": "DSMB report template",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_ehr_extract",
+      "domain": "clinical",
+      "desc": "EHR extract QC",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_ema_guidance",
+      "domain": "clinical",
+      "desc": "EMA guidance mapping",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_endpoint_def",
+      "domain": "clinical",
+      "desc": "Endpoint definition",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_equivalence",
+      "domain": "clinical",
+      "desc": "Equivalence trial design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_estimand",
+      "domain": "clinical",
+      "desc": "ICH E9(R1) estimand framework",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_evalue",
+      "domain": "clinical",
+      "desc": "E-value for confounding",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_fda_guidance",
+      "domain": "clinical",
+      "desc": "FDA guidance mapping",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_forest_clin",
+      "domain": "clinical",
+      "desc": "Clinical forest plot chart",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_gee",
+      "domain": "clinical",
+      "desc": "GEE correlated outcomes",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_ich_gcp",
+      "domain": "clinical",
+      "desc": "ICH GCP compliance checklist",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_immunogenicity",
+      "domain": "clinical",
+      "desc": "Immunogenicity analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_informed_consent",
+      "domain": "clinical",
+      "desc": "Informed consent elements",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_interaction",
+      "domain": "clinical",
+      "desc": "Treatment-by-covariate interaction",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_interim",
+      "domain": "clinical",
+      "desc": "Interim analysis / alpha spend",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_ipd_meta",
+      "domain": "clinical",
+      "desc": "IPD meta-analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_iptw",
+      "domain": "clinical",
+      "desc": "IPTW weighting diagnostics",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_itt_pp",
+      "domain": "clinical",
+      "desc": "ITT vs per-protocol analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_km_plot",
+      "domain": "clinical",
+      "desc": "Kaplan\u2013Meier publication figure",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_lab_shift",
+      "domain": "clinical",
+      "desc": "Lab shift tables",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_landmark",
+      "domain": "clinical",
+      "desc": "Landmark analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_matching",
+      "domain": "clinical",
+      "desc": "PS matching balance tables",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_meta_rct",
+      "domain": "clinical",
+      "desc": "RCT meta-analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_missing_data",
+      "domain": "clinical",
+      "desc": "Missing data strategies",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_mixed_model",
+      "domain": "clinical",
+      "desc": "Mixed-effects models",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_mmrm",
+      "domain": "clinical",
+      "desc": "MMRM longitudinal analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_multiplicity",
+      "domain": "clinical",
+      "desc": "Multiplicity adjustment",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_n_of_1",
+      "domain": "clinical",
+      "desc": "N-of-1 trial design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_network_meta",
+      "domain": "clinical",
+      "desc": "Network meta-analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_noninferior",
+      "domain": "clinical",
+      "desc": "Non-inferiority margin",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_pharmacovigilance",
+      "domain": "clinical",
+      "desc": "Pharmacovigilance signal triage",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_pk_nca",
+      "domain": "clinical",
+      "desc": "PK noncompartmental analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_pkpd",
+      "domain": "clinical",
+      "desc": "PK/PD modeling outline",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_platform_trial",
+      "domain": "clinical",
+      "desc": "Platform trial design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_pop_pk",
+      "domain": "clinical",
+      "desc": "Population PK notes",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_propensity",
+      "domain": "clinical",
+      "desc": "Propensity score methods",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_protocol_synopsis",
+      "domain": "clinical",
+      "desc": "Clinical protocol synopsis template",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_qt",
+      "domain": "clinical",
+      "desc": "QT/QTc analysis notes",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_randomization",
+      "domain": "clinical",
+      "desc": "Randomization schedule design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_reg_submit",
+      "domain": "clinical",
+      "desc": "Regulatory submission package",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_rmst",
+      "domain": "clinical",
+      "desc": "Restricted mean survival time",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_rwe_study",
+      "domain": "clinical",
+      "desc": "RWE study protocol",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_safety_ae",
+      "domain": "clinical",
+      "desc": "AE coding & signal detection",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_sample_size_binary",
+      "domain": "clinical",
+      "desc": "Binary endpoint sample size",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_sample_size_survival",
+      "domain": "clinical",
+      "desc": "Survival sample size",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_sap",
+      "domain": "clinical",
+      "desc": "Statistical analysis plan skeleton",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_sensitivity",
+      "domain": "clinical",
+      "desc": "Sensitivity analysis suite",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_spider",
+      "domain": "clinical",
+      "desc": "Spider plot tumor change",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_stepped_wedge",
+      "domain": "clinical",
+      "desc": "Stepped-wedge design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_stratify",
+      "domain": "clinical",
+      "desc": "Stratified randomization",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_subgroup",
+      "domain": "clinical",
+      "desc": "Pre-specified subgroup analysis",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_swimmer",
+      "domain": "clinical",
+      "desc": "Swimmer plot",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_time_to_event",
+      "domain": "clinical",
+      "desc": "Time-to-event analysis suite",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_tlf",
+      "domain": "clinical",
+      "desc": "TLF shell generation plan",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_umbrella",
+      "domain": "clinical",
+      "desc": "Umbrella trial design",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "clin_waterfall",
+      "domain": "clinical",
+      "desc": "Waterfall tumor response plot",
+      "kind": "playbook",
+      "tags": [
+        "clinical",
+        "science",
+        "research",
+        "stats",
+        "trials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

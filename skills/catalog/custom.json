@@ -1,0 +1,23 @@
+{
+  "product": "ResearchersHub",
+  "domain": "custom",
+  "count": 1,
+  "skills": [
+    {
+      "id": "custom_lab_assay_template",
+      "domain": "custom",
+      "desc": "Example editable skill \u2014 replace with your lab assay protocol",
+      "kind": "playbook",
+      "tags": [
+        "custom",
+        "science",
+        "research",
+        "editable"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

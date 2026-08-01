@@ -1,0 +1,247 @@
+{
+  "product": "ResearchersHub",
+  "domain": "physics",
+  "count": 15,
+  "skills": [
+    {
+      "id": "mat_corrosion",
+      "domain": "physics",
+      "desc": "Corrosion rate estimation",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_diffusion_fick",
+      "domain": "physics",
+      "desc": "Fick's laws diffusion plot",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_hardness",
+      "domain": "physics",
+      "desc": "Hardness test comparison",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_nanomaterials",
+      "domain": "physics",
+      "desc": "Nanomaterial characterization map",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_phase_binary",
+      "domain": "physics",
+      "desc": "Binary phase diagram conceptual",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "mat_stress_strain",
+      "domain": "physics",
+      "desc": "Stress\u2013strain curve chart",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_band_structure",
+      "domain": "physics",
+      "desc": "Semiconductor band gap notes",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_energy_work",
+      "domain": "physics",
+      "desc": "Work\u2013energy theorem plots",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_kinematics",
+      "domain": "physics",
+      "desc": "1D/2D kinematics solver + plots",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_newton_laws",
+      "domain": "physics",
+      "desc": "Force diagrams + free body notes",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_optics_snell",
+      "domain": "physics",
+      "desc": "Snell's law ray sketch data",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_oscillator",
+      "domain": "physics",
+      "desc": "Simple harmonic motion chart",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_quantum_particle",
+      "domain": "physics",
+      "desc": "Particle in a box energy levels",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_thermo_cycles",
+      "domain": "physics",
+      "desc": "Carnot / Otto cycle overview",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "phys_wave_interference",
+      "domain": "physics",
+      "desc": "Wave interference pattern data",
+      "kind": "playbook",
+      "tags": [
+        "physics",
+        "science",
+        "research",
+        "materials"
+      ],
+      "worker": "SCRUTATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}

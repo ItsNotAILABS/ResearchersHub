@@ -313,18 +313,27 @@ POST /v1/researchers/chat
 
 ---
 
-## 970+ research skills
+## 970+ research skills (in this repo)
 
-| Domain | What lives here |
-|--------|-----------------|
-| **ML / deep learning** | Transformers, RLHF/DPO, RAG, HPO, drift, fairness, deploy |
-| **Computational biology** | scRNA, spatial, CRISPR, GWAS, multi-omics |
-| **Cheminformatics** | SMILES, QSAR, docking, ADMET, generative molecules |
-| **Clinical & stats** | Estimands, survival, adaptive trials, CDISC, KM/forest plots |
-| **Materials & physics** | DFT, phonons, battery materials, metrology |
-| **Neuroscience · earth · astro** | EEG/fMRI, GIS/climate, photometry |
-| **Lab · chemistry · construct** | Kinetics, titration, SOPs, full PNG + Python |
-| **Atlas agents** | Shared graph claims, handoffs, repro bundles |
+Skills are **not only in Python** — they ship as public JSON under [`skills/`](skills/):
+
+| Path | What |
+|------|------|
+| [`skills/CATALOG.json`](skills/CATALOG.json) | Totals by domain |
+| [`skills/INDEX.json`](skills/INDEX.json) | Every skill id + one-line description |
+| [`skills/catalog/`](skills/catalog/) | Full packs: `ml.json`, `compbio.json`, `cheminformatics.json`, … |
+| [`skills/README.md`](skills/README.md) | Human index |
+
+| Domain | Count (approx.) |
+|--------|----------------:|
+| ML / deep learning | 203 |
+| Cheminformatics | 163 |
+| Computational biology | 146 |
+| Clinical & stats | 73 |
+| Materials | 50 |
+| Chemistry | 40 |
+| + data, neuro, earth, atlas, construct, … | … |
+| **Total** | **971** |
 
 ```http
 GET /v1/researchers/skills
@@ -332,7 +341,9 @@ GET /v1/researchers/skills
 
 ### Editable · extensible
 
-Drop JSON into `skills/`, `~/.researchershub/skills/`, or `$RH_SKILLS_DIR`:
+1. Edit domain JSON in `skills/catalog/`
+2. Or drop new packs into `skills/` / `~/.researchershub/skills/`
+3. After changing Python sources, re-export: `python scripts/export_skills_catalog.py`
 
 ```json
 {

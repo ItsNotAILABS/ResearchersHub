@@ -1,0 +1,143 @@
+{
+  "product": "ResearchersHub",
+  "domain": "web",
+  "count": 8,
+  "skills": [
+    {
+      "id": "edge_cell",
+      "domain": "web",
+      "desc": "Open cell.com",
+      "kind": "atomic",
+      "tags": [
+        "web",
+        "science",
+        "research",
+        "literature",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "edge_chembl",
+      "domain": "web",
+      "desc": "Open ChEMBL",
+      "kind": "atomic",
+      "tags": [
+        "web",
+        "science",
+        "research",
+        "literature",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "edge_materials_project",
+      "domain": "web",
+      "desc": "Open Materials Project",
+      "kind": "atomic",
+      "tags": [
+        "web",
+        "science",
+        "research",
+        "literature",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "edge_nature",
+      "domain": "web",
+      "desc": "Open nature.com",
+      "kind": "atomic",
+      "tags": [
+        "web",
+        "science",
+        "research",
+        "literature",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "edge_nist_webbook",
+      "domain": "web",
+      "desc": "Open NIST Chemistry WebBook",
+      "kind": "atomic",
+      "tags": [
+        "web",
+        "science",
+        "research",
+        "literature",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "edge_pdb",
+      "domain": "web",
+      "desc": "Open RCSB PDB",
+      "kind": "atomic",
+      "tags": [
+        "web",
+        "science",
+        "research",
+        "literature",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "edge_pubchem",
+      "domain": "web",
+      "desc": "Open PubChem",
+      "kind": "atomic",
+      "tags": [
+        "web",
+        "science",
+        "research",
+        "literature",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    },
+    {
+      "id": "edge_science",
+      "domain": "web",
+      "desc": "Open science.org",
+      "kind": "atomic",
+      "tags": [
+        "web",
+        "science",
+        "research",
+        "literature",
+        "lab"
+      ],
+      "worker": "NAVIGATOR",
+      "product": "ResearchersHub",
+      "editable": true,
+      "extensible": true
+    }
+  ]
+}
