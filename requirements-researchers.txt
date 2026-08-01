@@ -1,0 +1,2 @@
+# ResearchersHub science surface
+matplotlib>=3.7

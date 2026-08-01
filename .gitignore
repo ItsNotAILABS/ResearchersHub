@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+node_modules/
+desktop-electron/node_modules/
+desktop-electron/dist/
+*.exe
+*.blockmap
+.DS_Store
+.pocket/
+*.log
+.pytest_cache/
+.mypy_cache/
+win-arm64-unpacked/

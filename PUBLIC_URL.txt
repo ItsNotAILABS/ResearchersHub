@@ -1,0 +1,8 @@
+PHONE / remote users:
+https://pocket.medinatechlabs.net/
+
+PC (this machine):
+http://127.0.0.1:8787/
+
+PC MUST STAY AWAKE. POCKET host + Cloudflared must stay running.
+(Do not commit private LAN IPs or tunnel credentials.)
