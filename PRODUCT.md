@@ -1,32 +1,32 @@
-# ResearchersHub product
+# ResearchersHub — product definition
 
-## One-liner
+## One sentence
 
-Sovereign research desk for scientists **and** coding agents — any model, 970+ skills, Atlas graph, full figures + real Python, your infra.
+**Local research server:** run it on your machine; get 971 skills, real charts, real Python; drive it from a browser desk **or** from coding agents via tools.
 
-## Who it is for
+## Who uses it
 
-- Graduate students, PIs, industry scientists
-- Computational + wet-lab hybrid workflows
-- Claude, Grok, Codex, Cursor, and other coding agents that need real research tools
+| User | How they use it | What they see |
+|------|-----------------|---------------|
+| Scientist | Start host → open desk | Chat UI, figures, scripts |
+| Coding agent | MCP or REST tools on host | JSON with PNG + Python |
+| GitHub visitor | Read repo | Docs, `skills/` JSON, example graphs |
 
-## What ships
+## What happens (core loop)
 
-1. Multi-model router (`RH_MODEL`) — Claude, Grok, GPT, DeepSeek, GLM, Kimi, fine-tune, local  
-2. 970+ research skills (ML, comp bio, cheminformatics, clinical, materials, …)  
-3. Constructive engine — full PNG charts + runnable Python  
-4. Atlas — shared reproducible research graph  
-5. MCP + REST agent bridge  
-6. Edge desk / host runtime (package import `pocket` for compatibility)  
+1. Host runs on `127.0.0.1:8787`  
+2. Human or agent sends a task (construct / skills / atlas)  
+3. Host computes on your machine  
+4. Writes artifacts under `~/.researchershub/`  
+5. Returns full figures + code  
 
-## Non-goals
+## What it is not
 
-- Not a regulated LIMS / GMP system replacement  
 - Not a cloud SaaS that owns your data  
-- Not POCKET marketing — that lineage is archived under `docs/archive/pocket-lineage/`  
+- Not “only a skill list” — skills are **inputs** to a **running host**  
+- Not private AI-tool folders on GitHub (no public `.grok` product surface)  
 
-## Org
+## Details
 
-- **GitHub:** https://github.com/ItsNotAILABS/ResearchersHub  
-- **Lab:** ItsNotAI Labs  
-- **Version:** see `src/pocket/__init__.py` / README  
+- Human + agent walkthrough: [docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)  
+- Public README: [README.md](README.md)  

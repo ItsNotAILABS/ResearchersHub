@@ -2,6 +2,8 @@
 
 This repo is **public**. Folders are named for the product, not for private AI tools.
 
+**Confused what this product is?** Read [HOW_TO_USE.md](HOW_TO_USE.md) first (what people see, how agents call it, what happens).
+
 ```text
 ResearchersHub/
 ├── README.md                 # Product face
