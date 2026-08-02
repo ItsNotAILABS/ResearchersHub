@@ -136,19 +136,23 @@ Optional IDE notes only: [docs/developers/](docs/developers/) · contract: [AGEN
 
 ---
 
-## What’s in this repository (public tree)
+## What’s in this repository (files that make sense)
+
+**Full map:** **[FILES.md](FILES.md)**
 
 | Path | Purpose |
 |------|---------|
-| **[skills/](skills/)** | **971 research skills as JSON** — open `INDEX.json` or `catalog/ml.json` |
-| **[docs/assets/](docs/assets/)** | Example graphs produced by the app engine |
-| **[docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)** | Human + agent walkthrough |
-| **[docs/](docs/)** | API, security, production |
-| **[src/pocket/](src/pocket/)** | Runtime (serve, construct, atlas, agents) |
-| **[scripts/](scripts/)** | Export skills, launchers |
-| **AGENTS.md** | How any coding agent should behave |
+| **[FILES.md](FILES.md)** | **Every folder explained** |
+| **[docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)** | What you see / what agents do / what happens |
+| **[skills/](skills/)** | **971 research skills as JSON** |
+| **[docs/assets/](docs/assets/)** | Example graphs from the engine |
+| **[src/](src/)** | Runtime (`python -m pocket serve`) — see `src/README.md` |
+| **[scripts/](scripts/)** | Start host / open desk / export skills |
+| **[scripts/legacy/](scripts/legacy/)** | Old host scripts — **ignore** |
+| **[optional/](optional/)** | Electron / vendor extras — **not required** |
+| **[docs/archive/](docs/archive/)** | Historical papers — **not current product** |
 
-There is **no** public `.grok` / private tool home in this repo. Those stay on your machine only.
+There is **no** public `.grok` folder. Private AI-tool config stays on your machine only.
 
 ---
 
@@ -238,9 +242,10 @@ More: [docs/API_QUICKSTART.md](docs/API_QUICKSTART.md)
 
 | Doc | For |
 |-----|-----|
-| **[docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)** | **Start here — what you see & what happens** |
+| **[FILES.md](FILES.md)** | **File/folder map** |
+| **[docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)** | What you see & what happens |
 | [PRODUCT.md](PRODUCT.md) | Product definition |
-| [docs/REPO_LAYOUT.md](docs/REPO_LAYOUT.md) | Why folders are named this way |
+| [docs/REPO_LAYOUT.md](docs/REPO_LAYOUT.md) | Layout rules |
 | [docs/CODING_AGENTS.md](docs/CODING_AGENTS.md) | Agent integration |
 | [docs/SECURITY.md](docs/SECURITY.md) | Security |
 | [SHIP.md](SHIP.md) | Ship checklist |
