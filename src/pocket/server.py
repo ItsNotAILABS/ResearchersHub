@@ -750,10 +750,25 @@ class Handler(BaseHTTPRequestHandler):
                 {
                     "ok": True,
                     "product": "ResearchersHub",
-                    "markdown": board.get("markdown"),
+                    "markdown": board.get("markdown") if board.get("markdown") else None,
                     "images": board.get("images"),
                     "script_path": board.get("script_path"),
                     "summary": board.get("summary"),
+                    "design": board.get("design"),
+                    "workflow_steps": board.get("workflow_steps"),
+                },
+            )
+        if path in ("/v1/researchers/workflows", "/v1/science/workflows"):
+            from pocket.science_construct import list_chart_kinds, list_workflows
+
+            return self._json(
+                200,
+                {
+                    "ok": True,
+                    "product": "ResearchersHub",
+                    "design": "researchershub.publication.v2",
+                    "workflows": list_workflows(),
+                    "chart_kinds": list_chart_kinds(),
                 },
             )
 
@@ -1955,13 +1970,26 @@ class Handler(BaseHTTPRequestHandler):
             return self._json(200 if result.get("ok", True) else 400, result)
 
         if path in ("/v1/researchers/construct", "/v1/science/construct"):
-            from pocket.science_construct import multi_figure_board, run_construct
+            from pocket.science_construct import multi_figure_board, run_construct, run_workflow
 
             prompt = body.get("prompt") or body.get("task") or body.get("text") or ""
-            skill_id = body.get("skill") or body.get("skill_id") or ""
+            skill_id = body.get("skill") or body.get("skill_id") or body.get("workflow") or ""
             if body.get("board"):
                 board = multi_figure_board(prompt)
+                board["markdown"] = board.get("markdown")
+                try:
+                    from pocket.science_construct import format_construct_markdown
+
+                    if not board.get("markdown"):
+                        board["markdown"] = format_construct_markdown(board)
+                except Exception:
+                    pass
                 return self._json(200, {"ok": True, **board})
+            if body.get("workflow") and not prompt:
+                result = run_workflow(str(body.get("workflow")))
+                # persist like run_construct
+                result = run_construct(prompt or body.get("workflow"), skill_id=str(body.get("workflow")))
+                return self._json(200, {"ok": True, **result})
             result = run_construct(prompt, skill_id=skill_id)
             return self._json(200, {"ok": True, **result})
         if path in ("/v1/researchers/atlas/node", "/v1/science/atlas/node"):

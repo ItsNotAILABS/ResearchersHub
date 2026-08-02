@@ -140,44 +140,70 @@ Add an Atlas claim: "Lead series shows IC50 ~ 12 nM in primary screen."
 
 ---
 
-## Example figures (same engine as the app)
+## Example figures (design system v2)
 
-These PNGs are produced by the live **construct** pipeline (`science_construct`) — the same path as desk/API/MCP.
+Publication styling from the live **construct** engine (`science_render` + `science_construct`) — same path as desk / API / MCP.
 
 <p align="center">
   <img src="docs/assets/titration_curve.png" alt="Titration curve" width="420"/>
   <img src="docs/assets/michaelis_menten.png" alt="Michaelis–Menten" width="420"/>
 </p>
-<p align="center">
-  <sub>Acid–base titration · Enzyme kinetics (Michaelis–Menten)</sub>
-</p>
+<p align="center"><sub>Titration · Michaelis–Menten</sub></p>
 
 <p align="center">
   <img src="docs/assets/dose_response.png" alt="Dose–response" width="420"/>
   <img src="docs/assets/beer_lambert.png" alt="Beer–Lambert" width="420"/>
 </p>
-<p align="center">
-  <sub>Dose–response (4PL / IC50) · Beer–Lambert calibration</sub>
-</p>
+<p align="center"><sub>Dose–response (4PL) · Beer–Lambert</sub></p>
 
 <p align="center">
   <img src="docs/assets/linear_regression.png" alt="Linear regression" width="420"/>
-  <img src="docs/assets/arrhenius.png" alt="Arrhenius plot" width="420"/>
+  <img src="docs/assets/sir_epidemic.png" alt="SIR epidemic" width="420"/>
 </p>
-<p align="center">
-  <sub>Linear regression (OLS) · Arrhenius plot</sub>
-</p>
+<p align="center"><sub>OLS + residuals · SIR epidemic simulation</sub></p>
 
-Generate your own:
+<p align="center">
+  <img src="docs/assets/lotka_volterra.png" alt="Lotka–Volterra" width="420"/>
+  <img src="docs/assets/volcano.png" alt="Volcano plot" width="420"/>
+</p>
+<p align="center"><sub>Lotka–Volterra · Volcano (omics-style)</sub></p>
+
+<p align="center">
+  <img src="docs/assets/binding_isotherm.png" alt="Binding isotherm" width="420"/>
+  <img src="docs/assets/spectrum_nmr.png" alt="NMR-style spectrum" width="420"/>
+</p>
+<p align="center"><sub>Binding isotherm · NMR-style spectrum</sub></p>
+
+### Named multi-step workflows
+
+| Workflow id | What it bundles |
+|-------------|-----------------|
+| `assay_standard_curve` | Beer–Lambert + OLS residuals |
+| `pk_pd_panel` | Dose–response + Michaelis–Menten |
+| `epidemic_scenario` | SIR outbreak simulation |
+| `ecology_dynamics` | Lotka–Volterra time + phase |
+| `omics_hits` | Volcano + PCA-style map |
+| `physical_chemistry_lab` | Titration + Arrhenius + decay |
+| `binding_and_kinetics` | Isotherm + enzyme kinetics |
+| `stochastic_lab` | Random walks + histogram/KDE |
+| `diffusion_and_waves` | Diffusion + damped oscillator |
+| `spectroscopy_demo` | Spectrum + calibration |
+| `full_methods_bundle` | Large multi-figure board |
+
+```http
+GET  /v1/researchers/workflows
+POST /v1/researchers/construct
+{"workflow":"pk_pd_panel"}
+```
+
+Or free text:
 
 ```http
 POST /v1/researchers/construct
-Content-Type: application/json
-
 {"prompt":"Plot a dose–response IC50 curve and give the full Python workflow"}
 ```
 
-You get: **complete PNG** (embedded + saved) · **full `.py` script** · optional **Atlas** links under `~/.researchershub/`.
+You get: **complete PNG(s)** · **full Python** · **workflow steps** · files under `~/.researchershub/construct/` · Atlas links.
 
 ---
 

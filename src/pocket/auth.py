@@ -74,6 +74,7 @@ PUBLIC_PATHS = frozenset({
     "/v1/researchers/",
     "/v1/researchers/skills",
     "/v1/researchers/board",
+    "/v1/researchers/workflows",
     "/v1/researchers/models",
     "/v1/researchers/atlas",
     "/v1/researchers/atlas/export",
