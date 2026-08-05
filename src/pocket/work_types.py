@@ -69,7 +69,7 @@ BUILTIN_TYPES: List[Dict[str, Any]] = [
         "icon": "◎",
         "color": "#fbbf24",
         "layer": "subcortex",
-        "description": "Silent pytest / smoke while user reads",
+        "description": "Silent pytest / real checks while user reads",
         "engine": "test",
         "inputs": ["project"],
         "outputs": ["TEST_REPORT.md"],

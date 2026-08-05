@@ -1,4 +1,4 @@
-# POCKET v1 product smoke — local + public surfaces
+# ResearchersHub product REAL verification — local host + research API
 $ErrorActionPreference = "Continue"
 $base = "http://127.0.0.1:8787"
 $pub = "https://pocket.medinatechlabs.net"
@@ -33,7 +33,7 @@ function Hit($name, $url, $method = "GET", $body = $null, $auth = $false) {
   }
 }
 
-Write-Host "=== POCKET product smoke ===" -ForegroundColor Cyan
+Write-Host "=== ResearchersHub product REAL verification ===" -ForegroundColor Cyan
 $health = Hit "local/health" "$base/health"
 Hit "local/root" "$base/"
 Hit "public/health" "$pub/health"
@@ -45,7 +45,7 @@ Hit "web/search" "$base/v1/web/search" "POST" '{"query":"multi agent desk"}' -au
 Hit "nexus/status" "$base/v1/nexus/status" -auth $true
 Hit "nexus/list" "$base/v1/nexus/list" "POST" '{}' -auth $true
 Hit "safety" "$base/v1/safety" -auth $true
-Hit "auth/me" "$base/v1/auth/me" "POST" '{}' -auth $true
+Hit "researchers" "$base/v1/researchers"`nHit "researchers/skills" "$base/v1/researchers/skills"`nHit "auth/me" "$base/v1/auth/me" "POST" '{}' -auth $true
 
 # Session round-trip: desktop list
 $sessBody = '{"mode":"desktop","workspace":"workspace"}'
@@ -64,3 +64,4 @@ if ($s.ok) {
 }
 
 Write-Host "=== done ===" -ForegroundColor Cyan
+

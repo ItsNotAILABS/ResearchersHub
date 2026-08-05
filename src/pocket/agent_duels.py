@@ -51,7 +51,7 @@ def _proposal(persona: str, challenge: str) -> Dict[str, Any]:
         f"List 3 constraints ({p['style']}).",
         "Propose a 5-step plan with success checks.",
         "Name exact files/modules to touch (prefer Infinite Wiki profile→slice).",
-        "Define a 60-second smoke test.",
+        "Define a 60-second real verification.",
     ]
     plan = (
         f"# Proposal · {p['name']}\n\n"
@@ -61,7 +61,7 @@ def _proposal(persona: str, challenge: str) -> Dict[str, Any]:
         "## Plan\n"
         + "\n".join(f"{i+1}. {s}" for i, s in enumerate(steps))
         + "\n\n## Risks\n- Scope creep\n- Missing tests\n- Host/market isolation edge cases\n"
-        + "\n## Ship bar\n- Diff is reviewable\n- One smoke check green\n- Receipt minted\n"
+        + "\n## Ship bar\n- Diff is reviewable\n- One real check green\n- Receipt minted\n"
     )
     score = 70
     if "security" in challenge.lower() and persona == "SENTINEL":

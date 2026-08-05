@@ -632,7 +632,7 @@ def _run_ask(prompt: str, cwd: str) -> Tuple[str, str, str]:
         "1. Clarify goal and constraints\n"
         "2. Identify files/modules to touch\n"
         "3. Implement smallest change\n"
-        "4. Run tests / smoke\n"
+        "4. Run tests / real verification\n"
         "5. Report diff summary\n\n"
         "Open a **Codex** or **Claude** session to execute.",
         "",

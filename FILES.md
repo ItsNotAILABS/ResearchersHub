@@ -81,7 +81,7 @@ Important modules inside `src/pocket/`:
 | `scripts/Install-Coding-Agents.ps1` | Optional local agent skill mirrors |
 | `scripts/Setup-Cloudflare-Named-Tunnel.ps1` | Optional public tunnel |
 | `scripts/Start-Cloudflare-Named.ps1` | Run tunnel |
-| `scripts/smoke-product.ps1` | Quick smoke check |
+| `scripts/real-product.ps1` | Real product verification |
 | `scripts/legacy/` | **Old host scripts (POCKET names)** — ignore unless you need them |
 
 ---

@@ -10,7 +10,7 @@
 | `Install-Coding-Agents.ps1` | Optional local skill mirrors for agents |
 | `Setup-Cloudflare-Named-Tunnel.ps1` | Optional public URL |
 | `Start-Cloudflare-Named.ps1` | Run named tunnel |
-| `smoke-product.ps1` | Smoke check |
+| `real-product.ps1` | Real product verification |
 | `Install-AlwaysOn.ps1` | Login always-on host (Windows) |
 
 ## Ignore unless you know you need them
