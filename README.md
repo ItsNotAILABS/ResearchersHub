@@ -2,265 +2,157 @@
   <img src="docs/brand/researchershub-wordmark.svg" alt="ResearchersHub" width="540"/>
 </p>
 
-<p align="center">
-  <strong>Your local research server</strong> — skills, real charts, real Python, on your machine.<br/>
-  Humans use a desk in the browser. Coding agents call the same host with tools.
-</p>
+# ResearchersHub
 
-<p align="center">
-  <a href="https://github.com/ItsNotAILABS/ResearchersHub"><img alt="GitHub" src="https://img.shields.io/badge/ItsNotAILABS%2FResearchersHub-0b6e4f?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="docs/HOW_TO_USE.md"><img alt="How to use" src="https://img.shields.io/badge/start-HOW%20TO%20USE-1d4ed8?style=for-the-badge"/></a>
-  <a href="skills/"><img alt="Skills" src="https://img.shields.io/badge/skills-971%20JSON-0ea5e9?style=for-the-badge"/></a>
-</p>
+**Local research compute, scientific workflow and artifact server for humans and agents.**
 
-<p align="center">
-  <img alt="Local" src="https://img.shields.io/badge/runs-on%20your%20infra-f59e0b?style=flat-square"/>
-  <img alt="Figures" src="https://img.shields.io/badge/figures-full%20PNG%20%2B%20Python-10b981?style=flat-square"/>
-  <img alt="Agents" src="https://img.shields.io/badge/agents-MCP%20%2B%20REST-a855f7?style=flat-square"/>
-  <img alt="Python" src="https://img.shields.io/badge/python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white"/>
-</p>
+ResearchersHub gives a researcher and a coding agent the same local runtime: searchable skills, structured research construction, Python-backed computation, publication figures, evidence packs and exported artifacts.
 
----
+The repository includes **971 JSON research skills**, browser desk surfaces and an MCP/REST-compatible host.
 
-## Read this first (so the repo makes sense)
-
-| Question | Answer |
-|----------|--------|
-| **What is it?** | A **program you run locally** — not a SaaS you only visit |
-| **Who is it for?** | Scientists **and** people whose coding agents help with research |
-| **What do I see on GitHub?** | Product docs, **971 skills as JSON**, example graphs, source code |
-| **What do I see when running?** | Browser desk at `http://127.0.0.1:8787/desk` + files under `~/.researchershub/` |
-| **How do agents use it?** | They call **tools** on that same host (MCP or HTTP) — same charts/skills |
-| **What happens when I ask for a plot?** | Host simulates → draws PNG → writes Python → returns both (design v2) |
-
-**Full plain-language guide:** **[docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)**
-
-```mermaid
-flowchart TB
-  subgraph GitHub["What you see on GitHub"]
-    R[README + docs]
-    S[skills/ 971 JSON files]
-    A[docs/assets example graphs]
-    C[src runtime code]
-  end
-  subgraph Run["What you run on your PC"]
-    H[Host on port 8787]
-    D[Browser desk]
-    T[Agent tools MCP/REST]
-    Disk["~/.researchershub figures + atlas"]
-  end
-  GitHub -->|clone + start| H
-  H --> D
-  H --> T
-  H --> Disk
-  D -->|ask for chart| H
-  T -->|rh_construct| H
+```text
+Research question
+      │
+      ▼
+ResearchersHub
+      │
+      ├── skill discovery
+      ├── research construction
+      ├── Python / numerical compute
+      ├── chart / figure generation
+      ├── source/provenance metadata
+      └── artifact export
+      │
+      ▼
+PNG / Python / data / evidence pack / NEXUS artifact
 ```
 
----
+## Quick start
 
-## 60-second start (human)
-
-```powershell
+```bash
 git clone https://github.com/ItsNotAILABS/ResearchersHub.git
 cd ResearchersHub
 pip install -r requirements-researchers.txt
+export PYTHONPATH="$PWD/src"
+python -m pocket serve --host 127.0.0.1 --port 8787
+```
+
+Windows PowerShell:
+
+```powershell
 $env:PYTHONPATH = "$PWD\src"
 python -m pocket serve --host 127.0.0.1 --port 8787
 ```
 
-Open: **http://127.0.0.1:8787/desk**
+Open:
 
-> Note: commands say `python -m pocket` because the **package folder** is `src/pocket` (legacy name).  
-> The **product name** is always **ResearchersHub**.
-
-One figure with no UI:
-
-```powershell
-curl -s -X POST http://127.0.0.1:8787/v1/researchers/construct `
-  -H "content-type: application/json" `
-  -d "{\"prompt\":\"titration curve\"}"
+```text
+http://127.0.0.1:8787/desk
 ```
 
----
+The Python package still uses the historical `src/pocket` module name; the product is ResearchersHub.
 
-## What happens when you ask for a graph
+## Agent/API use
 
-```mermaid
-sequenceDiagram
-  participant You as You or coding agent
-  participant Host as ResearchersHub host
-  participant Sim as Simulation + design v2
-  participant Disk as Your disk
+A local agent can call the same research host through MCP/HTTP tools rather than maintaining a second research implementation.
 
-  You->>Host: "titration curve" / rh_construct
-  Host->>Sim: match workflow + compute series
-  Sim->>Sim: draw publication PNG
-  Sim->>Disk: save .py + .png
-  Host->>Disk: optional Atlas link
-  Host-->>You: full image + full Python + steps
-```
-
-| Step | Result |
-|------|--------|
-| 1 | Intent matched (titration, IC50, SIR, workflow name, …) |
-| 2 | Numbers simulated on **your** machine |
-| 3 | Figure drawn with **design system v2** (branded, annotated) |
-| 4 | Script + PNG written under `~/.researchershub/construct/` |
-| 5 | Reply includes **whole PNG** + **runnable Python** (not a stub) |
-
----
-
-## How coding agents use it
-
-Agents talk to the **same host** you started. They never need a special “Grok folder” in the public repo.
-
-| Method | How |
-|--------|-----|
-| **REST** | `POST http://127.0.0.1:8787/v1/agents/invoke` with `{"name":"rh_construct","arguments":{"prompt":"…"}}` |
-| **MCP** | `python -m pocket mcp` then use tools `rh_*` |
-| **List skills** | tool `rh_skills_list` or `GET /v1/researchers/skills` |
-| **Record result** | tool `rh_atlas_claim` |
+Example construction request:
 
 ```bash
-curl -s http://127.0.0.1:8787/v1/agents/invoke \
-  -H "content-type: application/json" \
-  -H "X-Agent-Name: my-agent" \
-  -d "{\"name\":\"rh_construct\",\"arguments\":{\"prompt\":\"dose-response IC50\"}}"
+curl -X POST http://127.0.0.1:8787/v1/researchers/construct \
+  -H 'content-type: application/json' \
+  -d '{"prompt":"titration curve"}'
 ```
 
-**Agent gets back:** markdown + base64 PNGs + full Python + workflow steps.  
-**Human sees:** whatever the agent UI shows (chat with image + code).
+A figure workflow can produce both a rendered artifact and the Python/source used to construct it.
 
-Optional IDE notes only: [docs/developers/](docs/developers/) · contract: [AGENTS.md](AGENTS.md)
+## Research skills
 
----
+The `skills/` directory contains the machine-readable skill library used to select domain workflows. Skills should describe inputs, computation/research steps, expected outputs and artifact form rather than acting as opaque prompts.
 
-## What’s in this repository (files that make sense)
+## NEXUS federation
 
-**Full map:** **[FILES.md](FILES.md)**
+Declaration: [`ecosystem.surface.json`](ecosystem.surface.json).
 
-| Path | Purpose |
-|------|---------|
-| **[FILES.md](FILES.md)** | **Every folder explained** |
-| **[docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)** | What you see / what agents do / what happens |
-| **[skills/](skills/)** | **971 research skills as JSON** |
-| **[docs/assets/](docs/assets/)** | Example graphs from the engine |
-| **[src/](src/)** | Runtime (`python -m pocket serve`) — see `src/README.md` |
-| **[scripts/](scripts/)** | Start host / open desk / export skills |
-| **[scripts/legacy/](scripts/legacy/)** | Old host scripts — **ignore** |
-| **[optional/](optional/)** | Electron / vendor extras — **not required** |
-| **[docs/archive/](docs/archive/)** | Historical papers — **not current product** |
+Primary federation actions:
 
-There is **no** public `.grok` folder. Private AI-tool config stays on your machine only.
-
----
-
-## Skills (yes — they are here)
-
-| File | What you open on GitHub |
-|------|-------------------------|
-| [skills/CATALOG.json](skills/CATALOG.json) | Counts by domain |
-| [skills/INDEX.json](skills/INDEX.json) | Every skill id + description |
-| [skills/catalog/](skills/catalog/) | Full domain packs (ml, compbio, cheminformatics, …) |
-
-```http
-GET /v1/researchers/skills
+```text
+research.skill_search
+research.construct
+research.compute
+research.figure
+research.export
+research.evidence_pack
 ```
 
----
+Typical outputs:
 
-## Use cases
-
-| Who | They do this | They get |
-|-----|--------------|----------|
-| Chemist | Ask titration / Arrhenius / spectrum | Full curve + Python |
-| Biochem / pharma | IC50, Michaelis–Menten, binding | Annotated plots + scripts |
-| Comp bio / omics | Volcano, PCA-style map, skill checklists | Figures + skill JSON |
-| ML / stats | Regression residuals, distributions | Dual-panel diagnostics |
-| Lab lead | Multi-step workflows (`pk_pd_panel`, …) | Bundled figure sets |
-| Coding agent | `rh_construct` / `rh_skills_list` | Same artifacts via tools |
-
-Named workflows: `GET /v1/researchers/workflows`  
-Examples: `assay_standard_curve`, `pk_pd_panel`, `epidemic_scenario`, `omics_hits`, `full_methods_bundle`, …
-
----
-
-## Example figures (from the live engine)
-
-<p align="center">
-  <img src="docs/assets/titration_curve.png" alt="Titration" width="400"/>
-  <img src="docs/assets/michaelis_menten.png" alt="Michaelis–Menten" width="400"/>
-</p>
-<p align="center">
-  <img src="docs/assets/dose_response.png" alt="Dose–response" width="400"/>
-  <img src="docs/assets/sir_epidemic.png" alt="SIR" width="400"/>
-</p>
-<p align="center">
-  <img src="docs/assets/volcano.png" alt="Volcano" width="400"/>
-  <img src="docs/assets/lotka_volterra.png" alt="Lotka–Volterra" width="400"/>
-</p>
-
----
-
-## Architecture (runtime)
-
-```mermaid
-flowchart LR
-  Human[Human desk] --> Host[Host :8787]
-  Agent[Coding agent] --> Host
-  Host --> Skills[skills JSON + Python]
-  Host --> Construct[Construct design v2]
-  Host --> Atlas[Atlas graph]
-  Construct --> Disk[(~/.researchershub)]
-  Atlas --> Disk
-  Host --> Models[Optional RH_MODEL cloud/local LLM]
+```text
+nexus.artifact.v1
+nexus.execution-receipt.v1
+nexus.context-pack.v1
+nexus.release-evidence.v1
+nexus.handoff.v1
 ```
 
-Optional models (`RH_MODEL=claude|grok|gpt|…`) need **your** API keys.  
-Charts and simulations work **without** any cloud model.
+ResearchersHub is the research/artifact plane; POCKET owns user/team/policy and NEXUS owns cross-repo routing.
 
----
+## Production research flow
 
-## API cheat sheet
+```text
+question
+ -> select workflow/skill
+ -> identify required data/assumptions
+ -> compute or analyze
+ -> create figure/data/report artifact
+ -> hash artifact
+ -> record provenance
+ -> produce evidence pack
+ -> hand off to POCKET/NEXUS/publishing lane
+```
 
-| Call | Purpose |
-|------|---------|
-| `GET /health` | Is host up? |
-| `GET /v1/researchers` | Product identity |
-| `GET /v1/researchers/skills` | Skill catalog |
-| `GET /v1/researchers/workflows` | Named multi-step workflows |
-| `POST /v1/researchers/construct` | Figures + Python |
-| `GET /v1/agents/manifest` | Tool list for agents |
-| `POST /v1/agents/invoke` | Run a tool by name |
+## Artifact discipline
 
-More: [docs/API_QUICKSTART.md](docs/API_QUICKSTART.md)
+For research that will be used in a paper, release or external claim, preserve:
 
----
+```text
+input data/source references
+code used for computation
+parameters/assumptions
+figure/data artifact
+sha256
+software/runtime version
+request ID
+research timestamp
+```
 
-## Docs map
+That makes a result reproducible by the next agent instead of becoming a screenshot with no lineage.
 
-| Doc | For |
-|-----|-----|
-| **[FILES.md](FILES.md)** | **File/folder map** |
-| **[docs/HOW_TO_USE.md](docs/HOW_TO_USE.md)** | What you see & what happens |
-| [PRODUCT.md](PRODUCT.md) | Product definition |
-| [docs/REPO_LAYOUT.md](docs/REPO_LAYOUT.md) | Layout rules |
-| [docs/CODING_AGENTS.md](docs/CODING_AGENTS.md) | Agent integration |
-| [docs/SECURITY.md](docs/SECURITY.md) | Security |
-| [SHIP.md](SHIP.md) | Ship checklist |
+## Verify
 
----
+Run the repository's test/figure workflows for the research lane being changed. For ecosystem compatibility:
 
-## Project
+```bash
+# from ItsNotAILABS/nexus
+python tools/validate_ecosystem_protocols.py
+python tools/validate_ecosystem_registry.py
+python tools/production_gate.py
+```
 
-| | |
-|--|--|
-| **Org** | [ItsNotAILABS](https://github.com/ItsNotAILABS) |
-| **Repo** | [ItsNotAILABS/ResearchersHub](https://github.com/ItsNotAILABS/ResearchersHub) |
-| **Lab** | ItsNotAI Labs |
-| **Version** | 1.2.1 |
+## Storage
 
-<p align="center">
-  <sub>ResearchersHub · your infra · your data · real figures</sub>
-</p>
+Running ResearchersHub maintains user artifacts under the local ResearchersHub state directory, including generated figures and research atlas/state. Keep generated research artifacts separate from source-controlled templates unless they are intentional release evidence.
+
+## Documentation
+
+Start with [`docs/HOW_TO_USE.md`](docs/HOW_TO_USE.md) for the human/agent workflow and the repository docs for specific research lanes.
+
+## Ecosystem
+
+- [NEXUS](https://github.com/ItsNotAILABS/nexus) — research task routing and evidence contracts
+- [POCKET](https://github.com/ItsNotAILABS/pocket) — user/team/product host
+- [POCKET Agent](https://github.com/ItsNotAILABS/pocket-agent) — long-running research execution
+- [MatDaemon](https://github.com/ItsNotAILABS/MatDaemon) — bounded numerical compute
+- [Medina Memory](https://github.com/ItsNotAILABS/MedinaMemorySystems) — durable findings/context
+
+ResearchersHub turns research into **reusable computation plus artifacts**, not one-off prose.
