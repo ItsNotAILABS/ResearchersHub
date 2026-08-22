@@ -1,0 +1,13 @@
+{
+  "schema":"nexus.capability.v1",
+  "component":"researchers-hub",
+  "repository":"ItsNotAILABS/ResearchersHub",
+  "role":"research-compute-artifact-and-publication-workflow-plane",
+  "actions":["research.skill.search","research.construct","research.compute","research.figure.render","research.artifact.export","research.evidence.pack"],
+  "risk_tiers":{"research.skill.search":"read","research.construct":"compute","research.compute":"compute-bounded","research.figure.render":"compute-bounded","research.artifact.export":"write-bounded","research.evidence.pack":"read"},
+  "produces":["nexus.artifact.v1","nexus.execution-receipt.v1","nexus.context-pack.v1","nexus.release-evidence.v1"],
+  "consumes":["nexus.task.v1","nexus.budget.v1","nexus.policy-decision.v1"],
+  "limits":{"local_by_default":true,"arbitrary_claim_publication":false,"private_reasoning_export":false,"external_publish_requires_approval":true},
+  "proof":{"state":"source","figures_and_research_claims_require_artifacts":true},
+  "authority":"ItsNotAILABS/nexus"
+}
