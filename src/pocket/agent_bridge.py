@@ -377,7 +377,9 @@ def invoke_local(name: str, arguments: Optional[Dict[str, Any]] = None) -> Dict[
         r = run_construct(args.get("prompt") or "", skill_id=args.get("skill_id") or "")
         # Cap base64 in tool responses for agent context — keep paths + markdown head
         slim = {
-            "ok": True,
+            "ok": bool(r.get("ok")),
+            "persisted": r.get("persisted"),
+            "persist_errors": r.get("persist_errors") or [],
             "kind": r.get("kind"),
             "title": r.get("title"),
             "summary": r.get("summary"),

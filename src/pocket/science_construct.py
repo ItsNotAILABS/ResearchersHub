@@ -1075,22 +1075,39 @@ def run_construct(prompt: str, skill_id: str = "") -> Dict[str, Any]:
     home = _home()
     stamp = time.strftime("%Y%m%d_%H%M%S")
     kind = re.sub(r"[^a-z0-9_]+", "_", (result.get("kind") or "workflow").lower())
+    # Persistence is part of the result, not a silent side effect: a construct
+    # whose script/figures never landed on disk is NOT a success, and a failed
+    # write must not leave an empty file behind posing as an artifact.
+    persist_errors: List[str] = []
     script_path = home / f"{stamp}_{kind}.py"
     try:
         script_path.write_text(result.get("script") or "", encoding="utf-8")
+        if not script_path.exists() or script_path.stat().st_size == 0:
+            raise OSError("script write produced an empty file")
         result["script_path"] = str(script_path)
-    except Exception:
+    except Exception as e:
+        persist_errors.append(f"script: {e}")
+        try:
+            script_path.unlink(missing_ok=True)
+        except Exception:
+            pass
         result["script_path"] = ""
 
     saved_imgs = []
     for i, img in enumerate(result.get("images") or []):
+        ip = home / f"{stamp}_{kind}_{i}.png"
         try:
             raw = base64.b64decode(img["base64"])
-            ip = home / f"{stamp}_{kind}_{i}.png"
             ip.write_bytes(raw)
+            if not ip.exists() or ip.stat().st_size == 0:
+                raise OSError("image write produced an empty file")
             saved_imgs.append(str(ip))
-        except Exception:
-            pass
+        except Exception as e:
+            persist_errors.append(f"image {i}: {e}")
+            try:
+                ip.unlink(missing_ok=True)
+            except Exception:
+                pass
     result["image_paths"] = saved_imgs
     result["product"] = PRODUCT
     result["markdown"] = format_construct_markdown(result)
@@ -1107,6 +1124,14 @@ def run_construct(prompt: str, skill_id: str = "") -> Dict[str, Any]:
         )
     except Exception as e:
         result["atlas"] = {"ok": False, "error": str(e)[:160]}
+    if isinstance(result.get("atlas"), dict) and result["atlas"].get("ok") is False:
+        persist_errors.append(f"atlas: {result['atlas'].get('error') or 'record failed'}")
+    result["persist_errors"] = persist_errors
+    result["persisted"] = not persist_errors
+    # Top-level truth: ok means built AND persisted (script + figures + Atlas
+    # provenance). The inline payload (script text, base64 images) is returned
+    # either way so a storage failure loses the trail, never the science.
+    result["ok"] = (result.get("kind") != "error") and not persist_errors
     return result
 
 
@@ -1204,6 +1229,22 @@ def multi_figure_board(prompt: str = "") -> Dict[str, Any]:
     )
     home = _home()
     path = home / f"board_{int(time.time())}.py"
-    path.write_text(result["script"], encoding="utf-8")
-    result["script_path"] = str(path)
+    # Same persistence contract as run_construct: never crash on a storage
+    # failure, never claim it — return the figures, report the trail.
+    persist_errors: List[str] = []
+    try:
+        path.write_text(result["script"], encoding="utf-8")
+        if not path.exists() or path.stat().st_size == 0:
+            raise OSError("board write produced an empty file")
+        result["script_path"] = str(path)
+    except Exception as e:
+        persist_errors.append(f"board script: {e}")
+        try:
+            path.unlink(missing_ok=True)
+        except Exception:
+            pass
+        result["script_path"] = ""
+    result["persist_errors"] = persist_errors
+    result["persisted"] = not persist_errors
+    result["ok"] = not persist_errors
     return result
